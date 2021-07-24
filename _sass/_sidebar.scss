@@ -12,6 +12,7 @@
 
   @include clearfix();
   margin-bottom: 1em;
+  margin-top: -1.2em;
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -72,7 +73,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  margin-left: 0;
+  margin-left: 10px;
   // width: 36px;
   // set width only, for non-square avatars
   // height: 36px;
