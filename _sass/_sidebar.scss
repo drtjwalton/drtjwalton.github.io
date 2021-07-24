@@ -72,7 +72,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  margin-left: 0;
+  // width: 36px;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -83,8 +84,9 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 120px;
+    border-radius: 40%;
+    align: center;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -96,7 +98,7 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
+  padding-left: 5px;
   padding-right: 25px;
   line-height: 1;
 
@@ -123,9 +125,10 @@
 
 .author__bio {
   margin: 0;
-
+  font-style: italic;
+  
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
   }
 }
