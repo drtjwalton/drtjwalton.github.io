@@ -52,6 +52,7 @@ body {
 			Lecturer in Applied Mathematics, <a href="https://www.uclan.ac.uk">UCLan</a>.<br>
 		</p>
 		<p>
+			I begin my new position at UCLan on 1st September 2021 and am currently employed by the <a href="https://www.bolton.ac.uk">University of Bolton</a>, UK.</p>
 			The material here is mainly for my benefit, but someone somewhere may also find it of use.
 		</p>
 		Enjoy!<br>
