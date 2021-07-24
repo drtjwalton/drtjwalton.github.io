@@ -312,4 +312,4 @@ compress_html:
     envs: development
     
 github: [metadata]
-search: true
+search: true 
