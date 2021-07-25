@@ -33,7 +33,9 @@ ol li {
 ---
 
 ## <a name="TEACH">Teaching</a>
-*Coming soon*
+These are notes I have used in my teaching (this is no guarantee that they are error-free!).
+
+* [A proof of Simpson's rule](https://github.com/drtjwalton/Notes/blob/0084a4cede6f7d08c0afb7faa30cd1ff26dc38d7/SimpsonsRule.pdf)
 
 
 ## <a name="RES">Research</a>

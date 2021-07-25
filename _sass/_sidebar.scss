@@ -11,8 +11,8 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 1em;
-  margin-top: -1.2em;
+  margin-bottom: 0em;
+  margin-top: 0em;
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -22,8 +22,8 @@
 
     &:hover {
       opacity: 1;
-    }
   }
+    }
 
 
   @include breakpoint($x-large) {
@@ -73,7 +73,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  margin-left: 10px;
+  padding-top: 0px;
+  
   // width: 36px;
   // set width only, for non-square avatars
   // height: 36px;
@@ -85,12 +86,13 @@
   }
 
   img {
-    max-width: 120px;
-    border-radius: 40%;
+    max-width: 180px;
+    border-radius: 1%;
     align: center;
-
+    margin-left: 0px;
+  
     @include breakpoint($large) {
-      padding: 5px;
+      padding: 10px;
       border: 1px solid $border-color;
     }
   }
@@ -135,7 +137,7 @@
 }
 
 .author__urls-wrapper {
-  position: relative;
+  margin-left: 30px;
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
