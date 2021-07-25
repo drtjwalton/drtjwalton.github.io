@@ -35,7 +35,7 @@ body {
 	content: "";
 	display: table;
 	clear: both;
-}
+} 
 
 </style>
 

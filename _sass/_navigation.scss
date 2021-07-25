@@ -61,7 +61,7 @@
   @include clearfix();
   margin-top: 1em;
   padding-top: 1em;
-}
+	
   ul {
     margin: 0;
     padding: 0;
@@ -157,7 +157,7 @@
     }
   }
 }
-
+ 
 .page__content + .pagination,
 .page__meta + .pagination,
 .page__share + .pagination,

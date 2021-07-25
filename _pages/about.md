@@ -34,7 +34,7 @@ body {
 .column img {
 	margin-top: 14px;
 }
-
+ 
 .row:after {
 	content: "";
 	display: table;
