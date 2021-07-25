@@ -32,11 +32,14 @@ ol li {
 
 ---
 
-## <a name="TEACH">Teaching</a>
-These are notes I have used in my teaching (this is no guarantee that they are error-free!).
+These are notes I have used in either my teaching or research.  
+I offer no guarantee that they are error-free!
 
-* [A proof of Simpson's rule](https://github.com/drtjwalton/Notes/blob/0084a4cede6f7d08c0afb7faa30cd1ff26dc38d7/SimpsonsRule.pdf)
+## <a name="TEACH">Teaching</a>
+
+* [A proof of Simpson's rule]({{ site.baseurl }}/files/Teaching Notes/pdf/SimpsonsRule.pdf)
 
 
 ## <a name="RES">Research</a>
-*Coming soon*
+
+* [The Casimir effect using Euler-Maclaurin summation]({{ site.baseurl }}/files/Research Notes/pdf/Casimir_Euler.pdf)

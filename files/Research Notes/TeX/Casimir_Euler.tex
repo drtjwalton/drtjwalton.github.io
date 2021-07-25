@@ -1,0 +1,333 @@
+\documentclass[sections]{tjwNOTES}
+
+
+%%% COMMANDS
+\newcommand\man[1]{\mathcal{#1}}
+\newcommand\rx{r_{x}}
+\newcommand\ry{r_{y}}
+\newcommand\rz{r_{z}}
+\newcommand\kx{k_{x}}
+\newcommand\ky{k_{y}}
+\newcommand\kz{k_{z}}
+\newcommand\kk{\mathbb{K}}
+\newcommand\nx{n_{x}}
+\newcommand\ny{n_{y}}
+\newcommand\nz{n_{z}}
+\newcommand\Lx{L_{x}}
+\newcommand\Ly{L_{y}}
+\newcommand\Lz{L_{z}}
+\newcommand\N{\mbox{\tiny $N$}}
+\renewcommand\M{\mbox{\tiny $M$}}
+\newcommand\K{\mbox{\tiny $K$}}
+\newcommand\qquadand{\QQUAD{and}}
+\newcommand\phiTE{\phi^{\TE}}
+\newcommand\phiTM{\phi^{\TM}}
+\newcommand\sech{\,\text{sech}}
+\newcommand\sd{\widehat{d}}
+\newcommand\TE{\mbox{\tiny TE}}
+\newcommand\TM{\mbox{\tiny TM}}
+\newcommand\TOT{\mbox{\tiny TOT}}
+\newcommand\ahat[1]{\wh{a}_{#1}}
+\newcommand\adag[1]{\wh{a}^{\dagger}_{#1}}
+\newcommand\V{\man{V}}
+\newcommand\VEV[1]{ \langle \, 0 \, | \, #1 \,| \, 0 \, \rangle }
+
+%%% TITLE
+\title{Casimir Stress by Euler-Maclaurin Summation}
+\author{Dr Timothy J. Walton}
+\date{\today}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+\makebox[\linewidth]{\rule{\linewidth}{1.2pt}}\\[-1.3cm]
+\tableofcontents
+\quad \\[-0.2cm]
+\makebox[\linewidth]{\rule{\linewidth}{1.pt}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Euler-Maclaurin Summation Formula}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{defn}
+	Given a function $f$ of (at least) class $C^{m}$ $(m\in\ZZ^{+})$, the Euler-Maclaurin summation formula is a mathematical identity relating the sum of $f$ to its integral and is given by:
+	\begin{align}
+	\begin{split}\label{EMformula}
+		\sum_{k=n}^{N} f(k) - \int_{n}^{N}f(x)\,dx &\,=\, \frac{1}{2}\left(\,f(n) + f(N)\df\right) + \sum_{r=1}^{m}\frac{B_{2r}}{(2r)!}\left(f^{(2r-1)}(N) - f^{(2r-1)}(n)\right) \\
+		& \hspace{3cm} + \;\frac{1}{(2m+1)!}\int_{n}^{N} P_{2m+1}(x)f^{(2m+1)}(x) \,dx
+	\end{split}
+	\end{align}
+	where $\{B_{k}\}$ denote the set of Bernoulli numbers, $\{P_{k}(x)\}=\{B_{k}(x-[x])\}$ denote the set of associated periodic Bernoulli polynomials and $n,N\in\mathbb{N}$.
+\end{defn}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Casimir Energy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The spectrum of modes within a perfectly conducting box of dimensions $\Lx\times\Ly\times\Lz$ with vacuum interior is given
+\begin{eqnarray*}
+    \frac{\omega_{\N}}{c_{0}} &=& \sqrt{ \frac{\pi^{2}\nx^{2}}{\Lx^{2}} + \frac{\pi^{2}\ny^{2}}{\Ly^{2}} + \frac{\pi^{2}\nz^{2}}{\Lz^{2}} \;},
+\end{eqnarray*}
+where $\nx,\ny,\nz\in\mathbb{Z}^{+}$ and $N\equiv \nx,\ny,\nz$. We introduce the non-dimensional $\Omega_{\N}$ by
+\begin{eqnarray}\label{Om}
+    \Omega_{\N} &\equiv& \frac{\omega_{\N}\Lz}{c_{0}} \,=\, \pi\sqrt{ \frac{\nx^{2}\Lz^{2}}{\Lx^{2}} + \frac{\ny^{2}\Lz^{2}}{\Ly^{2}} + \nz^{2} \;},
+\end{eqnarray}
+
+The vacuum energy of the system is then a sum over all possible modes:
+\begin{eqnarray*}
+    \man{E} &=& \frac{\hbar}{2} \sum_{N} \omega_{\N} \,=\, \frac{\hbar c_{0}}{2\Lz} \sum_{N} \Omega_{\N}.
+\end{eqnarray*}
+This expression is infinite, so must be regularised:
+\begin{eqnarray*}
+    \man{E}(s) &=& \frac{\hbar c_{0}}{2\Lz} \sum_{N} \Omega_{\N}\,W_{s}(\Omega_{\N}) \,=\, \frac{\hbar \pi c_{0}}{2\Lz} \sum_{N} \sqrt{ \frac{\nx^{2}\Lz^{2}}{\Lx^{2}} + \frac{\ny^{2}\Lz^{2}}{\Ly^{2}} + \nz^{2} \;}\,W_{s}\left(\sqrt{ \frac{\nx^{2}\Lz^{2}}{\Lx^{2}} + \frac{\ny^{2}\Lz^{2}}{\Ly^{2}} + \nz^{2} \;}\right) .
+\end{eqnarray*}
+in terms of the regulator $W_{s}(\Omega_{\N})$ which is a smooth function of $s\geq0$ and $\Omega_{\N}$ with $W_{0}(\Omega_{\N})=1$ for all $\Omega_{\N}$. To analyse the geometry of the Casimir effect, we consider the limit $\Lx,\Ly\rightarrow \infty$, so that $\nx, \,\ny$ become continuous and we may write
+\begin{eqnarray*}
+    \man{E}(s) &=& \frac{\hbar \pi c_{0}}{2\Lz} \sum_{\nz=0}^{\infty} \int_{\nx=0}^{\infty}d\nx\int_{\ny=0}^{\infty}d\ny \, \sqrt{ \frac{\nx^{2}\Lz^{2}}{\Lx^{2}} + \frac{\ny^{2}\Lz^{2}}{\Ly^{2}} + \nz^{2} \;}\,W_{s}\left(\sqrt{ \frac{\nx^{2}\Lz^{2}}{\Lx^{2}} + \frac{\ny^{2}\Lz^{2}}{\Ly^{2}} + \nz^{2} \;}\right).
+\end{eqnarray*}
+Introducing the notation
+\begin{eqnarray}\label{rnot}
+    \rx &=& \frac{\nx\Lz}{\Lx} \qquadand \ry \,=\, \frac{\ny\Lz}{\Ly},
+\end{eqnarray}
+we may write this as
+\begin{eqnarray*}
+    \man{E}(s) &=& \Lx\Ly \cdot \frac{\hbar \pi c_{0}}{2\Lz^{3}} \sum_{\nz=0}^{\infty} \int_{\nx=0}^{\infty}d\rx\int_{\ny=0}^{\infty}d\ry \, \sqrt{ \rx^{2} + \ry^{2} + \nz^{2} \;}\,W_{s}\left(\sqrt{ \rx^{2} + \ry^{2} + \nz^{2} \;}\right).
+\end{eqnarray*}
+We may change variables using a polar coordinate representation $(\rx=R\sin\theta, \ry=R\cos\theta)$ with $R^{2}=\rx^{2}+\ry^{2}$ and $d\rx\,d\ry = R\,dR\,d\theta$ so that
+\begin{eqnarray*}
+    \frac{\man{E}}{\Lx\Ly} &=& \frac{\hbar \pi c_{0}}{2\Lz^{3}} \sum_{\nz=0}^{\infty} \int_{R=0}^{\infty}\int_{\theta=0}^{\pi/2} R\,dR\,d\theta \, \sqrt{ R^{2} + \nz^{2}\;}\, W_{s}\left(\sqrt{R^{2}+\nz^{2}\;}\right) \\
+    &=& \frac{\hbar \pi^{2} c_{0}}{4\Lz^{3}} \sum_{\nz=0}^{\infty} \int_{R=0}^{\infty} R\,dR \, \sqrt{ R^{2} + \nz^{2}\;}\, W_{s}\left(\sqrt{R^{2}+\nz^{2}\;}\right)
+\end{eqnarray*}
+Introducing the change of variable $U^{2} = R^{2} + \nz^{2}$ with $U\,dU=R\,dR$, we have
+\begin{eqnarray*}
+    \frac{\man{E}}{\Lx\Ly} &=& \frac{\hbar \pi^{2} c_{0}}{4\Lz^{3}} \sum_{\nz=0}^{\infty} \int_{U=\nz}^{\infty} U^{2}W_{s}(U)\, dU \,=\, \frac{\hbar \pi^{2} c_{0}}{4\Lz^{3}} \sum_{\nz=0}^{\infty} f_{s}(\nz),
+\end{eqnarray*}
+where
+\begin{eqnarray*}
+    f_{s}(\nz) &\equiv& \int_{U=\nz}^{\infty} U^{2}W_{s}(U)\, dU.
+\end{eqnarray*}
+If we choose the regulator $W_{s}(U) = e^{-sU}$ then
+\begin{eqnarray*}
+    f_{s}(\nz) &=& \int_{U=\nz}^{\infty} U^{2}e^{-sU}\, dU
+\end{eqnarray*}
+We may then use the Euler-Maclaurin summation formula (\ref{EMformula}) in order to evaluate $\man{E}(s)$. With $m=2$, we have
+\begin{eqnarray*}
+    \sum_{\nz=0}^{\infty} f_{s}(\nz) - \int_{0}^{\infty}f_{s}(x)\,dx &=& \frac{1}{2}\left(\,f_{s}(0) + f_{s}(\infty)\df\right) + \frac{B_{2}}{2}\left(f_{s}'(\infty) - f_{s}'(0)\right) + \frac{B_{4}}{24}\left(f_{s}'''(\infty) - f'''(0)\right) \\
+    & & + \;\frac{1}{120}\int_{0}^{\infty} P_{5}(x)f_{s}'''''(x) \,dx \\
+    &=& \frac{1}{2}\int_{0}^{\infty} U^{2}e^{-sU}\, dU - \frac{1}{360} + O(s^{2}) \\
+    &=& \frac{1}{s^{3}} - \frac{1}{360} + O(s^{2})
+\end{eqnarray*}
+using
+\begin{eqnarray*}
+    \frac{d}{da}f_{s}(a) &=& \frac{d}{da}\int_{a}^{\infty} U^{2}e^{-sU} \,dU \,=\, -a^{2}e^{-sa}
+\end{eqnarray*}
+and
+\begin{eqnarray*}
+    \int_{0}^{\infty} U^{2}e^{-sU}\, dU &=&  \left.-\frac{U^{2}}{s}e^{-sU} \right|_{U=0}^{\infty} + \frac{2}{s}\int_{U=\nz}^{\infty} Ue^{-sU}\, dU \\
+      &=& \frac{2}{s}\left( \left.-\frac{U}{s}e^{-sU}\right|_{U=0}^{\infty} + \frac{1}{s}\int_{U=\nz}e^{-sU}\,dU \right) \\
+      &=& \frac{2}{s^{2}}\left( \left.\frac{e^{-sU}}{s}\right|_{U=\nz}^{\infty}  \right) \,=\, \frac{2}{s^{2}} \cdot \frac{1}{s} \,=\, \frac{2}{s^{3}}.
+\end{eqnarray*}
+The terms of order $s^{2}$ occur from the integral involving the periodic Bernoulli functions and so will vanish upon renormalization.
+Thus, we define the regularized energy density
+\begin{eqnarray*}
+    \frac{\man{E}_{\text{reg}}(s)}{\Lx\Ly} &=& \frac{\hbar \pi^{2} c_{0}}{4\Lz^{3}}\left( \sum_{\nz=0}^{\infty} f_{s}(\nz) - \int_{0}^{\infty}f_{s}(x)\,dx - \frac{1}{s^{3}}\right)
+\end{eqnarray*}
+and the renormalized energy density is
+\begin{eqnarray*}
+    \man{U}_{\text{ren}} &\equiv& \frac{\man{E}_{\text{reg}}(0)}{\Lx\Ly} \,=\, -\frac{\hbar \pi^{2} c_{0}}{1440\Lz^{3}}.
+\end{eqnarray*}
+This is the renormalized energy density for one of the modes. There is an equal energy density for the other mode and so the total energy density is simply
+\begin{eqnarray*}
+    \man{U}_{\mbox{\tiny TOT}} &=& 2\,\man{U}_{\text{ren}} \,=\, -\frac{\hbar \pi^{2} c_{0}}{720\Lz^{3}}.
+\end{eqnarray*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Casimir Pressure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In this section, we shall consider only the TE modes (an analogous approach works for the TM modes also). The pre-potential for the TE modes in our perfectly conducting box are given by
+\begin{eqnarray}\label{PP}
+    \phi^{\TE}_{\N} &=& \man{N}^{\TE}_{\N} \cos(\kx x)\,\cos(\ky y) \sin(\kz z)\,dz
+\end{eqnarray}
+in terms of the normalization constant $\man{N}^{\TE}_{\N}$ and where
+\begin{eqnarray*}
+    \kx &=& \frac{\pi\nx}{\Lx}, \qquad \ky \,=\, \frac{\pi\ny}{\Ly} \qquadand \kz \,=\, \frac{\pi\nz}{\Lz}.
+\end{eqnarray*}
+Given the pre-potential, a mode of the TE component of the (spatial) potential 1-form is given by
+\begin{eqnarray*}
+    A^{\TE}_{\N} &=& \# d \phi^{\TE}_{\N}
+\end{eqnarray*}
+yielding a mode of the operator-valued potential 1-form
+\begin{eqnarray*}
+    \wh{A}^{\TE}_{\N} &=& \ahat{\N}\,A^{\TE}_{\N}\,e^{i\omega_{\N}t} + \adag{\N}\,\overline{A^{\TE}_{\N}}\,e^{-i\omega_{\N}t} \,=\, \left( \ahat{\N}\,e^{i\omega_{\N}t} + \adag{\N}\,e^{-i\omega_{\N}t} \right)\# d \phi^{\TE}_{\N}
+\end{eqnarray*}
+since $A^{\TE}_{\N}$ is real and we have introduced the creation and annihilation operators $\adag{\N},\ahat{\N}$ respectively satisfying
+\begin{eqnarray}\label{CAop}
+    \left[ \ahat{\N}, \, \adag{\M} \df \right] &=& \delta_{\N\M} \qquadand \ahat{N}|\,0\,\rangle \,=\, 0
+\end{eqnarray}
+where $|,0\,\rangle$ denotes the vacuum state with $\langle \,0\,|\,0\,\rangle=1$. The fields are obtained from $\wh{A}^{\TE}_{\N}$:
+\begin{eqnarray*}
+    \wh{e}^{\TE}_{\N} &=& i\omega_{\N}\wh{A}^{\TE}_{\N} \qquadand \wh{b}^{\TE}_{\N} \,=\, \# d\wh{A}^{\TE}_{\N}.
+\end{eqnarray*}
+In order to normalize the modes, we equate the vacuum expectation value of the energy to $1/2\hbar\omega_{\N}$ on a mode-by-mode basis. The vacuum energy is given by
+\begin{eqnarray*}
+    E_{\N} &\equiv& \int_{\V} \VEV{\wh{E}_{\N\M} }
+\end{eqnarray*}
+where $\V$ denotes the volume of the perfectly conducting box and in terms of the operator-valued energy density 3-form
+\begin{eqnarray*}
+    \wh{E}_{\N\M} &\equiv& \frac{\epsilon_{0}}{2}\left( \df \wh{e}^{\TE}_{\N} \w \# \overline{\wh{e}^{\TE}_{\M}} + c_{0}^{2}\wh{b}^{\TE}_{\N} \w \# \overline{\wh{b}^{\TE}_{\M}} \right).
+\end{eqnarray*}
+The fields in the perfectly conducting box for the TE modes are given using the pre-potential $\phi^{\TE}_{\N}$ (\ref{PP}) and yield the vacuum expectation of the operator-valued energy density 3-form\footnote{See (\ref{sect:OpRel}) for further details of vacuum expectation values}
+\begin{eqnarray*}
+    \VEV{\wh{E}_{\N\M} } &=& \frac{\epsilon_{0}}{2}\left( \df \omega_{\N}^{2}\,A^{\TE}_{\N} \w \# A^{\TE}_{\N} + c_{0}^{2}\# dA^{\TE}_{\N} \w dA^{\TE}_{\N} \right).
+\end{eqnarray*}
+Integrating this over the whole box $\V$ we obtain
+\begin{eqnarray*}
+    E_{\N} \,=\, \int_{\V}\VEV{\wh{E}_{\N\M} } &=& \frac{1}{8}\epsilon_{0}(\man{N}^{\TE}_{\N})^{2}c_{0}^{2}\Lx\Ly\Lz(\kx^{2} + \ky^{2})\left( \kx^{2} + \ky^{2} + \kz^{2}\right)\\ &=& \frac{1}{8}\epsilon_{0}(\man{N}^{\TE}_{\N})^{2}\Lx\Ly\Lz(\kx^{2} + \ky^{2})\omega_{\N}^{2}.
+\end{eqnarray*}
+Thus, by equating this to $1/2\hbar\omega_{\N}$
+\begin{eqnarray*}
+    E_{\N} &=& \int_{\V}\VEV{\wh{E}_{\N\M} } \,=\, \frac{1}{2}\hbar\omega_{\N}
+\end{eqnarray*}
+we are able to normalize the modes. We have
+\begin{eqnarray}\label{norm}
+    (\man{N}^{\TE}_{\N})^{2} &=& \frac{4\hbar}{\epsilon_{0}\Lx\Ly\Lz(\kx^{2} + \ky^{2})\omega_{\N}}.
+\end{eqnarray}
+Having normalized the modes, we may now calculate the force at a face of the box by using the operator-valued stress 2-forms
+\begin{eqnarray*}
+    \sigma^{\K}_{\N\M} &=& -\frac{\epsilon_{0}}{2}\left(  \wh{e}^{\TE}_{\N}(K) \w \# \overline{\wh{e}^{\TE}_{\M}} + c^{2}\#\wh{b}^{\TE}_{\N} \w  \overline{\wh{b}^{\TE}_{\M}}(K) + \wh{e}^{\TE}_{\N} \w i_{K}\# \overline{\wh{e}^{\TE}_{\M}} - c^{2}i_{K}\#\wh{b}^{\TE}_{\N} \w  \overline{\wh{b}^{\TE}_{\M}}  \right)
+\end{eqnarray*}
+in terms of a Killing vector $K$. The vacuum expectation value of the force component in the $K$-direction due to one mode of the quantum electromagnetic fluctuations in the vacuum is given by
+\begin{eqnarray*}
+    \man{F}^{\K}_{\N} &=& \int_{\Sigma}\VEV{\sigma^{\K}_{\N\M} } .
+\end{eqnarray*}
+The vacuum expectation value of the total force is then given by summing all these modes:
+\begin{eqnarray*}
+    \man{F}^{\K} &=& \sum_{\N} \man{F}^{\K}_{\N}  .
+\end{eqnarray*}
+To compute the vacuum expectation value of the force on the $xy$-face at $z=\Lz$ we use the Killing vector $K=\partial_{z}$. Using the fields as defined above, we obtain
+\begin{eqnarray*}
+   \man{F}^{\K}_{\N} &=& \frac{\epsilon_{0}(\man{N}^{\TE}_{\N})^{2}c^{2}\pi^{2}\nz^{2}(\kx^{2}+\ky^{2})\Lx\Ly}{8\Lz^{2}}.
+\end{eqnarray*}
+Substituting in for the normalization coefficient $\man{N}^{\TE}_{\N}$ from (\ref{norm}) yields
+\begin{eqnarray*}
+   \man{F}^{\K}_{\N} &=& \frac{\hbar\pi^{2}c_{0}^{2}}{2\Lz^{3}} \frac{\nz^{2}}{\omega_{\N}} \,=\,  \frac{\hbar\pi^{2}c_{0}}{2\Lz^{2}} \frac{\nz^{2}}{\Omega_{\N}} .
+\end{eqnarray*}
+using (\ref{Om}). Thus, the vacuum expectation value of the total force is given by
+\begin{eqnarray*}
+    \man{F}^{\K} &=& \frac{\hbar\pi^{2}c_{0}}{2\Lz^{2}} \sum_{\N} \frac{\nz^{2}}{\Omega_{\N}}.
+\end{eqnarray*}
+Once again this expression is infinite so needs to be regularized:
+\begin{eqnarray*}
+    \man{F}^{\K}(s) &=& \frac{\hbar\pi^{2}c_{0}}{2\Lz^{2}} \sum_{\N} \frac{\nz^{2}}{\Omega_{\N}}W_{s}(\Omega_{\N})
+\end{eqnarray*}
+in terms of some regulating function $W_{s}(\Omega_{\N})$. Expanding this out we have
+\begin{eqnarray*}
+    \man{F}^{\K}(s) &=& \frac{\hbar\pi c_{0}}{2\Lz^{2}} \sum_{\N} \frac{\nz^{2}}{\sqrt{ \frac{\nx^{2}\Lz^{2}}{\Lx^{2}} + \frac{\ny^{2}\Lz^{2}}{\Ly^{2}} + \nz^{2} \;}}W_{s}\left(\sqrt{ \frac{\nx^{2}\Lz^{2}}{\Lx^{2}} + \frac{\ny^{2}\Lz^{2}}{\Ly^{2}} + \nz^{2} \;}\right)
+\end{eqnarray*}
+using (\ref{Om}). As before, we consider the limit $\Lx,\Ly\rightarrow\infty$ so that $\nx,\ny$ become continuous and we may write
+\begin{eqnarray*}
+    \man{F}^{\K}(s) &=& \frac{\hbar\pi c_{0}}{2\Lz^{2}} \sum_{\nz=0}^{\infty} \int_{\nx=0}^{\infty}d\nx\int_{\ny=0}^{\infty}d\ny \,\frac{\nz^{2}}{\sqrt{ \frac{\nx^{2}\Lz^{2}}{\Lx^{2}} + \frac{\ny^{2}\Lz^{2}}{\Ly^{2}} + \nz^{2} \;}}W_{s}\left(\sqrt{ \frac{\nx^{2}\Lz^{2}}{\Lx^{2}} + \frac{\ny^{2}\Lz^{2}}{\Ly^{2}} + \nz^{2} \;}\right)
+\end{eqnarray*}
+Using the $\rx,\ry$ notation (\ref{rnot}), we may write this as
+\begin{eqnarray*}
+    \man{F}^{\K}(s) &=& \Lx\Ly \cdot \frac{\hbar\pi c_{0}}{2\Lz^{4}} \sum_{\nz=0}^{\infty} \int_{\rx=0}^{\infty}d\rx\int_{\ry=0}^{\infty}d\ry \,\frac{\nz^{2}}{\sqrt{ \rx^{2} + \ry^{2} + \nz^{2} \;}}W_{s}\left(\sqrt{  \rx^{2} + \ry^{2} + \nz^{2} \;}\right).
+\end{eqnarray*}
+Introducing a polar coordinate representation $(\rx=R\sin\theta, \ry=R\cos\theta)$ with $R^{2}=\rx^{2}+\ry^{2}$ and $d\rx\,d\ry = R\,dR\,d\theta$ we obtain
+\begin{eqnarray*}
+    \man{F}^{\K}(s) &=& \Lx\Ly \cdot \frac{\hbar\pi c_{0}}{2\Lz^{4}} \sum_{\nz=0}^{\infty} \int_{R=0}^{\infty}\int_{\theta=0}^{\pi/2} \,R\,dR\,d\theta\frac{\nz^{2}}{\sqrt{ R^{2} + \nz^{2} \;}}W_{s}\left(\sqrt{  R^{2} + \nz^{2} \;}\right) \\
+    &=& \Lx\Ly \cdot \frac{\hbar\pi^{2}c_{0}}{4\Lz^{6}} \sum_{\nz=0}^{\infty} \int_{R=0}^{\infty} \,R\,dR\,\frac{\nz^{2}}{\sqrt{ R^{2} + \nz^{2} \;}}W_{s}\left(\sqrt{  R^{2} + \nz^{2} \;}\right).
+\end{eqnarray*}
+Introducing the change of variable $U^{2} = R^{2} + \nz^{2}$ with $U\,dU=R\,dR$, we have
+\begin{eqnarray*}
+    \frac{\man{F}^{\K}(s)}{\Lx\Ly} &=& \frac{\hbar\pi^{2}c_{0}}{4\Lz^{4}} \sum_{\nz=0}^{\infty} \int_{U=\nz}^{\infty}\,\nz^{2}W_{s}(U) \, dU \,=\,  \frac{\hbar\pi^{2}c_{0}}{4\Lz^{4}} \sum_{\nz=0}^{\infty} g_{s}(\nz)
+\end{eqnarray*}
+where
+\begin{eqnarray*}
+    g_{s}(\nz) &\equiv& \int_{U=\nz}^{\infty}\,\nz^{2}W_{s}(U) \, dU \,=\, \int_{U=\nz}^{\infty}\,\nz^{2}e^{-sU} \, dU ,
+\end{eqnarray*}
+where we have chosen the same regulator as before: $W_{s}(U)=e^{-sU}$. This is now in a form suitable to use Euler-Maclaurin (\ref{EMformula}). With $m=2$, we have
+\begin{eqnarray*}
+    \sum_{\nz=0}^{\infty} g_{s}(\nz) - \int_{0}^{\infty}g_{s}(x)\,dx &=& \frac{1}{2}\left(\,g_{s}(0) + g_{s}(\infty)\df\right) + \frac{B_{2}}{2}\left(g_{s}'(\infty) - g_{s}'(0)\right) + \frac{B_{4}}{24}\left(g_{s}'''(\infty) - g'''(0)\right) \\
+    & & + \;\frac{1}{120}\int_{0}^{\infty} P_{5}(x)g_{s}'''''(x) \,dx \\
+    &=& - \frac{1}{120} + O(s^{2}) \\
+    &=& - \frac{1}{120} + O(s^{2})
+\end{eqnarray*}
+using
+\begin{eqnarray*}
+    \frac{d}{da}g_{s}(a) &=&  \frac{d}{da}\int_{a}^{\infty} a^{2}e^{-sU} \,dU \,=\, \int_{a}^{\infty} 2a\,e^{-sU} \,dU - a^{2}e^{-sa}
+\end{eqnarray*}
+and
+\begin{eqnarray*}
+    \int_{U=0}^{\infty}e^{-sU}\,dU &=& \left.-\frac{e^{-sU}}{s}\right|_{U=0}^{\infty} \,=\, \frac{1}{s}.
+\end{eqnarray*}
+The only non-zero terms arise from $-B_{4}/24 g'''(0)$ and the term involving the periodic Bernoulli functions, though these terms are of order $s^{2}$ and so vanish upon renormalization. Thus, we define the regularized total force density (pressure) to be
+\begin{eqnarray*}
+    \frac{\man{F}^{\K}_{\text{reg}}(s)}{\Lx\Ly} &=& \frac{\hbar\pi^{2}c_{0}}{4\Lz^{4}} \left( \sum_{\nz=0}^{\infty} g_{s}(\nz) - \int_{\nz=0}^{\infty}g_{s}(x)\,dx\right)
+\end{eqnarray*}
+and the renormalized total force density (pressure) to be
+\begin{eqnarray*}
+    \man{P}^{\K}_{\text{ren}} &\equiv& \frac{\man{F}^{\K}_{\text{reg}}(0)}{\Lx\Ly} \,=\, -\frac{\hbar\pi^{2}c_{0}}{480 \Lz^{4}}.
+\end{eqnarray*}
+This is only for the TE modes, but there is an analogous derivation to find the renormalized pressure for the TM modes, which is equal to that of the TE modes. Hence, the total pressure is
+\begin{eqnarray*}
+    \man{P}^{\K}_{\TOT} &=& 2\man{P}^{\K}_{\text{ren}} \,=\, -\frac{\hbar\pi^{2}c_{0}}{240 \Lz^{4}}.
+\end{eqnarray*}
+
+
+
+
+
+
+\newpage
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Vacuum Expectation Values}\label{sect:OpRel}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Let $\wh{\Lambda}_{\N\M}$ denote an operator-valued $p$-form quadratic in the creation and annihilation operators $\ahat{\N},\adag{\M}$. Specifically, let
+\begin{eqnarray*}
+    \wh{\Lambda}_{\N\M} &=& \wh{\alpha}_{\N} \w \wh{\beta}_{\M}
+\end{eqnarray*}
+in terms of the operator-valued forms
+\begin{eqnarray*}
+    \wh{\alpha}_{\N} &=& \left( \ahat{\N}\,e^{i\omega_{\N}t} + \adag{\N}\,e^{-i\omega_{\N}t} \right)\alpha_{\N} \qquadand \wh{\beta}_{\N} \,=\, \left( \ahat{\N}\,e^{i\omega_{\N}t} + \adag{\N}\,e^{-i\omega_{\N}t} \right)\beta_{\N}
+\end{eqnarray*}
+where $\alpha_{\N},\beta_{\N}$ are differential forms (whose degrees sum to $p$). Then
+\begin{eqnarray*}
+    \wh{\Lambda}_{\N\M} &=& \left( \ahat{\N}\,e^{i\omega_{\N}t} + \adag{\N}\,e^{-i\omega_{\N}t} \right)\left( \ahat{\M}\,e^{i\omega_{\M}t} + \adag{\M}\,e^{-i\omega_{\M}t} \right)\alpha_{\N}\w\beta_{\M} \\
+    &=& \left( \ahat{\N}\ahat{\M}\,e^{i(\omega_{\N}+\omega_{\M})t} + \adag{\N}\ahat{\M}\,e^{-i(\omega_{\N}-\omega_{\M})t} + \ahat{\N}\adag{\M}\,e^{i(\omega_{\N}-\omega_{\M})t} + \adag{\N}\adag{\M}\,e^{-i(\omega_{\N}+\omega_{\M})t}\right)\alpha_{\N}\w\beta_{\M}.
+\end{eqnarray*}
+From (\ref{CAop}), we have
+\begin{equation*}
+\begin{alignedat}{2}
+    \VEV{\ahat{\N}\ahat{\M}} &\,=\, 0 & \qquad \VEV{\adag{\N}\ahat{\M}} &\,=\, 0, \\
+    \VEV{\ahat{\N}\adag{\M}} &\,=\, \delta_{\N\M} & \qquad \VEV{\adag{\N}\adag{\M}} &\,=\, 0
+\end{alignedat}
+\end{equation*}
+where we have used the commutation relation (\ref{CAop}) and the normalization of the vacuum state $\langle \,0\,|\,0\,\rangle=1$. This gives
+\begin{eqnarray*}
+    \VEV{\wh{\Lambda}_{\N\M}} &=& \delta_{\N\M}\,e^{i(\omega_{\N}-\omega_{\M})t} \alpha_{\N}\w\beta_{\M} \,=\, \alpha_{\N} \w \beta_{\N}.
+\end{eqnarray*}
+
+
+
+\end{document}
+
+\newpage
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{An Integral} \label{sect:Int}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Consider the integral
+\begin{eqnarray*}
+    I &=& \int_{U=\nz}^{\infty} U^{2}e^{-sU}\, dU.
+\end{eqnarray*}
+We may compute $I$ using successive integrations by parts. We have
+\begin{eqnarray*}
+    I &=&  \left.-\frac{U^{2}}{s}e^{-sU} \right|_{U=\nz}^{\infty} + \frac{2}{s}\int_{U=\nz}^{\infty} Ue^{-sU}\, dU \\
+      &=& \frac{\nz^{2}}{s}e^{-s\nz} + \frac{2}{s}\left( \left.-\frac{U}{s}e^{-sU}\right|_{U=\nz}^{\infty} + \frac{1}{s}\int_{U=\nz}e^{-sU}\,dU \right) \\
+      &=& \frac{\nz^{2}}{s}e^{-s\nz} + \frac{2\nz}{s^{2}}e^{-s\nz} - \frac{2}{s^{2}}\left.\frac{e^{-sU}}{s}\right|_{U=\nz}^{\infty} \\
+      &=& \frac{\nz^{2}}{s}e^{-s\nz} + \frac{2\nz}{s^{2}}e^{-s\nz} + \frac{2}{s^{3}}e^{-s\nz} .
+\end{eqnarray*}
+
+\end{document}
+
+
+
