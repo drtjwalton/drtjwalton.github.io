@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Dr Timothy J. Walton"
   avatar           : "TJW_2.png"
-  bio              : "Lecturer in Applied Maths"
+  bio              : "Lecturer in Applied Mathematics"
   location         : 
   employer         : "UCLan, UK"
   employurl		     : https://www.uclan.ac.uk
@@ -313,3 +313,4 @@ compress_html:
     
 github: [metadata]
 search: true 
+
