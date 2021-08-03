@@ -37,9 +37,10 @@ I offer no guarantee that they are error-free!
 
 ## <a name="TEACH">Teaching</a>
 
-* [A proof of Simpson's rule]({{ site.baseurl }}/files/Teaching Notes/pdf/SimpsonsRule.pdf)
+* [A proof of Simpson's rule]({{ site.baseurl }}/files/Teaching Notes/SimpsonsRule.pdf)
 
 
 ## <a name="RES">Research</a>
 
-* [The Casimir effect using Euler-Maclaurin summation]({{ site.baseurl }}/files/Research Notes/pdf/Casimir_Euler.pdf)
+* [The Casimir effect using Euler-Maclaurin summation]({{ site.baseurl }}/files/Research Notes/Casimir_Euler.pdf)
+* [Construction of solutions to the linearised Einstein field equations]({{ site.baseurl }}/files/Research Notes/ConstructLinGravSols.pdf)

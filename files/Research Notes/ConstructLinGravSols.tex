@@ -1,0 +1,455 @@
+\documentclass[sections]{tjwNOTES}
+
+
+%%% PACKAGES
+
+%%% COMMANDS
+\newcommand{\LapH}{\text{Lap}_{H}}
+\newcommand{\LapR}{\text{Lap}_{R}}
+\newcommand{\Div}{\text{Div}}
+\newcommand{\Hess}{\text{Hess}}
+\newcommand{\etam}{\text{\large\begin{otherlanguage}{greek}\texttt{\texteta}\end{otherlanguage}}}
+\newcommand{\Tpsi}{\text{\large\begin{otherlanguage}{greek}\texttt{\textpsi}\end{otherlanguage}}}
+\newcommand{\FM}{\mathcal{F}(\M)}
+\newcommand{\ginv}{\g^{-1}}
+\renewcommand{\Re}{\text{Re}}
+
+%%% TITLE
+\title{Construction of Solutions to the Linearised Einstein Field Equations}
+\author{Dr Timothy J. Walton}
+\date{\today}
+
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+\begin{abstract}
+	In these notes we show how to construct a solution to the linearised Einstein field equations using a harmonic $C^{4}$ complex scalar field on spacetime. 
+\end{abstract}
+\makebox[\linewidth]{\rule{\linewidth}{1.1pt}}\\[-1.3cm]
+\tableofcontents
+\quad \\[-0.2cm]
+\makebox[\linewidth]{\rule{\linewidth}{1.pt}}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Linearised Einstein Field Equations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+It can be shown \cite{TW_GPulses} that the vacuum Einstein field equations on spacetime $\M$ endowed with metric $\g$ can be linearised about a flat Minkowski spacetime metric $\etam$ by finding solutions to:
+\begin{align}\label{LIN_EIN}
+	\LapR^{(\etam)}(\Tpsi) \,=\, 0 \QUAD{and} \Div^{(\etam)}(\Tpsi) \,=\, 0
+\end{align}
+from some complex covariant rank two tensor $\Tpsi$. The tensor $\Tpsi$ can then be used to construct  the linearised metric $\g=\etam+\texttt{h}$ where $\texttt{h}$ (the perturbation of $\etam$ on $\M$) is given by
+\begin{align*}
+	\texttt{h} &\,=\, \Re(\Tpsi) - \frac{1}{2}\text{tr}\!\left[\df\Re(\Tpsi)\,\right]\etam.
+\end{align*}
+The operators $\LapR^{(\etam)}$ and $\Div^{(\etam)}$ are the rough Laplacian and divergence operator respectively (see appendix~\ref{Append:notation} for further details). We adopt the notation that subscripts on differential operators are used to indicate with which metric the operators are to be associated (i.e. in this case, they are defined by the Levi-Civita connection associated with the flat Minkowski metric $\etam$ and {\it not} $\g$). 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Constructing Solutions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In this section we outline a procedure to construct solutions to (\ref{LIN_EIN}) from a complex scalar field $\alpha$. Since the solutions are to be established on a flat Minkowski spacetime endowed with metric $\etam$, the curvature operator is identically zero: $R^{(\etam)}_{X,Y}=0$. Consequently, using (\ref{LapFunc}) and (\ref{LapRComm}), the rough Laplace operator and connection acting upon $\alpha$ or on any $1$-form $\omega\in\Gamma\Lambda^{1}\M$ commute:
+\begin{align*}
+	\LapR^{(\etam)}(\nabla^{(\etam)} \alpha) &\,=\,\nabla^{(\etam)}\left[\LapR^{(\etam)}(\alpha)\right] \QUAD{and}
+	\LapR^{(\etam)}(\nabla^{(\etam)} \omega) \,=\, \nabla^{(\etam)}\left[\LapR^{(\etam)}(\omega)\right].
+\end{align*}
+Repeated application of this result gives:
+\begin{align}\label{nabnabLap}
+	\nabla^{(\etam)}\nabla^{(\etam)}\left[\LapR^{(\etam)}(\alpha)\right] &\,=\, \nabla^{(\etam)}\LapR^{(\etam)}(\nabla^{(\etam)}\alpha) \,=\, \LapR^{(\etam)}(\nabla^{(\etam)}\nabla^{(\etam)}\alpha) \,=\, \LapR^{(\etam)}(\nabla^{(\etam)}d\alpha)
+\end{align}
+where we have used (\ref{nabfdf}). If we define a tensor $\Tpsi$ on $\M$ by:
+\begin{align}\label{TPSI_DEF}
+	\Tpsi &\,\equiv\, \nabla^{(\etam)}d\alpha
+\end{align}	
+then (\ref{nabdfSYM}) implies that $\Tpsi$ is a covariant symmetric rank-two tensor which is traceless if $\alpha$ is harmonic and so it qualifies as a candidate solution for (\ref{LIN_EIN}). From (\ref{nabnabLap}), we see that 
+\begin{align*}
+	\LapR^{(\etam)}(\alpha) &\,=\, 0 \qLRA \Tpsi \QUAD{is also traceless and} \LapR^{(\etam)}(\Tpsi) \,=\, 0.
+\end{align*}
+Furthermore
+\begin{align*}
+	\Div^{(\etam)}(\Tpsi) &\,=\, \Div^{(\etam)}(\nabla^{(\etam)}d\alpha) \,=\, \LapR^{(\etam)}(d\alpha) \,=\, d\left[ \LapR^{(\etam)}(\alpha)\right]
+\end{align*}
+using (\ref{LapRDivIDENT}) and (\ref{LapRComm}) respectively. Thus, if $\alpha$ is harmonic then $\Tpsi$ is also divergence-free. If we note that using (\ref{LapFunc}) and (\ref{LapH}) we have
+\begin{align*}
+	\LapR(\alpha) &\,=\, \LapH(\alpha) \,=\, -(d\delta + \delta d)\alpha \,=\, -\delta d\alpha,
+\end{align*}
+this implies $\LapR(\alpha)=0$ is equivalent to $\delta d \alpha=0$. Combining these results we reach the following method to construct solutions to the linearised vacuum Einstein field equations: \\
+
+\begin{prop*}{}
+	Let $\alpha$ be a $C^{4}$ differentiable complex scalar field on a $4$-dimensional orientable Lorentzian manifold $\M$ equipped with metric $\g$ and Levi-Civita connection $\nabla$. A linearisation of $\g$ about a flat Minkowski spacetime metric $\etam$ on $\M$ determines the linear metric $\g=\etam+\texttt{h}$ in terms of $\texttt{h}$: some perturbation of $\etam$ on $\M$. If $\alpha$ is harmonic then it satisfies the linearised source-free Einstein field equations:  
+	\begin{align*}
+		\delta d\alpha &\,=\, 0 \qLRA \LapR^{(\etam)}(\Tpsi) \,=\, 0 \QUAD{and} \Div^{(\etam)}(\Tpsi) \,=\, 0 \QUAD{where} \Tpsi=\nabla^{(\etam)} d\alpha
+	\end{align*}
+	in terms of the covariant symmetric rank two tensor $\Tpsi$. This may be used to construct $\texttt{h}$ and since $\Tpsi$ is  trace-free by construction, the linearised metric is given by
+	\begin{align*}
+		\g &\,=\, \etam + \texttt{h} \,=\, \etam + \Re(\Tpsi).
+	\end{align*}
+\end{prop*}
+
+\newpage
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Notational Preliminaries}\label{Append:notation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+These notes have been written in the language of exterior differential forms of which \cite{BennTucker} provides a strong influence and upon which most conventions used here are found. For completeness, in this section we give a brief summary of notation pertinent to these notes. \\[0.2cm]
+
+Let $\M$ denote a $4$-dimensional orientable Lorentzian manifold equipped with {\it metric tensor field} $\g$ of signature $(-,+,+,+)$. Let $\{e^{a}\}$ denote a set of local $\g$-orthonormal coframes on $\M$ with dual frame $\{X_{b}\}$ such that $e^{a}(X_{b})=\delta^{a}_{b}$ and 
+\begin{align*}
+	\g &\,=\,\etam_{ab}e^{a}\tensor e^{b} \,=\, - e^{0}\tensor e^{0} + e^{1}\tensor e^{1} + e^{2}\tensor e^{2} + e^{3}\tensor e^{3}
+\end{align*}
+with $\etam_{ab}=\text{diag}(-1,1,1,1)$. Associated with $\g$ is the inverse metric tensor
+\begin{align*}
+	\ginv &\,=\,\eta^{ab}X_{a}\tensor X_{b} \,=\, - X_{0}\tensor X_{0} + X_{1}\tensor X_{1} + X_{2}\tensor X_{2} + X_{3}\tensor X_{3}
+\end{align*}
+with $\eta^{ab}\eta_{bc}=\delta^{a}_{c}$. The tensors $\g,\ginv$ establish an isomorphism between $T\M$ and $T^{*}\M$ which we denote for convenience with a `tilde':
+\begin{align*}
+	\wt{X} \,\equiv\, \g(X,-) \,\equiv\, \g(X,X_{a})e^{a} \QUAD{and} \wt{\alpha}  \,\equiv\, \ginv(\alpha,-) \,\equiv\, \ginv(\alpha,e^{a})X_{a}
+\end{align*}
+for any $X\in\Gamma T\M,\alpha\in\Gamma T^{*}\M$. A simple but useful identity involving the coframe and the {\it interior derivative} with respect to frame is the following:
+\begin{align}\label{eXiX}
+	e^{a} \w i_{X_{a}}\alpha &\,=\, p\,\alpha \quad\forall\alpha\in\Gamma\Lambda^{p}\M.
+\end{align}
+The basis $\{e^{a}\}$ provides the canonical local volume form $\star 1=e^{0}\w e^{1} \w e^{2} \w e^{3} \in \Gamma\Lambda^{4}\M$. This induces the {\it Hodge map} $\star$, a linear isomorphism between the vector spaces of $p$-forms and $(4-p)$-forms on $\M$ defined through the relations
+\begin{align*}
+	\star( \alpha \w \wt{X} ) \,=\, i_{X}\star \alpha \QUAD{and} \star (f\alpha) \,=\, f\star\alpha
+\end{align*}
+for any $\alpha\in\Gamma\Lambda^{p}\M$ and $f\in\FM$. Let $\nabla$ denote the unique {\it Levi-Civita connection} on $\M$ satisfying:\\[-0.8cm]
+\begin{alignat*}{2}
+	\nabla &\,=\, e^{a} \tensor \nabla_{X_{a}} \qquad && \\[0.2cm]
+	\nabla_{X}(fY+gZ) &\,=\, (\nabla_{X}f)Y + f\nabla_{X}Y + (\nabla_{X}g)Z + g\nabla_{X}Z \qquad &&\text{(linearity)} \\[0.2cm]
+	\nabla_{fX+gY}Z &\,=\, f\nabla_{X} + g\nabla_{Y}Z \qquad && \text{($\mathcal{F}$-linearity)} \\[0.2cm]
+	\nabla_{X}\left[\,\alpha(Y)\,\right] &\,=\, (\nabla_{X}\alpha)(Y) + \alpha(\,\nabla_{X}Y\,) \qquad && \text{(commutes with contractions)} \\[0.2cm]
+	\nabla_{X}g &\,=\, 0 \qquad &&\text{(metric compatibility)} \\[0.2cm]
+	T_{X,Y} &\,=\, \nabla_{X}Y - \nabla_{Y}X - [X,Y] \,=\, 0 \qquad &&\text{(torsion-free)}
+\end{alignat*}
+for any $X,Y,Z\in\Gamma T\M$, $f,g\in\FM$ and where $T_{X,Y}$ denotes the {\it torsion operator} of $\nabla$. Cartan's first structure equation can be written using differential forms in terms of the {\it exterior derivative} $d$:
+\begin{align*}
+	T^{a} &\,=\, de^{a} + \omega^{a}{}_{b}\w e^{b}
+\end{align*}
+where $\{T^{a}\}, \{\omega^{a}{}_{b}\}$ denote a set of {\it torsion 2-forms} and {\it connection 1-forms} respectively defined by\footnote{The properties of $\nabla$ can be used to induce the action of $\nabla$ on the $\g$-orthonormal coframe $\{e^{a}\}$ (see \ref{LapFunc}).}
+\begin{align*}
+	T^{a}(X,Y) &\,=\, \frac{1}{2}e^{a}(\,T_{X,Y}\,) \QUAD{and} \nabla_{X_{a}}X_{b} \,=\, \omega^{c}_{\;\;b}(X_{a})X_{c}.
+\end{align*}
+Since $\nabla$ is torsion-free, this clearly yields $T^{a}=0$ and it can be shown this implies \cite{BennTucker}
+\begin{align}\label{d2nabla}
+	d &\,\equiv\, e^{a} \w \nabla_{X_{a}}.
+\end{align}
+The connection $\nabla$ also defines the {\it curvature operator} $R_{X,Y}$ of $\nabla$:
+\begin{align}\label{CurvOp}
+	R_{X,Y} &\,=\, \Hess_{X,Y} - \Hess_{Y,X} \,=\, [\nabla_{X},\nabla_{Y}] - \nabla_{\nabla_{X}Y} + \nabla_{\nabla_{Y}X} \,=\, [\nabla_{X},\nabla_{Y}] - \nabla_{[X,Y]} 
+\end{align}
+for any $X,Y\in\Gamma T\M$, in terms of the {\it Hessian operator}
+\begin{align*}
+	\Hess_{X,Y} &\,\equiv\, \nabla_{X}\nabla_{Y} - \nabla_{\nabla_{X}Y},
+\end{align*}
+and where the last equality follows from $\nabla$ being torsion-free and the $\mathcal{F}$-linearity of $\nabla$. Note that the curvature operator applied to a function $f$ on $\M$ vanishes:
+\begin{align*}
+	R_{X,Y}(f) &\,=\, [\nabla_{X},\nabla_{Y}]f - \left(\nabla_{\nabla_{X}Y} + \nabla_{\nabla_{Y}X}\right)f \,=\, \left([X,Y] - \nabla_{X}Y + \nabla_{Y}X\right)f \,=\,0
+\end{align*}
+by virtue of $\nabla$ being torsion free. From (\ref{CurvOp}), this implies that -- when acting on functions on $\M$ -- the Hessian operator is symmetric:
+\begin{align}\label{SymHess}
+	\Hess_{X,Y}(f) &\,=\, \Hess_{Y,X}(f) \qquad\forall X,Y \in \Gamma TM, f\in\FM.
+\end{align}
+A Lorentzian manifold is denoted {\it flat} if and only if its curvature vanishes: $R_{X,Y}=0$ for all $X,Y\in\Gamma T\M$. The curvature operator is used to define the $(3,1)$ curvature tensor $\texttt{R}$ of $\nabla$:
+\begin{align}\label{CurvT}
+	\texttt{R}(X,Y,Z,\alpha) &\,=\, \alpha( \,R_{X,Y}(Z)\, ).
+\end{align}
+It can be shown that the curvature tensor satisfies the symmetry relation \cite{Spivak}
+\begin{align}\label{CurvT_SYM}
+	\texttt{R}(X,Y,Z,\alpha) &\,=\, \texttt{R}(Z,\wt{\alpha},X,\wt{Y}).
+\end{align}
+The Hodge map $\star$ and exterior derivative $d$ enable us to define the {\it coderivative}\footnote{More generally, on an $n$-dimensional Lorentzian manifold the coderivative is given by $\delta \equiv \star^{-1}d\star \eta$ where $\star^{-1}$ is the inverse Hodge map and $\eta$ is an involution operator defined by $\eta\alpha=(-1)^{p}\alpha$ for any $\alpha\in\Gamma\Lambda^{p}\M$.} $\delta \equiv \star d \star$ on $\M$. With respect to the symmetric product\footnote{If $\M$ is a Riemannian manifold then this product is in fact an $L^{2}$ inner product on $p$-forms having compact support.} on $p$-forms having compact support:
+\begin{align*}
+	(\alpha,\beta)_{\M} &\,\equiv\, \int_{\M} \alpha \w \star \beta \qquad\forall\alpha,\beta\in\Gamma\Lambda^{p}_{C}\M,
+\end{align*}
+the coderivative is the formal adjoint of the exterior derivative: 
+\begin{align*}
+	(d\alpha, \beta)_{\M} &\,=\, (\alpha,\delta\beta)_{\M} \qquad\forall \alpha\in\Gamma\Lambda^{p}_{C}\M,\; \beta\in\Gamma\Lambda^{p+1}_{C}\M.
+\end{align*}
+Using (\ref{d2nabla}) and properties of the Hodge map, it can be shown that the coderivative can be related to the connection on $\M$ via \cite{BennTucker}:
+\begin{align}\label{del2nabla}
+	\delta &\,\equiv\, -i_{X^{a}}\nabla_{X_{a}}.
+\end{align}
+The exterior derivative and coderivative define the {\it Hodge Laplace operator}\footnote{It also goes by the names {\it Hodge-de Rham} and {\it Laplace-de Rham}. } $\LapH$, a (hyperbolic) differential operator acting on differential forms\footnote{The Hodge Laplace operator is self-adjoint with respect to $(\;,\;)_{\M}$: $(\LapH\alpha,\beta)_{\M}=(\alpha,\LapH\beta)_{\M}$ for any $\alpha,\beta\in\Gamma\Lambda^{p}_{C}\M$. If $\M$ is Riemannian then, with these conventions, $\LapH$ has negative eigenvalues.}:
+\begin{align}\label{LapH}
+	\LapH &\,\equiv\, -(\delta d + d\delta).
+\end{align}
+This is not the only Laplacian that may be defined on $\M$; the {\it rough Laplacian} $\LapR$ can be defined as the trace of the Hessian operator:
+\begin{align}\label{LapR}
+	\LapR &\,\equiv\, \text{tr}(\Hess_{X,Y}) \,=\, \eta^{ab}\,\Hess_{X_{a},X_{b}} \,=\, \Hess_{X_{a},X^{a}} \,=\, \nabla_{X_{a}}\nabla_{X^{a}} - \nabla_{\nabla_{X_{a}}X^{a}}.
+\end{align}
+The final differential operator associated with the connection $\nabla$ that we shall introduce is the {\it divergence operator} which, for any covariant symmetric rank-two tensor $\texttt{T}$ on $\M$ is given by
+\begin{align}\label{DIV}
+	\Div(\texttt{T}) &\,=\, (\nabla_{X_{a}}\texttt{T})(X^{a},-).
+\end{align} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Two Identities \'{a} la Weitzenb\"{o}ck}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+On a Riemannian manifold, a Weitzenb\"{o}ck identity expresses a relationship between two different elliptic second-order differential operators, a common example being the two different Laplace operators that may be defined on differential forms on a Riemannian manifold. We extend this notion to discuss the difference between the Hodge Laplacian and the rough Laplacian acting on a both a function and a differential 1-form on $\M$. Before we begin, we discuss the action of $\nabla$ of the coframe $\{e^{a}\}$ which provides us with a useful identity. Since $\nabla$ commutes with contractions and $e^{a}(X_{b})=\delta^{a}_{b}$, we have
+\begin{align*}
+	\nabla_{X_{a}}\left[ e^{b}(X_{c}) \right] &\,=\, 0 \,=\, (\nabla_{X_{a}}e^{b})(X_{c}) + e^{b}(\nabla_{X_{a}}X_{c}) \qLRA
+	(\nabla_{X_{a}}e^{b})(X_{c}) \,=\, - e^{b}(\nabla_{X_{a}}X_{c}).
+\end{align*}
+Therefore, using (\ref{eXiX}) yields the useful result:
+\begin{align}\label{LapFunc}
+	\nabla_{X_{a}}e^{b} &\,=\, e^{c}\w i_{X_{c}}\nabla_{X_{a}}e^{b} \,=\, (\nabla_{X_{a}}e^{b})(X_{c})e^{c} \,=\, - e^{b}(\nabla_{X_{a}}X_{c})e^{c}.
+\end{align}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Laplace Operators Acting on a Function}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{prop*}{}
+	Let $f$ be a (complex) function on a $4$-dimensional orientable Lorentzian manifold $\M$ equipped with metric $\g$ and Levi-Civita connection $\nabla$. The action of the Hodge Laplace operator is identical to that of the rough Laplace operator acting on $f$:
+	\begin{align}\label{LapFunc}
+		\LapR(f) &\,=\, \LapH(f). 
+	\end{align}
+\end{prop*}
+
+This proposition can be proven directly using the definitions, identities and properties discussed in the previous section.\\
+
+\begin{proof}
+	Let $f$ be a (possibly complex) function on $\M$. Since $\delta f=0$ for all functions $f$, (\ref{LapH}) gives:
+	\begin{align*}
+		\LapH(f) &\,=\, -(d\delta + \delta d)f \,=\, -\delta df \,=\, i_{X^{a}}\nabla_{X_{a}}df \,=\, i_{X^{a}}\nabla_{X_{a}}\left[e^{b}\w \nabla_{X_{b}}f\right] \\[0.2cm]
+		&\,=\, i_{X^{a}}\left[\nabla_{X_{a}}e^{b}\w \nabla_{X_{b}}f + e^{b}\w \nabla_{X_{a}}\nabla_{X_{b}}f\right] \\[0.2cm]
+		&\,=\, i_{X^{a}}\nabla_{X_{a}}e^{b}\w \nabla_{X_{b}}f + \eta^{ab}\,\nabla_{X_{a}}\nabla_{X_{b}}f \\[0.2cm]
+		&\,=\, i_{X^{a}}\nabla_{X_{a}}e^{b}\w \nabla_{X_{b}}f + \,\nabla_{X_{a}}\nabla_{X^{a}}f \\[0.2cm] 
+		&\,=\, i_{X^{a}}\left[-e^{b}(\nabla_{X_{a}}X_{c})e^{c}\right]\w \nabla_{X_{b}}f + \,\nabla_{X_{a}}\nabla_{X^{a}}f \\[0.2cm]
+		&\,=\, -e^{b}(\nabla_{X_{a}}X_{c})\,\eta^{ac}\w \nabla_{X_{b}}f + \,\nabla_{X_{a}}\nabla_{X^{a}}f \\[0.2cm]
+		&\,=\, -e^{b}(\nabla_{X_{a}}X^{a})\cdot\nabla_{X_{b}}f + \,\nabla_{X_{a}}\nabla_{X^{a}}f \\[0.2cm]
+		&\,=\, -\nabla_{\nabla_{X_{a}}X^{a}}f + \,\nabla_{X_{a}}\nabla_{X^{a}}f\,=\, \left[ \nabla_{X_{a}}\nabla_{X^{a}} - \nabla_{\nabla_{X_{a}}X^{a}}\right]f \\[0.2cm]
+		&\,=\, \LapR(f)
+	\end{align*}
+	where we have used (\ref{d2nabla}),(\ref{del2nabla}), (\ref{LapR}) and (\ref{LapFunc}). The result follows.
+\end{proof}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Laplace Operators Acting on a 1-form}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+With respect to the rough and Hodge Laplace operators on $\M$ defined in the previous section, we show the following: \\[0.2cm]
+
+\begin{prop*}{}
+	Let $\omega \in \Gamma\Lambda^{1}\M$ on a $4$-dimensional orientable Lorentzian manifold $\M$ equipped with metric $\g$ and Levi-Civita connection $\nabla$. The difference between the Hodge and rough Laplacian operators acting on $\omega$ is related to the curvature operator of $\nabla$. Specifically:
+	\begin{align}\label{LapHLapR}
+		\LapR(\omega)-\LapH(\omega) &\,=\,  R_{\wt{\omega},X_{a}}\,e^{a}.
+	\end{align}
+\end{prop*}
+
+We shall now prove this proposition using a number of the relations given in the preceding section. \\
+
+\begin{proof}
+	Let $\omega\in\Gamma\Lambda^{1}\M$, then using (\ref{d2nabla}) and properties of the connection:
+	\begin{align*}
+		\nabla_{X_{a}}d\omega &\,=\, \nabla_{X_{a}}\left[ e^{b} \w \nabla_{X_{b}}\omega\right] \;=\;  \nabla_{X_{a}}e^{b} \w \nabla_{X_{b}}\omega + e^{b} \w  \nabla_{X_{a}}\nabla_{X_{b}}\omega \\[0.2cm]
+		&\,=\, - e^{b}(\nabla_{X_{a}}X_{c})e^{c} \w \nabla_{X_{b}}\omega + e^{b} \w  \nabla_{X_{a}}\nabla_{X_{b}}\omega
+		\,=\, - e^{c} \w \nabla_{\nabla_{X_{a}}X_{c}}\omega + e^{b} \w  \nabla_{X_{a}}\nabla_{X_{b}}\omega \\[0.2cm]
+			&\,=\, e^{b} \w \left[ \nabla_{X_{a}}\nabla_{X_{b}}- \nabla_{\nabla_{X_{a}}X_{b}} \right]\omega \,=\, e^{b} \w \Hess_{X_{a},X_{b}}(\omega).
+	\end{align*}
+	where we also used (\ref{LapFunc}). Using this result and (\ref{del2nabla}) yields:
+	\begin{align}
+		\nonumber \delta d\omega &\,=\, -i_{X^{a}}\nabla_{X_{a}}\omega \,=\,  -i_{X^{a}}\left[e^{b} \w \Hess_{X_{a},X_{b}}(\omega)\right] \\[0.2cm]
+			&\,=\, -\eta^{ab}\,\Hess_{X_{a},X_{b}}(\omega) + e^{b} \w i_{X^{a}}\Hess_{X_{a},X_{b}}(\omega) \\[0.2cm]
+		\label{Weit1} &\,=\, -\LapR(\omega) + e^{b} \w i_{X^{a}}\Hess_{X_{a},X_{b}}(\omega)
+	\end{align}
+	from the definition of the rough Laplacian (\ref{LapR}). We may also use (\ref{d2nabla}) and (\ref{del2nabla}) to write:
+	\begin{align}
+		\nonumber d\delta \omega &\,=\, d\left[ -i_{X^{a}}\nabla_{X_{a}}\omega \right] \,=\, -e^{b} \w \nabla_{X_{b}}\left[ i_{X^{a}}\nabla_{X_{a}}\omega \right] \,=\, -e^{b} \w \nabla_{X_{b}}\left[ (\nabla_{X_{a}}\omega)(X^{a}) \right] \\[0.2cm]
+		\nonumber &\,=\, -e^{b} \w \left[ (\nabla_{X_{b}}\nabla_{X_{a}}\omega)(X^{a}) + (\nabla_{X_{a}}\omega)(\nabla_{X_{b}}X^{a}) \right] \\[0.2cm]
+		\label{Weit2} &\,=\, -e^{b} \w i_{X^{a}}(\nabla_{X_{b}}\nabla_{X_{a}}\omega) - e^{b} \w  (\nabla_{X_{a}}\omega)(\nabla_{X_{b}}X^{a}) .
+	\end{align}
+	Combining the results (\ref{Weit1}),(\ref{Weit2}) and using (\ref{LapH}) yields
+	\begin{align}
+		\nonumber \LapH(\omega) &\,=\, -(\delta d + d\delta)\omega \\[0.2cm]
+		\nonumber  &\,=\, \LapR(\omega) - e^{b} \w i_{X^{a}}\left[\Hess_{X_{a},X_{b}} - \nabla_{X_{b}}\nabla_{X_{a}} \right]\omega	 + e^{b} \w  (\nabla_{X_{a}}\omega)(\nabla_{X_{b}}X^{a}) \\[0.2cm]
+		\nonumber  &\,=\, \LapR(\omega) - e^{b} \w i_{X^{a}}\left[R_{X_{a},X_{b}} - \nabla_{\nabla_{X_{b}}X_{a}} \right]\omega + e^{b} \w  (\nabla_{X_{a}}\omega)(\nabla_{X_{b}}X^{a}) \\[0.2cm]
+		\label{Weit3} &\,=\,  \LapR(\omega) - e^{b} \w i_{X^{a}}R_{X_{a},X_{b}}\,\omega + e^{b} \w \left[i_{X^{a}}\nabla_{\nabla_{X_{b}}X_{a}}\omega + (\nabla_{X_{a}}\omega)(\nabla_{X_{b}}X^{a})\right]
+	\end{align}
+	using the definition of the curvature operator (\ref{CurvOp}). This can be further simplified by noting that
+	\begin{align*}
+		i_{X^{a}}R_{X_{a},X_{b}}\,\omega &\,=\, (\,R_{X_{a},X_{b}}\,\omega \,)(X^{a}) \,=\, e^{a}(\,R_{X_{a},X_{b}}\,\wt{\omega} \,) \,=\, \texttt{R}(X_{a},X_{b},\wt{\omega},e^{a}) \,=\, \texttt{R}(\wt{\omega},\wt{e^{a}},X_{a},\wt{X_{b}}) \\[0.2cm]
+		&\,=\, \texttt{R}(\wt{\omega},X^{a},X_{a},e_{b}) \,=\, e_{b}( \,R_{\,\wt{\omega},X^{a}}\,X_{a} \,) \,=\, (\, R_{\,\wt{\omega},X^{a}}\,\wt{X_{a}}\, )(\wt{e_{b}}) \\[0.2cm]
+		&\,=\, ( R_{\,\wt{\omega},X^{a}}\,e_{a}\, )(X_{b})  \,=\, i_{X_{b}}\,R_{\,\wt{\omega},X^{a}}\,e_{a} \,=\, i_{X_{b}}\,R_{\,\wt{\omega},X_{a}}\,e^{a}
+	\end{align*}
+	using the curvature tensor (\ref{CurvT}), its symmetry properties (\ref{CurvT_SYM}) and the metric compatibility of the connection, so that it commutes with the metric dual operation. Using this relation and (\ref{eXiX}) we may write the second term in (\ref{Weit3}) as
+	\begin{align*}
+		e^{b} \w i_{X^{a}}R_{X_{a},X_{b}}\,\omega &\,=\, e^{b} \w i_{X_{b}}\,R_{\,\wt{\omega},X_{a}}\,e^{a} \,=\, R_{\,\wt{\omega},X_{a}}\,e^{a}.
+	\end{align*}
+	Finally we simplify the last term in (\ref{Weit3}): we note that
+	\begin{align*}
+		(\nabla_{X_{a}}\omega)(\nabla_{X_{b}}X^{a}) &\,=\, (\wt{\nabla_{X_{b}}X^{a}})(\wt{\nabla_{X_{a}}\omega}) \,=\, (\nabla_{X_{b}}e^{a})(\nabla_{X_{a}}\wt{\omega})
+	\end{align*}
+	by the metric compatibility of $\nabla$. Using (\ref{LapFunc}) yields
+	\begin{align*}
+		(\nabla_{X_{a}}\omega)(\nabla_{X_{b}}X^{a}) &\,=\, - e^{a}(\nabla_{X_{b}}X_{c})\cdot e^{c}(\nabla_{X_{a}}\wt{\omega}) \,=\, - e^{a}(\nabla_{X_{b}}X_{c})\cdot (\nabla_{X_{a}}\omega)(X^{c}) \\[0.2cm]
+		&\,=\, -(\nabla_{\nabla_{X_{b}}X_{c}}\omega)(X^{c}) \,=\, -i_{X^{a}}\nabla_{\nabla_{X_{b}}X_{a}}\omega.
+	\end{align*}
+	From this it is clear that 
+	\begin{align*}
+		i_{X^{a}}\nabla_{\nabla_{X_{b}}X_{a}}\omega + (\nabla_{X_{a}}\omega)(\nabla_{X_{b}}X^{a}) &\,=\, i_{X^{a}}\nabla_{\nabla_{X_{b}}X_{a}}\omega-i_{X^{a}}\nabla_{\nabla_{X_{b}}X_{a}}\omega \,=\, 0
+	\end{align*}
+	and the last term in (\ref{Weit3}) vanishes. Combining these results together yields
+	\begin{align*}
+		\LapH(\omega) &\,=\, \LapR(\omega) - R_{\,\wt{\omega},X_{a}}\,e^{a}
+	\end{align*}
+	and the result follows. 
+\end{proof}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Levi-Civita Connection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In this section we collect a few useful results regarding the Levi-Civita connection:
+
+\begin{prop*}{}
+	Let $f$ be a (complex) function on a $4$-dimensional orientable Lorentzian manifold $\M$ equipped with metric $\g$ and Levi-Civita connection $\nabla$. Then
+	\begin{align}\label{nabfdf}
+		\nabla f &\,=\, df
+	\end{align}
+	in terms of the exterior derivative $d$.
+\end{prop*}
+
+This result follows trivially from the definitions in appendix~\ref{Append:notation}:\\[0.2cm]
+
+\begin{proof}
+	Recalling that $\nabla\equiv e^{a}\tensor \nabla_{X_{a}}$, we have
+	\begin{align*}
+		\nabla f &\,=\, e^{a} \tensor \nabla_{X_{a}}f \,=\, e^{a} \cdot X_{a}f \,=\, e^{a} \cdot df(X_{a}) \,=\, e^{a} \cdot i_{X_{a}}df \,=\, df
+	\end{align*}
+	using (\ref{eXiX}) and (\ref{d2nabla}). 
+\end{proof}
+
+We now include a result that will be of importance in our construction of solutions to the linearised Einstein field equations:\\
+
+\begin{prop*}{}
+	Let $\omega\in\Gamma\Lambda^{1}\M$ be an exact form on a $4$-dimensional orientable Lorentzian manifold $\M$ equipped with metric $\g$ and Levi-Civita connection $\nabla$. Let $\omega=df$ for some function $f$ on $\M$, then $\nabla\omega$ is a covariant symmetric rank two tensor on $\M$. Furthermore, if the function $f$ is harmonic then $\nabla\omega$ is traceless. 
+\end{prop*}
+
+As with the previous propositions, we proceed using the definitions and identities outlined in appendix~\ref{Append:notation}:\\[0.2cm]
+
+\begin{proof}
+	Let $\omega\in\Gamma\Lambda^{1}\M$ be exact: $\omega=df$ for some function $f$ on $\M$, then
+	\begin{align*}
+		\nabla\omega &\,=\, \nabla df \,=\, e^{a}\tensor \nabla_{X_{a}}df \,=\, e^{a}\tensor \nabla_{X_{a}}\left[ e^{b} \w \nabla_{X_{b}}f\right] \\[0.2cm]
+		&\,=\, e^{a} \tensor \left[ \nabla_{X_{a}}e^{b} \w \nabla_{X_{b}}f + e^{b} \w \nabla_{X_{a}}\nabla_{X_{b}}f\right]  \\[0.2cm]
+		&\,=\, e^{a} \tensor \left[ -e^{b}(\nabla_{X_{a}}X_{c})e^{c} \w \nabla_{X_{b}}f + e^{b} \w \nabla_{X_{a}}\nabla_{X_{b}}f\right] \\[0.2cm]
+		&\,=\, e^{a} \tensor e^{c} \w \left[ \nabla_{X_{a}}\nabla_{X_{c}}f - \nabla_{\nabla_{X_{a}}X_{c}}f \right] \\[0.2cm]
+		&\,=\, \Hess_{X_{a},X_{c}}(f)\,e^{a} \tensor e^{c}.
+	\end{align*}
+	Since the Hessian operator is symmetric when acting on functions (\ref{SymHess}), it follows that $\nabla\omega$ is a covariant symmetric rank two tensor on $\M$. From \ref{LapR} we have
+	\begin{align*}
+		\text{tr}(\nabla\omega) &\,=\, (\nabla\omega)(X_{i},X^{i}) \,=\, \Hess_{X_{a},X_{c}}(f)\,e^{a}(X_{i})\cdot e^{c}(X^{i}) \,=\, \Hess_{X_{a},X_{c}}(f)\,\delta^{a}_{i}\cdot \eta^{ci} \\[0.2cm]
+		&\,=\, \Hess_{X_{i},X^{i}}(f) \,=\, \LapR(f)
+	\end{align*}
+	so that $\nabla\omega=\nabla df$ is traceless if $\LapR(f)=0$ (i.e. if $f$ is harmonic). The result follows. 
+\end{proof}
+
+These two results imply
+\begin{align}\label{nabdfSYM}
+	\nabla\nabla f &\,=\, \nabla df \quad \parbox[t]{8cm}{is a covariant symmetric rank two tensor on $\M$ and is traceless if $\LapR(f)=0$.}
+\end{align}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{An Identity Involving the Rough Laplace Operator and the Divergence Operator}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{prop*}{}
+	Let $\omega \in \Gamma\Lambda^{1}\M$ be an {\it exact form} on a $4$-dimensional orientable Lorentzian manifold $\M$ equipped with metric $\g$ and Levi-Civita connection $\nabla$. Let $\omega=df$ for some function $f$ on $\M$ then
+	\begin{align}\label{LapRDivIDENT}
+		\LapR(\omega) &\,=\, \Div(\nabla\omega).
+	\end{align}
+\end{prop*}
+
+This proposition can be proved directly from the definitions and results from appendix~\ref{Append:notation}:\\
+
+\begin{proof}
+	Let $\omega\in\Gamma\Lambda^{1}\M$ with $\omega=df$ for some function $f$ on $\M$, then $\texttt{T}=\nabla\omega$ is a covariant symmetric rank two on $\M$. We have
+	\begin{align*}
+		\nabla_{X_{b}}\texttt{T} \,=\, \nabla_{X_{b}}(\nabla\omega) &\,=\, \nabla_{X_{b}}(e^{a} \tensor \nabla_{X_{a}}\omega) \,=\, \nabla_{X_{b}}e^{a} \tensor \nabla_{X_{a}}\omega + e^{a} \tensor \nabla_{X_{b}}\nabla_{X_{a}}\omega.
+	\end{align*}
+	Therefore using (\ref{DIV}):
+	\begin{align*}
+		\Div(\texttt{T}) &\,=\,  (\nabla_{X_{b}}\texttt{T})(X^{b},-) \,=\, (\nabla_{X_{b}}e^{a})(X^{b}) \cdot \nabla_{X_{a}}\omega + e^{a}(X^{b})\cdot \nabla_{X_{b}}\nabla_{X_{a}}\omega \\[0.2cm]
+		&\,=\, -e^{a}(\nabla_{X_{b}}X^{c})\cdot e^{c}(X^{b})\cdot(\nabla_{X_{b}}e^{a})(X^{b}) \cdot \nabla_{X_{a}}\omega + \eta^{ab}\,\nabla_{X_{b}}\nabla_{X_{a}}\omega \\[0.2cm]
+		&\,=\, -e^{a}(\nabla_{X_{b}}X_{c})\cdot \eta^{cb} \cdot \nabla_{X_{a}}\omega + \nabla_{X_{b}}\nabla_{X^{b}}\omega \\[0.2cm]
+		&\,=\, -e^{a}(\nabla_{X_{b}}X^{b}) \cdot \nabla_{X_{a}}\omega + \nabla_{X_{b}}\nabla_{X^{b}}\omega \\[0.2cm]
+		&\,=\, -\nabla_{\nabla_{X_{b}}X^{b}}\omega + \nabla_{X_{b}}\nabla_{X^{b}}\omega \\[0.2cm]
+		&\,=\, \left[\nabla_{X_{b}}\nabla_{X^{b}} -\nabla_{\nabla_{X_{b}}X^{b}}\right]\omega \\[0.2cm]
+		&\,=\, \LapR(\omega)
+	\end{align*}
+	where we used (\ref{LapR}) and (\ref{LapFunc}). The result follows.
+\end{proof}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Commutators involving Laplace Operators}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+We begin with a straightforward result following from the definitions of the Hodge Laplace operator:\\[0.2cm]
+
+\begin{prop*}{}
+	Let $f$ be a (complex) functions on a $4$-dimensional orientable Lorentzian manifold $\M$ equipped with metric $\g$ and Levi-Civita connection $\nabla$. Then
+	\begin{align}\label{LapHComm}
+		\left[\LapH,d\right]f \,=\, \left[\LapH,\nabla\right]f \,=\, 0.
+	\end{align}
+\end{prop*}
+
+The equality of the commutators follows from (\ref{nabfdf}) and since $\LapH$ is type preserving. Thus, we need only prove one of the commutators vanishes:\\[0.2cm]
+
+\begin{proof}
+	Let $f$ be a (complex) function on $\M$ then by direct computation:
+	\begin{align*}
+		\left[\LapH,d\right]f &\,=\, \LapH(df) - d\left[\LapH(f)\right] \,=\, -(\delta d + d\delta)df - d\left[-(\delta d+d\delta)f\right] \\[0.2cm]
+			&\,=\, -\delta d^{2}f - d\delta df + d\delta df +d^{2}\delta f \,=\, 0
+	\end{align*}
+	since the exterior derivative and coderivative are nilpotent: $d^{2}=\delta^{2}=0$.
+\end{proof}
+
+We now move on to provide a result about commutators involving the rough Laplace operator:
+\begin{prop*}{}
+	Let $f$ be a (complex) functions on a $4$-dimensional orientable Lorentzian manifold $\M$ equipped with metric $\g$ and Levi-Civita connection $\nabla$. Then
+	\begin{align}\label{LapRComm}
+		\left[\LapR,d\right]f \,=\, \left[\LapR,\nabla\right]f \,=\, R_{\,\wt{df},X_{a}}(e^{a}).
+	\end{align}
+\end{prop*}
+
+As with the previous result, the equality of the commutators follows from $\LapR$ being type-preserving and (\ref{nabfdf}). The result relies on the proposition above and (\ref{LapHLapR}):\\[0.2cm]
+
+\begin{proof}
+	Let $f$ be a (complex) function on $\M$ then since $df\in\Gamma\Lambda^{1}\M$:
+	\begin{align*}
+		\left[\LapR,d\right]f &\,=\, \LapR(df) - d\left[\LapR(f)\right] \,=\, \LapH(df) + R_{\,\wt{df},X_{a}}(e^{a}) - d\left[\LapH(f)\right] \\left[0.2cm]
+		&\,=\, \left[\LapH,d\right]f + R_{\,\wt{df},X_{a}}(e^{a}) \,=\, R_{\,\wt{df},X_{a}}(e^{a})
+	\end{align*}
+	using \ref{LapHLapR}) and (\ref{LapHComm}). 
+\end{proof}
+
+
+\newpage
+\renewcommand{\refname}{References}
+\begin{thebibliography}{0}
+	\bibitem{BennTucker} 	I. M. Benn and R. W. Tucker, {\it An Introduction to Spinors and Geometry with Applications in Physics}, Adam Hilger Ltd (1987)
+	
+	\bibitem{TW_GPulses}	R. W. Tucker and T. J. Walton, {\it On Gravitational Chirality as the Genesis of Astrophysical Jets}, Classical and Quantum Gravity	, {\bf 34}(3) (2017) 035005
+	
+	\bibitem{Spivak}		M. Spivak, {\it A Comprehensive Introduction to Differential Geometry: Volume Two}, Publish or Perish (1999, Third Edition)	
+\end{thebibliography}
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+
