@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Dr Timothy J. Walton"
 description              : &description "Academic homepage of Dr Timothy J. Walton"
 url                      : "https://www.t-j-walton.co.uk" # SITE: "https://drtjwalton.github.io" LOCAL: ""
-baseurl                  : "/drtjwalton.github.io" # SITE: "" LOCAL: "/drtjwalton.github.io"
+baseurl                  : "" # SITE: "" LOCAL: "/drtjwalton.github.io"
 repository               : "" # SITE: "drtjwalton/drtjwalton.github.io" LOCAL: ""
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
