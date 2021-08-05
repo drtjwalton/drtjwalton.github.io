@@ -38,6 +38,7 @@ I offer no guarantee that they are error-free!
 ## <a name="TEACH">Teaching</a>
 
 * [A proof of Simpson's rule]({{ site.baseurl }}/files/Teaching Notes/SimpsonsRule.pdf)
+* [The Nonlinear Pendulum]({{ site.baseurl }}/files/Teaching Notes/NonlinearPendulum.pdf)
 
 
 ## <a name="RES">Research</a>
