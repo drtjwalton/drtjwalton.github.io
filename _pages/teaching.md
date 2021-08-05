@@ -26,7 +26,6 @@ ol li {
 	<ul>
 		<li><a href="#CURRENT" style="color:#fff">Current Teaching (2021-22)</a></li>
 		<li><a href="#PAST" style="color:#fff">Past Teaching</a></li>
-		<li><a href="../notes/#TEACH" style="color:#fff">Teaching Notes</a></li>
 	</ul>
 	
 </div>	
