@@ -29,7 +29,6 @@ ol li {
 		<li><a href="#TOOT" style="color:#fff">Tools of the Trade</a></li>
 		<li><a href="#MAN" style="color:#fff">My Academic Network</a></li>
 		<li><a href="../publications" style="color:#fff">Publications</a></li>
-		<li><a href="../notes/#RES" style="color:#fff">Research Notes</a></li>
 	</ul>
 	
 </div>	
