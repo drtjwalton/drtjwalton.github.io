@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: single
 title: "Notes"
 permalink: /notes/
 author_profile: true
+modified: 2021-08-06
 ---
 
 <style>
@@ -38,7 +39,7 @@ I offer no guarantee that they are error-free!
 ## <a name="TEACH">Teaching</a>
 
 * [A proof of Simpson's rule]({{ site.baseurl }}/files/Teaching Notes/SimpsonsRule.pdf)
-* [The Nonlinear Pendulum]({{ site.baseurl }}/files/Teaching Notes/NonlinearPendulum.pdf)
+* [The nonlinear pendulum]({{ site.baseurl }}/files/Teaching Notes/NonlinearPendulum.pdf)
 
 
 ## <a name="RES">Research</a>

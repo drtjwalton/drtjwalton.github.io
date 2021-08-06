@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: single
 title: "Contact"
 permalink: /contact/
 author_profile: true
+modified: 2021-08-06
 ---
 
 <style>

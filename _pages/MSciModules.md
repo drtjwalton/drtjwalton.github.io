@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: single
 title: "Modules Studied for my MSci degree"
 permalink: /about/MSciModules
 author_profile: true
+modified: 2021-08-06
 ---
 
 <style>
