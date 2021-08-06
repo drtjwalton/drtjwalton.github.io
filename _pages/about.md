@@ -49,9 +49,9 @@ body {
 	padding-left: 0px;
 	margin-top: 2px;
 	padding-top: 2px;
-	margin-bottom: 8px;
-	padding-bottom: 8px;
-	font-size:smaller;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	font-size:70%;
 }
 </style>
 
@@ -221,35 +221,35 @@ body {
 			<summary><b>Other Interests</b></summary>
 			<ul style="margin-left: 20px; padding-left: 20px; list-style-type:circle">
 				<li>Coffee!
-					<p class="pclose">
+					<div class="pclose">
 						<b>Current favourite coffee shop</b>: <a href="http://www.alltheshapes.co.uk/">All The Shapes</a>, Prestwich.
-					</p>
+					</div>
 				</li>
 				<li>Cooking, especially Japanese food.
-					<p class="pclose">
-						<b>Current signature dish</b>: Japanese gyoza.
-					</p>
+					<div class="pclose">
+						<b>Current signature dish</b>: <a href="https://en.wikipedia.org/wiki/Jiaozi">Japanese gyoza</a>.
+					</div>
 				</li>
 				<li>Reading, especially science fiction.<br>
-					<p class="pclose">
-						<b>Current favourite book</b>: 'Kleinzeit', Russell Hoban  
-					</p>
+					<div class="pclose">
+						<b>Current favourite book</b>: '<a href="https://en.wikipedia.org/wiki/Kleinzeit">Kleinzeit</a>', <a href="https://en.wikipedia.org/wiki/Russell_Hoban">Russell Hoban </a> 
+					</div>
 				</li>
 				<li>Films, watching and making (especially with my children). <br>
-					<p class="pclose">
-						<b>Current favourite film</b>: 'Hana-bi' (dir: Takeshi Kitano) 
-					</p>
+					<div class="pclose">
+						<b>Current favourite film</b>: '<a href="https://en.wikipedia.org/wiki/Hana-bi">Hana-bi</a>' (dir: <a href="https://en.wikipedia.org/wiki/Takeshi_Kitano">Takeshi Kitano</a>) 
+					</div>
 				</li>
 				<li>Music, especially jazz. <br>
 				(I also play bass guitar, though only very occasionally these days!)
-					<p class="pclose">
-						<b>Current favourite album</b>: 'Promises', Floating Points, Pharoah Sanders & The London Symphony Orchestra
-					</p>
+					<div class="pclose">
+						<b>Current favourite album</b>: '<a href="https://en.wikipedia.org/wiki/Promises_(Floating_Points,_Pharoah_Sanders_and_the_London_Symphony_Orchestra_album)">Promises</a>', <a href="https://en.wikipedia.org/wiki/Floating_Points">Floating Points</a>, <a href="https://en.wikipedia.org/wiki/Pharoah_Sanders">Pharoah Sanders</a> & <a href="https://en.wikipedia.org/wiki/The_London_Symphony_Orchestra">The London Symphony Orchestra</a>
+					</div>
 				</li>
 				<li>Walking and cycling, especially with my family.
-					<p class="pclose">
+					<div class="pclose">
 						<b>Current favourite walk</b>: Any new city explored via <a href="https://www.treasuretrails.co.uk/">Treasure Trails.</a>
-					</p></li>
+					</div></li>
 			</ul>
 		</details>
 		
