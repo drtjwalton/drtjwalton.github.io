@@ -62,7 +62,7 @@ body {
 			Email:
 		</h2>
 		<p>
-			<a href="mailto:twalton@uclan.ac.uk">twalton@uclan.ac.uk</a>
+			<a href="mailto:TWalton@uclan.ac.uk">TWalton@uclan.ac.uk</a>
 		</p>
 	</div>	
 </div>
