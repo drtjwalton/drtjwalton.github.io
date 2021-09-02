@@ -17,13 +17,13 @@ body {
 
 .column1 {
 	float: left;
-	width: 60%;
+	width: 55%;
 	padding-right: 10px;
 }
 
 .column2 {
 	float:left;
-	width: 40%;
+	width: 45%;
 	padding-left: 20px;
 	padding-top: 4px;
 	margin-top: 4px;

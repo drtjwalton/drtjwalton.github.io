@@ -12,7 +12,7 @@ modified: 2021-08-06
     padding: 0.2em;
     color: #fff;
     text-indent: initial;
-    background-color: rgb(33,67,130);
+    background-color: rgb(5,127,176);
     border-radius: 16px;
     box-shadow: 0 1px 1px rgba(59,156,186,0.25);
 }
@@ -36,7 +36,7 @@ ol li {
 
 ---
 
-## <a name="RS">Research Summary</a>
+## <a name="RS" style="color: rgb(5,127,176);">Research Summary</a>
 I am interested in applying analytical and differential geometric techniques to solve problems in classical and quantum physics. Previous work has covered areas in:
 
 * classical electrodynamics (linear, nonlinear, scattering)
@@ -48,7 +48,7 @@ My published work has application to areas such as star formation; laser-plasma 
 
 ---
 
-## <a name="TOOT">Tools of the Trade</a>
+## <a name="TOOT" style="color: rgb(5,127,176);">Tools of the Trade</a>
 Exterior differential geometry is the natural mathematical language to discuss differential properties of tensor fields on spacetime and their relation to integrals over material domains. My work heavily exploits this calculus to elucidate problems in relativistic spacetime physics. There are numerous references for differential geometry and General Relativity, but the one that has had the most impact is:
 
 * [An Introduction to Spinors and Geometry with Applications in Physics](https://books.google.co.uk/books/about/An_Introduction_to_Spinors_and_Geometry.html?id=FzcbAQAAIAAJ)  
@@ -65,7 +65,7 @@ which delivers an excellent pedagogical introduction to differential forms and t
 
 ---
 
-## <a name="MAN">My Academic Network</a>
+## <a name="MAN" style="color: rgb(5,127,176);">My Academic Network</a>
 My collaborators include:
 
 * [Robin W. Tucker](https://www.lancaster.ac.uk/sci-tech/about-us/people/robin-tucker) (Lancaster University, UK)

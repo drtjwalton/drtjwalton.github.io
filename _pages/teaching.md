@@ -12,7 +12,7 @@ modified: 2021-08-06
     padding: 0.2em;
     color: #fff;
     text-indent: initial;
-    background-color: rgb(33,67,130);
+    background-color: rgb(5,127,176);
     border-radius: 16px;
     box-shadow: 0 1px 1px rgba(59,156,186,0.25);
 }
@@ -34,13 +34,13 @@ ol li {
 
 ---
 
-## <a name="CURRENT">Current Teaching</a>
+## <a name="CURRENT" style="color: rgb(5,127,176);">Current Teaching</a>
 * **Foundation Mathematics**  (MAC101)
 * **Vector Calculus** (MA2832)
 
 ---
 
-## <a name="PAST">Previous Teaching</a>
+## <a name="PAST" style="color: rgb(5,127,176);">Previous Teaching</a>
 Below is a partial list of courses I taught on the MMath Mathematics degree at the [University of Bolton](https://www.bolton.ac.uk), UK
 * **Abstract Algebra** (MMA4001)
 * **Mathematical Methods** (MMA4003)

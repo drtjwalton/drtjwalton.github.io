@@ -12,7 +12,7 @@ modified: 2021-08-06
     padding: 0.2em;
     color: #fff;
     text-indent: initial;
-    background-color: rgb(33,67,130);
+    background-color: rgb(5,127,176);
     border-radius: 16px;
     box-shadow: 0 1px 1px rgba(59,156,186,0.25);
 }
@@ -36,14 +36,14 @@ ol li {
 
 ---
 
-## <a name="BOOK">Books</a>
+## <a name="BOOK" style="color: rgb(5,127,176);">Books</a>
 * **A Geometric View for Observers of Spacetime Physics**  
 R. W. Tucker and T. J. Walton  
 (*in preparation*) 
 
 ---
 
-## <a name="BC">Book Chapters</a>
+## <a name="BC" style="color: rgb(5,127,176);">Book Chapters</a>
 * **Covariant Electromagnetic Constitutive Theory for Dispersive Continua**   
 S. Goto, J. Gratus, A. Hale, R. W. Tucker & T. J. Walton  
 Elasticity and Anelasticity, ed. I. A. Kiyko, G. L. Brovko & R. A. Vasin  
@@ -52,7 +52,7 @@ Moscow: Moscow University Press, 264-271 (2011)
 
 --- 
 
-## <a name="PUB">Peer-Reviewed Publications
+## <a name="PUB" style="color: rgb(5,127,176);">Peer-Reviewed Publications
 * **A New Paradigm for the Dynamics of the Early Universe**  
 R. W. Tucker, T. J. Walton, M. Arrayás and J. L. Trueba  
 CQG, 36 (24), 245016, (2019)  
@@ -135,7 +135,7 @@ Il Nuovo Cimento C, 32(1) 205-229 (2009)
 
 --- 
 
-## <a name="DISS">Dissertations
+## <a name="DISS" style="color: rgb(5,127,176);">Dissertations
 
 * **The Electrodynamics of Moving Elastic Media**  
 T. J. Walton  
