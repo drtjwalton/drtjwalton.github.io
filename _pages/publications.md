@@ -55,7 +55,8 @@ Moscow: Moscow University Press, 264-271 (2011)
 ## <a name="PUB" style="color: rgb(5,127,176);">Peer-Reviewed Publications
 * **Scalar Pre-potentials for Spinor and Tensor Fields on Spacetime**  
 R. W. Tucker and T. J. Walton  
-(_submitted to IoP Journal of Physics_)  
+(_submitted to IoP Journal of Physics_) 
+[arXiv](https://arxiv.org/abs/2109.07475){:.btn--research} 
 * **A New Paradigm for the Dynamics of the Early Universe**  
 R. W. Tucker, T. J. Walton, M. Arrayás and J. L. Trueba  
 CQG, 36 (24), 245016, (2019)  
