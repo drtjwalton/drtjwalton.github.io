@@ -33,7 +33,7 @@ ol li {
 
 ---
 
-These are notes I have used in either my teaching or research.  
+These are some notes I have used in either my teaching or research.  I plan to add to them when I have the time. 
 I offer no guarantee that they are error-free!
 
 ## <a name="TEACH" style="color: rgb(5,127,176);">Teaching</a>
