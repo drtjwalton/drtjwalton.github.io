@@ -194,7 +194,7 @@ body {
 				</tr>
 				<tr>
 					<td>2016:</td>
-					<td>The ''The Dynamics of Compact Laser Pulses'' which I co-authored was highlighted in <a href="https://www.europhysicsnews.org">Europhysics News.</a></td>
+					<td>An article I co-authored, ''The Dynamics of Compact Laser Pulses'',  was highlighted in <a href="https://www.europhysicsnews.org">Europhysics News.</a></td>
 				</tr>
 				<tr>
 					<td>2014:</td> 
