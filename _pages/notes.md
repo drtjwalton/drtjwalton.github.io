@@ -3,7 +3,7 @@ layout: single
 title: "Notes"
 permalink: /notes/
 author_profile: true
-modified: 2022-04-21
+modified: 2022-11-07
 ---
 
 <style>
@@ -40,6 +40,7 @@ I offer no guarantee that they are error-free!
 
 * [A proof of Simpson's rule]({{ site.baseurl }}/files/Teaching Notes/SimpsonsRule.pdf)
 * [The nonlinear pendulum]({{ site.baseurl }}/files/Teaching Notes/NonlinearPendulum.pdf)
+* [A brief introduction to PDEs]({{ site.baseurl }}/files/Teaching Notes/PDEs.pdf)
 
 
 ## <a name="RES" style="color: rgb(5,127,176);">Research</a>
