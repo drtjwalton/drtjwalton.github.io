@@ -63,7 +63,7 @@ body {
 	</p>	
 	<div class="column1">
 		<p>
-		In <a href=".../publications/">previous work</a> we have shown how astrophysical jet structures can be constructed from <i>gravitational pulses</i> and offer a viable scheme worthy of further exploration. This project aims to develop the work with the inclusion of a <i>rotating</i> black hole and its accretion disc to model the jet structures recently observed by the <a href="https://eventhorizontelescope.org/">Event Horizon Telescope (EHT) Collaboration</a> in the nearby Messier 87 galaxy. The model can then be used to provide observational signatures for analysing other jet structures in the Universe and to yield insights into the extreme objects that power them. 
+		In <a href="../publications/">previous work</a> we have shown how astrophysical jet structures can be constructed from <i>gravitational pulses</i> and offer a viable scheme worthy of further exploration. This project aims to develop the work with the inclusion of a <i>rotating</i> black hole and its accretion disc to model the jet structures recently observed by the <a href="https://eventhorizontelescope.org/">Event Horizon Telescope (EHT) Collaboration</a> in the nearby Messier 87 galaxy. The model can then be used to provide observational signatures for analysing other jet structures in the Universe and to yield insights into the extreme objects that power them. 
 		</p>
 	</div>
 	<div class="column2">

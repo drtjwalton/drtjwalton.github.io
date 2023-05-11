@@ -73,7 +73,7 @@ body {
 		</p>
 		<p>
 			<br>
-			<b style="color: rgb(5,127,176);">NEW</b>: There is an <a href=".../opps/">opportunity</a> for a fully-funded PhD studentship at UCLan to work with me on the origin of astrophysical jets. 
+			<b style="color: rgb(5,127,176);">NEW</b>: There is an <a href="./opps/">opportunity for a fully-funded PhD studentship</a> at UCLan to work with me on the origin of astrophysical jets. 
 		</p>
 		
 	</div>
