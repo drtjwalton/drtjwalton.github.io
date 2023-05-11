@@ -25,3 +25,9 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+gem "webrick", "~> 1.8"
+
+gem "rspec", "~> 3.12"
+
+gem "tzinfo-data"

@@ -72,9 +72,9 @@ body {
 			School of Natural Sciences, <a href="https://www.uclan.ac.uk">UCLan</a>.<br>
 		</p>
 		<p>
-			The material here is mainly for my benefit, but someone somewhere may also find it of use.
+			<br>
+			<b style="color: rgb(5,127,176);">NEW</b>: There is an <a href=".../opps/">opportunity</a> for a fully-funded PhD studentship at UCLan to work with me on the origin of astrophysical jets. 
 		</p>
-		Enjoy!<br>
 		
 	</div>
 	<div class="column2">
