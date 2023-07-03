@@ -149,11 +149,17 @@ blockquote
     		</ul>
 	</details>
  <hr>
- <summary><b>Poem 002 (<i>appearing on 19th July 2023</i>)</b></summary>
+ <details>
+	<summary><b>Poem 002 (<i>appearing on 19th July 2023</i>)</b></summary>
+ </details>
  <hr>
- <summary><b>Poem 003 (<i>appearing on 2nd August 2023</i>)</b></summary>
+ <details>
+ 	<summary><b>Poem 003 (<i>appearing on 2nd August 2023</i>)</b></summary>
+ </details>
  <hr>
- <summary><b>Poem 004 (<i>appearing on 16th August 2023</i>)</b></summary>
+ <details>
+ 	<summary><b>Poem 004 (<i>appearing on 16th August 2023</i>)</b></summary>
+ </details>
  <hr>
  </div>
  
