@@ -130,17 +130,17 @@ blockquote
    			<p style="padding-bottom:8px; margin-bottom:8px;">
    				<img src="/images/Poems/UApoem.jpg" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
       			</p>
-	 		<p style="padding-top:8px; margin-top:8px; style="font-size:80%;">
+	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
 				<br>
 				<blockquote>
 					There is doubt<br>
 	    				But then at each stage, removed<br>
 					It contains difficult questions, all rational <br>
-					We shall see there is strong evidence and logic <br>
+					We see there is strong evidence and logic <br>
 	    				Defining the information we collect <br>
 					Reason, strong arguments <br>
 	    				With a convincing way to create form <br>
-					For all, an established point, located in time.<br>
+					For all, an established point in time.<br>
 	     			</blockquote>
 			</p>
     		</ul>
