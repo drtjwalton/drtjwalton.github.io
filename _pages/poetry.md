@@ -143,38 +143,7 @@ blockquote
     		</ul>
 	</details>
  <hr>
- <!-- ################################################################################################## -->
-	<details>      
-      	<summary><b>Poem 002 (July 2023)</b></summary>
-		<ul>
-			<li><u>The Mathematical Topic</u></li>
-			<p style="font-size:85%;">
-			<blockquote>
-   				A TOPIC
-			</blockquote>
-   			</p>
-
-			<li><u>The Book</u></li>
-    			<div class="columnb1">
-       			<p style="font-size:85%;">
-	  		<blockquote>
-     				A BOOK
-     			</blockquote>
-			</p>
-	 		</div>
-     			<div class="columnb2">
-				AN IMAGE OF THE BOOK
-	 		</div>    
-     
-			<li><u>The Poem: A Real Challenge</u></li>
-   			<p>
-      				THE POEM
-      			</p>
-			<br>	
-    		</ul>
-	</details>
-</div>
----
+ </div>
 
  
 
