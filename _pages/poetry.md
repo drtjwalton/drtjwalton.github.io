@@ -17,14 +17,14 @@ body {
 
 .column1 {
 	float: left;
-	width: 65%;
+	width: 60%;
 	padding-right: 1em;
 	vertical-align: bottom;
 }
 
 .column2 {
 	float:left;
-	width: 35%;
+	width: 40%;
 	padding-left: 0.5em;
 	vertical-align: bottom;
 	margin-top: 0px;
@@ -122,7 +122,7 @@ blockquote
      
 			<li><u>The Poem</u></li>
    			<div class="column1">
-      			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:30%; margin-top:24px;"/></a>
+      			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:80%; margin-top:24px;"/></a>
 	 		</div>
      			<div class="column2">
 			<blockquote>
