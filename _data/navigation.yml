@@ -16,8 +16,8 @@ main:
   - title: "Notes"
     url: /notes/  
     
-  - title: "Opportunities"
-    url: /opps/  
+  #- title: "Opportunities"
+  #  url: /opps/  
     
   #- title: "Computing"
   #  url: /computing/ 
