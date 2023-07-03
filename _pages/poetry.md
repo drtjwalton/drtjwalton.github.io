@@ -113,7 +113,7 @@ blockquote
 			</p>
 	 		</div>
      			<div class="columnb2">
-				<a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116"><img src="/images/Books/UnderstandingAnalysis_Abbott.jpg" alt="The book cover for 'Understanding Analysis' by Stephen Abbott (published by Springer)" style="width:50%; margin-top:24px;"/></a>
+				<a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116"><img src="/images/Books/UnderstandingAnalysis_Abbott.jpg" alt="The book cover for 'Understanding Analysis' by Stephen Abbott (published by Springer)" style="width:30%; margin-top:24px;"/></a>
 	 		</div>    
      
 			<li><u>The Poem</u></li>
