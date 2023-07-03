@@ -63,13 +63,29 @@ body {
 	The use of any copyrighted material has been deemed "fair dealing" as determined by the UK Government's guidance on <i><a href="https://www.gov.uk/guidance/exceptions-to-copyright">Exceptions to Copyright</a></i>
 	</p>
 </div>
-<div class="column1">
+<div>
 	<details>
 		<summary><b>Poem 1</b></summary>
 			<ul>
-				<li>Area of Mathematics</li>
+				<li>The Mathematical Topic:</li>
+				> <a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>. 
+				
 				<li>The Book</li>
+    				<div class="column1">
+					"<i>Understanding Analysis</i>" 
+    					Stephen Abbott (2010)
+	 				Springer: New York, NY
+	 				
+	 			</div>
+     				<div class="column2">
+					<img src="images/Books/UnderstandingAnalysis_Abbott.jpg" alt="The book cover for "Understanding Analysis" by Stephen Abbott (published by Springer)" style="width:50%; margin-top:24px;"/>
+	 			</div>    
+     
 				<li>The Poem</li>
+   				<div class="column1">
+	 			</div>
+     				<div class="column2">
+	 			</div>    
 			</ul>
 		</details>
 		<hr>
