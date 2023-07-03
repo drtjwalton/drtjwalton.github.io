@@ -100,7 +100,7 @@ blockquote
 </div>
 <div style="margin-top:8px;padding-top:8px;">
 	<details>
-		<summary><b>A Real Challenge</b></summary>
+		<summary><b>Erasure Poem 001 (July 2023)</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:85%;">
@@ -125,12 +125,11 @@ blockquote
 				<a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116"><img src="/images/Books/UnderstandingAnalysis_Abbott.jpg" alt="The book cover for 'Understanding Analysis' by Stephen Abbott (published by Springer)" style="width:30%; margin-top:24px;"/></a>
 	 		</div>    
      
-			<li><u>The Poem</u></li>
+			<li><u>The Poem: A Real Challenge</u></li>
    			<p>
    			<img src="/images/Poems/UApoem.jpg" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:100%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
       			</p>
-			For those who cannot see the image:<br>
-   
+			<br>
 			<blockquote style="font-size:85%;margin-top:8px; padding-top:8px;">
 				There is doubt<br>
     				But then at each stage, removed<br>
@@ -139,7 +138,7 @@ blockquote
     				Defining the information we collect <br>
 				Reason, strong arguments <br>
     				With a convincing way to create form <br>
-				For all, an established point, located in time.
+				For all, an established point, located in time.<br>
      			</blockquote>
     		</ul>
 	</details>
