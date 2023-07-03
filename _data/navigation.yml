@@ -15,6 +15,9 @@ main:
     
   - title: "Notes"
     url: /notes/  
+
+  - title: "Poetry"
+    url: /poetry/  
     
   #- title: "Opportunities"
   #  url: /opps/  
