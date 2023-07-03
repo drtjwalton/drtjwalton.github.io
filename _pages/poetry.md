@@ -31,6 +31,22 @@ body {
 	padding-top: 0px;
 }
 
+.columnb1 {
+	float: left;
+	width: 50%;
+	padding-right: 1em;
+	vertical-align: bottom;
+}
+
+.columnb2 {
+	float:left;
+	width: 50%;
+	padding-left: 0.5em;
+	vertical-align: bottom;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
 .column img {
 	margin-top: 14px;
 }
@@ -75,12 +91,12 @@ body {
    			</p>
 
 			<li><u>The Book</u></li>
-    			<div class="column1">
+    			<div class="columnb1">
 				"<i><a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116">Understanding Analysis</a></i>" <br>
     				Stephen Abbott (2010) <br>
 	 			Springer: New York, NY
 	 		</div>
-     			<div class="column2">
+     			<div class="columnb2">
 				<a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116"><img src="/images/Books/UnderstandingAnalysis_Abbott.jpg" alt="The book cover for 'Understanding Analysis' by Stephen Abbott (published by Springer)" style="width:50%; margin-top:24px;"/></a>
 	 		</div>    
      
