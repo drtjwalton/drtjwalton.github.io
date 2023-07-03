@@ -122,8 +122,12 @@ blockquote
      
 			<li><u>The Poem</u></li>
    			<div class="column1">
+      			<img src="/images/Poems/test.jpg" alt="An erasure poem entitled '' from 'Understanding Analysis' by Stephen Abbott" style="width:30%; margin-top:24px;"/></a>
 	 		</div>
      			<div class="column2">
+			<blockquote>
+				
+     			</blockquote>
 	 		</div>   
     		</ul>
 	</details>
