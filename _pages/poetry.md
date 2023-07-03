@@ -92,7 +92,7 @@ blockquote
 	<p>
 	Mathematicians often talk about the "<i>beauty</i> of mathematics". This project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)">erasure poetry</a>, with current mathematical texts* as the source material.<br>
 	<br>
-	My (ambitious) aim is to create one poem per week and release it every Wednesday. If you feel inspired and would like to have a go yourself, then please do feel free to <a href="/../contact/">email me your submission</a>.<br>
+	My (ambitious) aim is to create one poem per week and release it every Wednesday. If you feel inspired, have any comments or would just like to have a go yourself, then please do feel free to <a href="/../contact/">contact me via email</a> with your query or submission.<br>
 	<br>
 	*<span style="font-size:75%;margin-top:0px;padding-top:0px;">
 	Use of copyrighted material has been deemed "fair dealing" as outlined by UK Government's <i><a href="https://www.gov.uk/guidance/exceptions-to-copyright">Exceptions to Copyright</a></i>
