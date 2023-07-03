@@ -121,10 +121,7 @@ blockquote
 	 		</div>    
      
 			<li><u>The Poem</u></li>
-   			<div class="column1">
-      			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:100%; margin-top:24px;"/>
-	 		</div>
-     			<div class="column2">
+   			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:100%; margin-bottom:8px; padding-bottom:8px"/>
 			<blockquote>
 				There is doubt<br>
     				But then at each stage, removed<br>
