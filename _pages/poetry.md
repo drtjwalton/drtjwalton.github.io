@@ -71,6 +71,16 @@ body {
 	padding-bottom: 10px;
 	font-size:70%;
 }
+
+blockquote
+{
+  font-style: normal;
+  font-size: 16px;
+  margin-left: 32px;
+  font-family: Consolas, "Times New Roman", Verdana;
+  border-left: 4px solid $header-color;
+  padding-left: 8px;
+}
 </style>
 
 <div class="row">
@@ -87,15 +97,19 @@ body {
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:85%;">
+			<blockquote>
 				<a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>.
+			</blockquote>
    			</p>
 
 			<li><u>The Book</u></li>
     			<div class="columnb1">
        			<p style="font-size:85%;">
+	  		<blockquote>
 				"<i><a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116">Understanding Analysis</a></i>" <br>
     				Stephen Abbott (2010) <br>
 	 			Springer: New York, NY
+     			</blockquote>
 			</p>
 	 		</div>
      			<div class="columnb2">
