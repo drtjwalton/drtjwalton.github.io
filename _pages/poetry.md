@@ -57,10 +57,20 @@ body {
 
 <div class="row">
 	<p>
-	Mathematicians often talk about the "<i>beauty</i> of mathematics". This project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)>erasure poetry</a>, with current mathematical texts as the source material.
+	Mathematicians often talk about the "<i>beauty</i> of mathematics". This project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)">erasure poetry</a>, with current mathematical texts as the source material.
 	</p>
 </div>
-
+<div class="column1">
+	<details>
+		<summary><b>Poem 1</b></summary>
+			<ul>
+				<li>Area of Mathematics</li>
+				<li>The Book</li>
+				<li>The Poem</li>
+			</ul>
+		</details>
+		<hr>
+</div>
 ---
 
  
