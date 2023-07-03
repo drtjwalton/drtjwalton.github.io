@@ -62,7 +62,7 @@ body {
 	Mathematicians often talk about the "<i>beauty</i> of mathematics". This project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)">erasure poetry</a>, with current mathematical texts as the source material.
 	</p>
 	<p style="font-size:75%;">
-	The use of any copyrighted material has been deemed "fair dealing" as determined by the UK Government's guidance on <i><a href="https://www.gov.uk/guidance/exceptions-to-copyright">Exceptions to Copyright</a></i>
+	(Use of copyrighted material has been deemed "fair dealing" as outlined by UK Government's <i><a href="https://www.gov.uk/guidance/exceptions-to-copyright">Exceptions to Copyright</a></i>)
 	</p>
 </div>
 <div>
