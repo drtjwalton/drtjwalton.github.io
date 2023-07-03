@@ -141,8 +141,11 @@ blockquote
 				For all, an established point, located in time.<br>
      			</blockquote>
     		</ul>
-      <!-- THIS IS JUST A COMMENT -->
-      <summary><b>Poem 002 (July 2023)</b></summary>
+	</details>
+ <hr>
+ <!-- ################################################################################################## -->
+	<details>      
+      	<summary><b>Poem 002 (July 2023)</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:85%;">
