@@ -136,7 +136,8 @@ blockquote
 	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
 				<br>
 				<blockquote>
-    					"A Real Challenge"
+    					"<bold>A Real Challenge</bold>"<br>
+	 				<br>
 					There is doubt<br>
 	    				But then at each stage, removed<br>
 					It contains difficult questions, all rational <br>
