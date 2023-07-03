@@ -127,7 +127,7 @@ blockquote
      
 			<li><u>The Poem</u></li>
    			<p>
-   			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:100%; margin-bottom:8px; padding-bottom:8px; border:3px solid rgb(5,127,176); "/>
+   			<img src="/images/Poems/UApoem.jpg" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:100%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
       			</p>
 			For those who cannot see the image:<br>
    
