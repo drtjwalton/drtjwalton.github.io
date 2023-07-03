@@ -91,11 +91,11 @@ blockquote
 	<p>
 	Mathematicians often talk about the "<i>beauty</i> of mathematics". This project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)">erasure poetry</a>, with current mathematical texts as the source material.
 	</p>
-	<p style="font-size:75%;">
+	<p style="font-size:75%;margin-top:0px;padding-top:0px;">
 	(Use of copyrighted material has been deemed "fair dealing" as outlined by UK Government's <i><a href="https://www.gov.uk/guidance/exceptions-to-copyright">Exceptions to Copyright</a></i>)
 	</p>
 </div>
-<div>
+<div style="margin-top:8px;padding-top:8px;">
 	<details>
 		<summary><b>A Real Challenge</b></summary>
 		<ul>
