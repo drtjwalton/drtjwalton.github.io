@@ -121,8 +121,11 @@ blockquote
 	 		</div>    
      
 			<li><u>The Poem</u></li>
+   			<p>
    			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:100%; margin-bottom:8px; padding-bottom:8px; border:3px solid rgb(5,127,176); "/>
-			<blockquote>
+      			</p>
+			For those who cannot see the image:<br>
+			<blockquote style="font-size:85%;">
 				There is doubt<br>
     				But then at each stage, removed<br>
 				It contains difficult questions, all rational <br>
@@ -132,7 +135,6 @@ blockquote
     				With a convincing way to create form <br>
 				For all, an established point, located in time.
      			</blockquote>
-	 		</div>   
     		</ul>
 	</details>
 </div>
