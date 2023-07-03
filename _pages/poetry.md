@@ -102,7 +102,7 @@ blockquote
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:85%;">
 			<blockquote>
-				<a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>.
+				<a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>. Covered in the majority of mathematics degrees, it is one of the first modules not covered in the standard A-level syllabus and so provides a challenge for most undergraduate students.
 			</blockquote>
    			</p>
 
@@ -122,11 +122,18 @@ blockquote
      
 			<li><u>The Poem</u></li>
    			<div class="column1">
-      			<img src="/images/Poems/test.jpg" alt="An erasure poem entitled '' from 'Understanding Analysis' by Stephen Abbott" style="width:30%; margin-top:24px;"/></a>
+      			<img src="/images/Poems/test.png" alt="An erasure poem entitled 'something' from the book 'Understanding Analysis' by Stephen Abbott" style="width:30%; margin-top:24px;"/></a>
 	 		</div>
      			<div class="column2">
 			<blockquote>
-				
+				There is doubt
+    				But then at each stage, removed
+				It contains difficult questions
+    				All rational 
+				We shall see there is strong evidence and logic
+    				Defining the information we collect
+				Reason
+    				Strong arguments with a convincing way to create form 
      			</blockquote>
 	 		</div>   
     		</ul>
