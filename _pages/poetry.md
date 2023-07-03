@@ -78,7 +78,7 @@ blockquote
   font-size: 16px;
   margin-left: 32px;
   font-family: Consolas, "Times New Roman", Verdana;
-  border-left: 4px solid $header-color;
+  border-left: 6px solid rgb(5,127,176);
   padding-left: 8px;
 }
 </style>
