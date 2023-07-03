@@ -67,22 +67,22 @@ body {
 	<details>
 		<summary><b>Poem 1</b></summary>
 		<ul>
-			<li>The Mathematical Topic</li>
-			<p>
+			<li><u>The Mathematical Topic</u></li>
+			<p style="font-size:80%;">
 				<a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>.
    			</p>
 
-			<li>The Book</li>
+			<li><u>The Book</u></li>
     			<div class="column1">
 				"<i>Understanding Analysis</i>" 
     				Stephen Abbott (2010)
 	 			Springer: New York, NY
 	 		</div>
      			<div class="column2">
-				<img src="images/Books/UnderstandingAnalysis_Abbott.jpg" alt="The book cover for 'Understanding Analysis' by Stephen Abbott (published by Springer)" style="width:50%; margin-top:24px;"/>
+				<img src="/images/Books/UnderstandingAnalysis_Abbott.jpg" alt="The book cover for 'Understanding Analysis' by Stephen Abbott (published by Springer)" style="width:50%; margin-top:24px;"/>
 	 		</div>    
      
-			<li>The Poem</li>
+			<li><u>The Poem</u></li>
    			<div class="column1">
 	 		</div>
      			<div class="column2">
