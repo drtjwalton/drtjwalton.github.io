@@ -136,7 +136,7 @@ blockquote
 	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
 				<br>
 				<blockquote>
-    					"<bold>A Real Challenge</bold>"<br>
+    					"<b>A Real Challenge</b>"<br>
 	 				<br>
 					There is doubt<br>
 	    				But then at each stage, removed<br>
