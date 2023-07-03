@@ -104,7 +104,7 @@ blockquote
 		<summary><b>Poem 001 (July 2023)</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
-			<p style="font-size:85%;">
+			<p style="font-size:80%;">
 			<blockquote>
 				<a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>. The topic is introduced in the first year of the majority of mathematics degrees and contains the first "new" material encountered by undergraduate students (real analysis is not part of the standard A-level syllabus). Consequently, it is often considered a "difficult" subject and provides a challenge for most students.
 			</blockquote>
@@ -112,9 +112,9 @@ blockquote
 
 			<li><u>The Book</u></li>
     			<div class="columnb1">
-       			<p style="font-size:85%;">
+       			<p style="font-size:80%;">
 	  		<blockquote>
-				"<a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116">Understanding Analysis</a>" <br>
+				<a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116">Understanding Analysis</a> <br>
     				Stephen Abbott (2010) <br>
 	 			Springer: New York, NY <br>
      				<br>
@@ -128,20 +128,20 @@ blockquote
      
 			<li><u>The Poem: A Real Challenge</u></li>
    			<p style="padding-bottom:8px; margin-bottom:8px;">
-   			<img src="/images/Poems/UApoem.jpg" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:100%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+   				<img src="/images/Poems/UApoem.jpg" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
       			</p>
-	 		<p style="padding-top:8px; margin-top:8px;">
-			<br>
-			<blockquote>
-				There is doubt<br>
-    				But then at each stage, removed<br>
-				It contains difficult questions, all rational <br>
-				We shall see there is strong evidence and logic <br>
-    				Defining the information we collect <br>
-				Reason, strong arguments <br>
-    				With a convincing way to create form <br>
-				For all, an established point, located in time.<br>
-     			</blockquote>
+	 		<p style="padding-top:8px; margin-top:8px; style="font-size:80%;">
+				<br>
+				<blockquote>
+					There is doubt<br>
+	    				But then at each stage, removed<br>
+					It contains difficult questions, all rational <br>
+					We shall see there is strong evidence and logic <br>
+	    				Defining the information we collect <br>
+					Reason, strong arguments <br>
+	    				With a convincing way to create form <br>
+					For all, an established point, located in time.<br>
+	     			</blockquote>
 			</p>
     		</ul>
 	</details>
