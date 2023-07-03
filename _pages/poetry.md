@@ -115,7 +115,9 @@ blockquote
 	  		<blockquote>
 				"<a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116">Understanding Analysis</a>" <br>
     				Stephen Abbott (2010) <br>
-	 			Springer: New York, NY
+	 			Springer: New York, NY <br>
+     				<br>
+	 			(The poem uses page 76 from the first edition)
      			</blockquote>
 			</p>
 	 		</div>
@@ -128,7 +130,8 @@ blockquote
    			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:100%; margin-bottom:8px; padding-bottom:8px; border:3px solid rgb(5,127,176); "/>
       			</p>
 			For those who cannot see the image:<br>
-			<blockquote style="font-size:85%;">
+   
+			<blockquote style="font-size:85%;margin-top:8px; padding-top:8px;">
 				There is doubt<br>
     				But then at each stage, removed<br>
 				It contains difficult questions, all rational <br>
