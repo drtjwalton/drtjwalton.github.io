@@ -55,10 +55,9 @@ body {
 }
 </style>
 
-## The Poetry of Mathematics
 <div class="row">
 	<p>
-	Mathematicians often talk about the <i>beauty</> of mathematics. This project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)>erasure poetry</p>, with current mathematical texts as the source material.
+	Mathematicians often talk about the "<i>beauty</i> of mathematics". This project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)>erasure poetry</a>, with current mathematical texts as the source material.
 	</p>
 </div>
 
