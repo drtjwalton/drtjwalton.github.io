@@ -100,7 +100,7 @@ blockquote
 </div>
 <div style="margin-top:8px;padding-top:8px;">
 	<details>
-		<summary><b>Erasure Poem 001 (July 2023)</b></summary>
+		<summary><b>Poem 001 (July 2023)</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:85%;">
@@ -140,6 +140,30 @@ blockquote
     				With a convincing way to create form <br>
 				For all, an established point, located in time.<br>
      			</blockquote>
+    		</ul>
+      <!-- ##################################################################################### -->
+      <summary><b>Poem 002 (July 2023)</b></summary>
+		<ul>
+			<li><u>The Mathematical Topic</u></li>
+			<p style="font-size:85%;">
+			<blockquote>
+			</blockquote>
+   			</p>
+
+			<li><u>The Book</u></li>
+    			<div class="columnb1">
+       			<p style="font-size:85%;">
+	  		<blockquote>
+     			</blockquote>
+			</p>
+	 		</div>
+     			<div class="columnb2">
+	 		</div>    
+     
+			<li><u>The Poem: A Real Challenge</u></li>
+   			<p>
+      			</p>
+			<br>	
     		</ul>
 	</details>
 </div>
