@@ -97,7 +97,7 @@ blockquote
 </div>
 <div>
 	<details>
-		<summary><b>Real Challenge</b></summary>
+		<summary><b>A Real Challenge</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:85%;">
@@ -122,7 +122,7 @@ blockquote
      
 			<li><u>The Poem</u></li>
    			<div class="column1">
-      			<img src="/images/Poems/test.png" alt="An erasure poem entitled 'something' from the book 'Understanding Analysis' by Stephen Abbott" style="width:30%; margin-top:24px;"/></a>
+      			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:30%; margin-top:24px;"/></a>
 	 		</div>
      			<div class="column2">
 			<blockquote>
@@ -134,7 +134,7 @@ blockquote
     				Defining the information we collect
 				Reason
     				Strong arguments with a convincing way to create form 
-				For all, an established point located in time.
+				For all, an established point, located in time.
      			</blockquote>
 	 		</div>   
     		</ul>
