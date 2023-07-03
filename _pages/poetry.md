@@ -80,6 +80,10 @@ blockquote
   font-family: Consolas, "Times New Roman", Verdana;
   border-left: 6px solid rgb(5,127,176);
   padding-left: 8px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 </style>
 
@@ -106,7 +110,7 @@ blockquote
     			<div class="columnb1">
        			<p style="font-size:85%;">
 	  		<blockquote>
-				"<i><a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116">Understanding Analysis</a></i>" <br>
+				"<a href="https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116">Understanding Analysis</a>" <br>
     				Stephen Abbott (2010) <br>
 	 			Springer: New York, NY
      			</blockquote>
