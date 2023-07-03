@@ -102,7 +102,7 @@ blockquote
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:85%;">
 			<blockquote>
-				<a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>. Covered in the majority of mathematics degrees, it is one of the first modules not covered in the standard A-level syllabus and so provides a challenge for most undergraduate students.
+				<a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>. The topic is introduced in the first year of the majority of mathematics degrees and contains the first "new" material encountered by undergraduate students (real analysis is not part of the standard A-level syllabus). Consequently, it is often considered as a "difficult" subject and provides a challenge for most students.
 			</blockquote>
    			</p>
 
