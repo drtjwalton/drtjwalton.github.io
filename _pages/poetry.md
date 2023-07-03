@@ -122,18 +122,17 @@ blockquote
      
 			<li><u>The Poem</u></li>
    			<div class="column1">
-      			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:80%; margin-top:24px;"/></a>
+      			<img src="/images/Poems/UApoem.png" alt="An erasure poem entitled 'A Real Challenge' from the book 'Understanding Analysis' by Stephen Abbott" style="width:100%; margin-top:24px;"/>
 	 		</div>
      			<div class="column2">
 			<blockquote>
-				There is doubt
-    				But then at each stage, removed
-				It contains difficult questions
-    				All rational 
-				We shall see there is strong evidence and logic
-    				Defining the information we collect
-				Reason
-    				Strong arguments with a convincing way to create form 
+				There is doubt<br>
+    				But then at each stage, removed<br>
+				It contains difficult questions, all rational <br>
+				We shall see there is strong evidence and logic <br>
+    				Defining the information we collect <br>
+				Reason, strong arguments <br>
+    				With a convincing way to create form <br>
 				For all, an established point, located in time.
      			</blockquote>
 	 		</div>   
