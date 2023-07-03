@@ -68,7 +68,9 @@ body {
 		<summary><b>Poem 1</b></summary>
 		<ul>
 			<li>The Mathematical Topic</li>
-			<a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>.
+			<p>
+				<a href="https://en.wikipedia.org/wiki/Real_analysis">Real analysis</a>: a fundamental branch of mathematics where students take a peek behind the curtain to understand the theory behind <a href="https://en.wikipedia.org/wiki/Calculus">calculus</a>.
+   			</p>
 
 			<li>The Book</li>
     			<div class="column1">
