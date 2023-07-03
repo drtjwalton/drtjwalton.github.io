@@ -92,7 +92,7 @@ blockquote
 	<p>
 	Mathematicians often talk about the "<i>beauty</i> of mathematics". This project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)">erasure poetry</a>, with current mathematical texts* as the source material.<br>
 	<br>
-	My (ambitious) aim is to create one poem per week and release it every Wednesday. If you feel inspired, have any comments or would just like to have a go yourself, then please do feel free to <a href="/../contact/">contact me via email</a> with your query or submission.<br>
+	My aim is to create one poem every fortnight and release it every other Wednesday. Hopefully you will enjoy the (amateur!) verse and may be learn a thing or two. If you feel inspired, have any comments or would just like to have a go yourself, then please do feel free to <a href="/contact/">contact me via email</a> with your query or submission.<br>
 	<br>
 	*<span style="font-size:75%;margin-top:0px;padding-top:0px;">
 	Use of copyrighted material has been deemed "fair dealing" as outlined by UK Government's <i><a href="https://www.gov.uk/guidance/exceptions-to-copyright">Exceptions to Copyright</a></i>
@@ -149,7 +149,12 @@ blockquote
     		</ul>
 	</details>
  <hr>
+ <summary><b>Poem 002 (<i>appearing on 12th July 2023</i>)</b></summary>
+ <summary><b>Poem 003 (<i>appearing on 19th July 2023</i>)</b></summary>
+ <summary><b>Poem 003 (<i>appearing on 19th July 2023</i>)</b></summary>
  </div>
+ 
+
 
  
 
