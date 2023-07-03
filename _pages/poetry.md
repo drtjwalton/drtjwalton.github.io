@@ -97,7 +97,7 @@ blockquote
 </div>
 <div>
 	<details>
-		<summary><b>Poem 1</b></summary>
+		<summary><b>Real Challenge</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:85%;">
@@ -134,6 +134,7 @@ blockquote
     				Defining the information we collect
 				Reason
     				Strong arguments with a convincing way to create form 
+				For all, an established point located in time.
      			</blockquote>
 	 		</div>   
     		</ul>
