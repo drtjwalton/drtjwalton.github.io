@@ -114,7 +114,6 @@ blockquote
    			</p>
 
 	   	<li><u>The Book</u></li>
-				<p>
 	    			<div class="columnb1">
 	       			<p style="font-size:80%;">
 						<blockquote>
@@ -127,10 +126,9 @@ blockquote
 					</p>
 					</div>
 	     			<div class="columnb2">
-						<a href="[https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116](https://www.amazon.co.uk/Howard-Anton-Elementary-Linear-Algebra/dp/B0042E8G38)"><img src="/images/Books/ElemLinearAlg_Anton.jpg" alt="The book cover for 'Elementary Linear Algebra' by Howard Anton (published by John Wiley & Sons)" style="width:40%; margin-top:24px;"/></a>
+						<a href="[https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116](https://www.amazon.co.uk/Howard-Anton-Elementary-Linear-Algebra/dp/B0042E8G38)"><img src="/images/Books/ElemLinearAlg_Anton.jpg" alt="The book cover for 'Elementary Linear Algebra' by Howard Anton (published by John Wiley & Sons)" style="width:40%; margin-top:24px; margin-bottom:8px;"/></a>
 					</div>  
      				<br>
-				</p>
 		<li><u>The Poem: "The Matrix"</u></li>
 				<p style="padding-bottom:8px; margin-bottom:8px;">
 					<img src="/images/Poems/MatrixPoem.jpg" alt="A haiku entitled 'The Matrix haiku' from the book 'Elementary Linear Algebra' by Howard Anton" style="width:80%; margin-bottom:0px; padding-bottom:0px; border:4px solid rgb(5,127,176); "/>
