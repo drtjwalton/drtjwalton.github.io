@@ -139,7 +139,6 @@ blockquote
 			<br>
 			<blockquote>
 				"<b>The Matrix</b>"<br>
-				<br>
 				Numbers in arrays.<br>
     				Rows and columns in brackets.<br>
 				The matrix appears.<br>
