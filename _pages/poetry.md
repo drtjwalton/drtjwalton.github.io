@@ -143,8 +143,7 @@ blockquote
 							Rows and columns in brackets.<br>
 						The matrix appears.<br>
 					</blockquote>
-					<br>
-					<span style="font-size:80%;margin-top:0px;padding-top:0px;"The poem above is a <a href="https://en.wikipedia.org/wiki/Haiku">haiku</a>, a Japanese short-form poem that is a personal favourite. Due to its short structure, they are a very handy style when creating erasure poems, so I am sure many more haikus will appear (have a go at one yourself!).<br>
+					<span style="font-size:80%;margin-top:8px;padding-top:8px;">The poem above is a <a href="https://en.wikipedia.org/wiki/Haiku">haiku</a>, a Japanese short-form poem that is a personal favourite. Due to its short structure, they are a very handy style when creating erasure poems, so I am sure many more haikus will appear (have a go at one yourself!).<br>
 					<br>
 					Note: no books were harmed in the making of this poem, thanks to the helpful use of an acetate sheet. 
      </span>
