@@ -114,6 +114,7 @@ blockquote
    			</p>
 
 	   	<li><u>The Book</u></li>
+     		<div>
 	    			<div class="columnb1">
 	       			<p style="font-size:80%;">
 		  		<blockquote>
@@ -126,8 +127,9 @@ blockquote
 				</p>
 		 		</div>
 	     			<div class="columnb2">
-					<a href="[https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116](https://www.amazon.co.uk/Howard-Anton-Elementary-Linear-Algebra/dp/B0042E8G38)"><img src="/images/Books/ElemLinearAlg_Anton.jpg" alt="The book cover for 'Elementary Linear Algebra' by Howard Anton (published by John Wiley & Sons)" style="width:30%; margin-top:24px;"/></a>
-		 		</div>    
+					<a href="[https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116](https://www.amazon.co.uk/Howard-Anton-Elementary-Linear-Algebra/dp/B0042E8G38)"><img src="/images/Books/ElemLinearAlg_Anton.jpg" alt="The book cover for 'Elementary Linear Algebra' by Howard Anton (published by John Wiley & Sons)" style="width:40%; margin-top:24px;"/></a>
+		 		</div>  
+     		</div>
      
 		<li><u>The Poem: "The Matrix"</u></li>
 		<p style="padding-bottom:8px; margin-bottom:8px;">
