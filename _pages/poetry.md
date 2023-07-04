@@ -103,8 +103,55 @@ blockquote
 	
 </div>
 <div style="margin-top:8px;padding-top:8px;">
-	<details>
-		<summary><b>Poem 001 (5th July 2023)</b></summary>
+ <details>
+	<summary><b>Poem 001: The Matrix (5th July 2023)</b></summary>
+	 <ul>
+	 	<li><u>The Mathematical Topic</u></li>
+			<p style="font-size:80%;">
+			<blockquote>
+				<a href="https://en.wikipedia.org/wiki/Linear_algebra">Linear algebra</a> (specifically, <a href="https://en.wikipedia.org/wiki/Matrix_(mathematics)">matrices</a>): this branch of mathematics was developed from trying to solve numerous simultaneous <a href="https://en.wikipedia.org/wiki/Linear_equation">linear equations</a> (i.e. equations like $y=2x+1$ where variables do not appear witha power) all at once. Generalising these concepts and examining the structures that form has led to this powerful and highly applicable field of mathematics. It is where most students first encounter a matrix and are introduced to objects which do not behave like "normal" numbers: for examples, the order in which we multiply two matrices together matters as you may get different results depending how you do it! (Compare this with $2\times 3$ which equals $2\times 3$).
+			</blockquote>
+   			</p>
+
+	   	<li><u>The Book</u></li>
+	    			<div class="columnb1">
+	       			<p style="font-size:80%;">
+		  		<blockquote>
+					<a href="https://www.amazon.co.uk/Howard-Anton-Elementary-Linear-Algebra/dp/B0042E8G38">Elementary Linear Algebra (7th edition)</a> <br>
+	    				Howard Anton (1994) <br>
+		 			John Wiley & Sons: New York, NY <br>
+	     				<br>
+		 			(The poem uses page 25 from the seventh edition)
+	     			</blockquote>
+				</p>
+		 		</div>
+	     			<div class="columnb2">
+					<a href="[https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116](https://www.amazon.co.uk/Howard-Anton-Elementary-Linear-Algebra/dp/B0042E8G38)"><img src="/images/Books/ElemLinearAlg_Anton.jpg" alt="The book cover for 'Elementary Linear Algebra' by Howard Anton (published by John Wiley & Sons)" style="width:30%; margin-top:24px;"/></a>
+		 		</div>    
+     
+		<li><u>The Poem: "The Matrix"</u></li>
+		<p style="padding-bottom:8px; margin-bottom:8px;">
+			<img src="/images/Poems/MatrixPoem.jpg" alt="A haiku entitled 'The Matrix haiku' from the book 'Elementary Linear Algebra' by Howard Anton" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+		</p>
+		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
+			<br>
+			<blockquote>
+				"<b>The Matrix</b>"<br>
+				<br>
+				Numbers in arrays.<br>
+    				Rows and columns in brackets.<br>
+				The matrix appears.
+			</blockquote>
+			
+			The poem above is a <a href="https://en.wikipedia.org/wiki/Haiku">haiku</a>, a Japanese short-form poem that is a personal favourite. Due to its short structure, they are a very handy style when creating erasure poems, so I am sure many more haikus will appear (have a go at one yourself!).<br>
+   			<br>
+   			Note: no books were harmed in the making of this poem, thanks to the helpful use of an acetate sheet. 
+		</p>
+    	</ul>
+</details>
+ <hr>
+ <details>
+		<summary><b>Poem 002: A Real Challenge (<i>appearing on 19th July 2023</i>)</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -150,53 +197,6 @@ blockquote
 			</p>
     		</ul>
 	</details>
- <hr>
- <details>
-	<summary><b>Poem 002 (<i>appearing on 19th July 2023</i>)</b></summary>
-	 <ul>
-	 	<li><u>The Mathematical Topic</u></li>
-			<p style="font-size:80%;">
-			<blockquote>
-				<a href="https://en.wikipedia.org/wiki/Linear_algebra">Linear algebra</a> (specifically, <a href="https://en.wikipedia.org/wiki/Matrix_(mathematics)">matrices</a>): this branch of mathematics was developed from trying to solve numerous simultaneous <a href="https://en.wikipedia.org/wiki/Linear_equation">linear equations</a> (i.e. equations like $y=2x+1$ where variables do not appear witha power) all at once. Generalising these concepts and examining the structures that form has led to this powerful and highly applicable field of mathematics. It is where most students first encounter a matrix and are introduced to objects which do not behave like "normal" numbers: for examples, the order in which we multiply two matrices together matters as you may get different results depending how you do it! (Compare this with $2\times 3$ which equals $2\times 3$).
-			</blockquote>
-   			</p>
-
-	   	<li><u>The Book</u></li>
-	    			<div class="columnb1">
-	       			<p style="font-size:80%;">
-		  		<blockquote>
-					<a href="https://www.amazon.co.uk/Howard-Anton-Elementary-Linear-Algebra/dp/B0042E8G38">Elementary Linear Algebra (7th edition)</a> <br>
-	    				Howard Anton (1994) <br>
-		 			John Wiley & Sons: New York, NY <br>
-	     				<br>
-		 			(The poem uses page 25 from the seventh edition)
-	     			</blockquote>
-				</p>
-		 		</div>
-	     			<div class="columnb2">
-					<a href="[https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116](https://www.amazon.co.uk/Howard-Anton-Elementary-Linear-Algebra/dp/B0042E8G38)"><img src="/images/Books/ElemLinearAlg_Anton.jpg" alt="The book cover for 'Elementary Linear Algebra' by Howard Anton (published by John Wiley & Sons)" style="width:30%; margin-top:24px;"/></a>
-		 		</div>    
-     
-		<li><u>The Poem: "The Matrix"</u></li>
-		<p style="padding-bottom:8px; margin-bottom:8px;">
-			<img src="/images/Poems/MatrixPoem.jpg" alt="A haiku entitled 'The Matrix haiku' from the book 'Elementary Linear Algebra' by Howard Anton" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
-		</p>
-		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
-			<br>
-			<blockquote>
-				"<b>The Matrix</b>"<br>
-				<br>
-				Numbers in arrays.<br>
-    				Rows and columns in brackets.<br>
-				The matrix appears.
-			</blockquote>
-			
-			The poem above is a <a href="https://en.wikipedia.org/wiki/Haiku">haiku</a>, a Japanese short-form poem that is a personal favourite. Due to its short structure, they are a very handy style when creating erasure poems, so I am sure many more haikus will appear (have a go at one yourself!).<br>
-   			<br>
-   			Note: no books were harmed in the making of this poem, thanks to the helpful use of an acetate sheet. 
-		</p>
-    	</ul>
-</details>
  <hr>
  <details>
  	<summary><b>Poem 003 (<i>appearing on 2nd August 2023</i>)</b></summary>
