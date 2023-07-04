@@ -129,6 +129,7 @@ blockquote
 	     			<div class="columnb2">
 						<a href="[https://www.amazon.co.uk/Understanding-Analysis-Undergraduate-Texts-Mathematics/dp/1493927116](https://www.amazon.co.uk/Howard-Anton-Elementary-Linear-Algebra/dp/B0042E8G38)"><img src="/images/Books/ElemLinearAlg_Anton.jpg" alt="The book cover for 'Elementary Linear Algebra' by Howard Anton (published by John Wiley & Sons)" style="width:40%; margin-top:24px;"/></a>
 					</div>  
+     				<br>
 				</p>
 		<li><u>The Poem: "The Matrix"</u></li>
 				<p style="padding-bottom:8px; margin-bottom:8px;">
@@ -143,9 +144,10 @@ blockquote
 						The matrix appears.<br>
 					</blockquote>
 					<br>
-					The poem above is a <a href="https://en.wikipedia.org/wiki/Haiku">haiku</a>, a Japanese short-form poem that is a personal favourite. Due to its short structure, they are a very handy style when creating erasure poems, so I am sure many more haikus will appear (have a go at one yourself!).<br>
+					<span style="font-size:80%;margin-top:0px;padding-top:0px;"The poem above is a <a href="https://en.wikipedia.org/wiki/Haiku">haiku</a>, a Japanese short-form poem that is a personal favourite. Due to its short structure, they are a very handy style when creating erasure poems, so I am sure many more haikus will appear (have a go at one yourself!).<br>
 					<br>
 					Note: no books were harmed in the making of this poem, thanks to the helpful use of an acetate sheet. 
+     </span>
 				</p>
     	</ul>
 </details>
