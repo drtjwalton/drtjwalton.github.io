@@ -135,7 +135,7 @@ blockquote
 				<p style="padding-bottom:8px; margin-bottom:8px;">
 					<img src="/images/Poems/MatrixPoem.jpg" alt="A haiku entitled 'The Matrix haiku' from the book 'Elementary Linear Algebra' by Howard Anton" style="width:80%; margin-bottom:0px; padding-bottom:0px; border:4px solid rgb(5,127,176); "/>
 				</p>
-				<p style="padding-top:8px; margin-top:8px; font-size:80%;">
+				<p style="padding-top:8px; margin-top:8px; padding-bottom:8px; margin-bottom:8px; font-size:80%;">
 					<blockquote style="margin-bottom:8px;padding-bottom:8px;">
 						"<b>The Matrix</b>"<br>
 						Numbers in arrays.<br>
