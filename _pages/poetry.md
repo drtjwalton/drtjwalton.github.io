@@ -104,8 +104,7 @@ blockquote
 </div>
 <div style="margin-top:8px;padding-top:8px;">
  <details>
-	<summary><b>Poem 001: The Matrix (<i>appearing 5th July 2023</i>)</b></summary>
-	 <!--
+	<summary><b>Poem 001: The Matrix (5th July 2023)</b></summary>
 	<ul>
 		<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -149,7 +148,6 @@ blockquote
      </span>
 				</p>
     	</ul>
-        -->
 </details>
  <hr>
  <details>
