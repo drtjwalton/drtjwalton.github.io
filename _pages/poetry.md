@@ -202,7 +202,7 @@ blockquote
  <hr>
 	 <details>
 	 	<summary><b>Poem 003: Curvature is Normal (<i>appearing on 2nd August 2023</i>)</b></summary>
-		
+		<!--
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -248,11 +248,11 @@ blockquote
 	     			</blockquote>
 			</p>
     		</ul>
-      		
+      		-->
 	 </details>
    <hr>
  <details>
-	 <summary><b>Poem 004: .... (<i>appearing on 16th August 2023</i>)</b></summary>
+	 <summary><b>Poem 004: Be Discrete (<i>appearing on 16th August 2023</i>)</b></summary>
  </details>
  <hr>
    </div>
