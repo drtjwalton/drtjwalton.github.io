@@ -3,7 +3,7 @@ layout: single
 title: "The Poetry of Mathematics"
 permalink: /poetry/
 author_profile: true
-modified: 2023-07-03
+modified: 2023-07-05
 ---
 
 <style>
@@ -224,7 +224,7 @@ blockquote
 			</p>
 	 		</div>
      			<div class="columnb2">
-				<a href="https://www.amazon.co.uk/Elementary-Differential-Geometry-Revised-2nd/dp/0120887355"><img src="/images/Books/ElemDG_ONeill.jpg" alt="The book cover for 'Elementary Differential Geometry' by Barrett O'Neill (published by Academic Press)" style="width:30%; margin-top:24px;"/></a>
+				<a href="https://www.amazon.co.uk/Elementary-Differential-Geometry-Revised-2nd/dp/0120887355"><img src="/images/Books/ElemDG_ONeill.jpg" alt="The book cover for 'Elementary Differential Geometry' by Barrett O'Neill (published by Academic Press)" style="width:28%; margin-top:24px;"/></a>
 	 		</div>    
      
 			<li><u>The Poem: "Curvature is Normal"</u></li>
