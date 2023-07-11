@@ -202,8 +202,54 @@ blockquote
  <hr>
 	 <details>
 	 	<summary><b>Poem 003: Curvature is Normal (<i>appearing on 2nd August 2023</i>)</b></summary>
+		
+		<ul>
+			<li><u>The Mathematical Topic</u></li>
+			<p style="font-size:80%;">
+			<blockquote>
+				<a href="https://en.wikipedia.org/wiki/Differential_geometry">Differential geometry</a>: this topic studies the geometry of curves and surfaces, and is not covered in all undergraduate degree schemes in the UK. Over the years, after various generalisations, it has grown into a large field with applications to many areas of mathematics, as well as to physics, such as the language used to describe Einstein's <a href="https://en.wikipedia.org/wiki/Theory_of_general_relativity">general theory of relativity</a>. The basic questions asked in an undergraduate course is how do we describe the "curve" (more precisely, <a href="https://en.wikipedia.org/wiki/Curvature">curvature</a>) of a curve? What about the curvature of a surface? Perhaps surprisingly, there is more than one way to describe how a surface is curved.  
+			</blockquote>
+   			</p>
+
+			<li><u>The Book</u></li>
+    			<div class="columnb1">
+       			<p style="font-size:80%;">
+	  		<blockquote>
+				<a href="https://www.amazon.co.uk/Elementary-Differential-Geometry-Revised-2nd/dp/0120887355">Elementary Differential Geometry</a><br>
+    				Barrett O'Neill (2006) <br>
+	 			Academic Press: Burlington, MA <br>
+     				<br>
+	 			(The poem uses page 209 from the revised second edition)
+     			</blockquote>
+			</p>
+	 		</div>
+     			<div class="columnb2">
+				<a href="https://www.amazon.co.uk/Elementary-Differential-Geometry-Revised-2nd/dp/0120887355"><img src="/images/Books/ElemDG_ONeill.jpg" alt="The book cover for 'Elementary Differential Geometry' by Barrett O'Neill (published by Academic Press)" style="width:30%; margin-top:24px;"/></a>
+	 		</div>    
+     
+			<li><u>The Poem: "Curvature is Normal"</u></li>
+   			<p style="padding-bottom:8px; margin-bottom:8px;">
+   				<img src="/images/Poems/CurvNormal.jpg" alt="An erasure poem entitled 'Curvature is Normal' from the book 'Elementary Differential Geometry' by Barrett O'Neill" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+      			</p>
+	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
+				<br>
+				<blockquote>
+    					"<b>Curvature is Normal</b>"<br>
+	 				<br>
+					Curvature is a choice, no?<br>
+					Shape influences shape<br>
+					Curves in a curve<br>
+					Always restricted, different<br>
+					No interpretation is the one<br>
+					The face shows only the shape<br>
+	    			<i>All curves will have the same name</i><br>
+					This is the standard<br>
+					Reducing it to a point called <i>normal</i>.<br>
+	     			</blockquote>
+			</p>
+    		</ul>
+      		
 	 </details>
-  	<!-- page 209 o'neill -->
   	 <hr>
    </div>
  
