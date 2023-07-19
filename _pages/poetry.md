@@ -151,7 +151,7 @@ blockquote
 </details>
  <hr>
  <details>
-		<summary><b>Poem 002: A Real Challenge (<i>appearing on 19th July 2023</i>)</b></summary>
+		<summary><b>Poem 002: A Real Challenge (19th July 2023)</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
