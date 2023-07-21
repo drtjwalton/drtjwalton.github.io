@@ -251,8 +251,51 @@ blockquote
    <hr>
  <details>
 	 <summary><b>Poem 004: Be Discrete (<i>appearing on 16th August 2023</i>)</b></summary>
+	 <!--
+		<ul>
+			<li><u>The Mathematical Topic</u></li>
+			<p style="font-size:80%;">
+			<blockquote>
+				<a https://en.wikipedia.org/wiki/Discrete_mathematics">Discete mathematics</a>: 
+	 
+			</blockquote>
+   			</p>
+
+			<li><u>The Book</u></li>
+    			<div class="columnb1">
+       			<p style="font-size:80%;">
+	  		<blockquote>
+				<a href="https://www.amazon.co.uk/Discrete-Mathematics-Classic-Classics-Advanced/dp/0134689550">Discrete Mathematics with Graph Theory</a><br>
+    				Edgar Goodaire and Michael Parmenter (2017) <br>
+	 			Pearson Prentice-Hall: Upper Saddle River, NJ<br>
+     				<br>
+	 			(The poem uses page 119 from the third edition)
+     			</blockquote>
+			</p>
+	 		</div>
+     			<div class="columnb2">
+				<a href="https://www.amazon.co.uk/Discrete-Mathematics-Classic-Classics-Advanced/dp/0134689550"><img src="/images/Books/ElemDG_ONeill.jpg" alt="The book cover for 'Discrete Mathematics with Graph Theory' by Edgar Goodaire and Michael Parmenter (published by Pearson Prentice-Hall)" style="width:35%; margin-top:24px;"/></a>
+	 		</div>    
+     
+			<li><u>The Poem: "Be Discrete"</u></li>
+   			<p style="padding-bottom:8px; margin-bottom:8px;">
+   				<img src="/images/Poems/BeDiscrete.jpg" alt="An erasure poem entitled 'Be Discrete' from the book 'Discrete Mathematics with Graph Theory' by Edgar Goodaire and Michael Parmenter" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+      			</p>
+	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
+				<br>
+				<blockquote>
+    					"<b>Be Discrete</b>"<br>
+	 				<br>
+					<br>
+	     			</blockquote>
+			</p>
+    		</ul>
+      		-->
  </details>
  <hr>
+ <detail>
+	<summary><b>Poem 005: (<i>appearing on 30th August 2023</i>)</b></summary>
+ </detail>
    </div>
  
 
