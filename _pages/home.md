@@ -79,7 +79,7 @@ body {
 				<img src="images/uclan.png" alt="Logo for UCLan" style="width:100%;"/>
 			</div>
 		</a>
-		<a href="https://www.star.uclan.ac.uk/k/">
+		<a href="https://www.star.uclan.ac.uk/">
 			<div class="inner70">
 				<img src="images/JHI.png" alt="Logo for the Jeremiah Horrocks Institute at UCLan" style="width:100%; margin-top:20px;"/>
 			</div>
