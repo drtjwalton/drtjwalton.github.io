@@ -3,7 +3,7 @@ layout: single
 title: "The Poetry of Mathematics"
 permalink: /poetry/
 author_profile: true
-modified: 2023-07-05
+modified: 2023-08-17
 ---
 
 <style>
@@ -283,7 +283,7 @@ blockquote
 				<br>
 				<blockquote>
     					"<b>Primes</b>"<br>
-	 				A Prime follows prime<br>
+	 				A prime follows prime<br>
 					Infinitely many, yet<br>
 					There are questions still<br>
 	     			</blockquote>
