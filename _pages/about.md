@@ -184,6 +184,10 @@ body {
 		<details>
 			<summary><b>Selected Achievements</b></summary>
 			<table>
+   				<tr>
+					<td>2023:</td> 
+					<td>Achieved Fellowship of the HEA.</td>
+				</tr>
 				<tr>
 					<td>2020:</td> 
 					<td>Winner of University of Bolton Student-led Teaching Award 2020.</td>
