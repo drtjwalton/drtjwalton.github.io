@@ -249,7 +249,6 @@ blockquote
    <hr>
  <details>
 	 <summary><b>Poem 004: Primes (16th August 2023)</b></summary>
-	 <!--
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -289,7 +288,6 @@ blockquote
 	     			</blockquote>
 			</p>
     		</ul>
-      		-->
  </details>
  <hr>
  <detail>
