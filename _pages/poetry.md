@@ -248,14 +248,14 @@ blockquote
 	 </details>
    <hr>
  <details>
-	 <summary><b>Poem 004: Be Discrete (<i>appearing on 16th August 2023</i>)</b></summary>
+	 <summary><b>Poem 004: Primes (16th August 2023)</b></summary>
 	 <!--
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
 			<blockquote>
-				<a https://en.wikipedia.org/wiki/Discrete_mathematics">Discete mathematics</a>: 
-	 
+				<a href="https://en.wikipedia.org/wiki/Number_theory">Number theory</a>: 
+	 			A fundamental topic in mathematics, number theory is the study of whole numbers and the relationships between them. They are familiar objects and questions can often be easy to state, yet often be suprisingly difficult to answer.  A basic concept is that of a <a href="https://en.wikipedia.org/wiki/Prime_number">prime number</a>, studied in detail still in research-level mathematics despite being an idea introduced to school children.  
 			</blockquote>
    			</p>
 
@@ -275,16 +275,17 @@ blockquote
 				<a href="https://www.amazon.co.uk/Discrete-Mathematics-Classic-Classics-Advanced/dp/0134689550"><img src="/images/Books/ElemDG_ONeill.jpg" alt="The book cover for 'Discrete Mathematics with Graph Theory' by Edgar Goodaire and Michael Parmenter (published by Pearson Prentice-Hall)" style="width:35%; margin-top:24px;"/></a>
 	 		</div>    
      
-			<li><u>The Poem: "Be Discrete"</u></li>
+			<li><u>The Poem: "Primes"</u></li>
    			<p style="padding-bottom:8px; margin-bottom:8px;">
-   				<img src="/images/Poems/BeDiscrete.jpg" alt="An erasure poem entitled 'Be Discrete' from the book 'Discrete Mathematics with Graph Theory' by Edgar Goodaire and Michael Parmenter" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+   				<img src="/images/Poems/Primes.jpg" alt="An erasure poem entitled 'Primes' using the book 'Discrete Mathematics with Graph Theory' by Edgar Goodaire and Michael Parmenter" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
       			</p>
 	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
 				<br>
 				<blockquote>
-    					"<b>Be Discrete</b>"<br>
-	 				<br>
-					<br>
+    					"<b>Primes</b>"<br>
+	 				A Prime follows prime<br>
+					Infinitely many, yet<br>
+					There are questions still<br>
 	     			</blockquote>
 			</p>
     		</ul>
