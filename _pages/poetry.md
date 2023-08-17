@@ -271,7 +271,7 @@ blockquote
 			</p>
 	 		</div>
      			<div class="columnb2">
-				<a href="https://www.amazon.co.uk/Discrete-Mathematics-Classic-Classics-Advanced/dp/0134689550"><img src="/images/Books/Goodaire.jpg" alt="The book cover for 'Discrete Mathematics with Graph Theory' by Edgar Goodaire and Michael Parmenter (published by Pearson Prentice-Hall)" style="width:42%; margin-top:24px;"/></a>
+				<a href="https://www.amazon.co.uk/Discrete-Mathematics-Classic-Classics-Advanced/dp/0134689550"><img src="/images/Books/Goodaire.jpg" alt="The book cover for 'Discrete Mathematics with Graph Theory' by Edgar Goodaire and Michael Parmenter (published by Pearson Prentice-Hall)" style="width:45%; margin-top:24px;"/></a>
 	 		</div>    
      
 			<li><u>The Poem: "Primes"</u></li>
