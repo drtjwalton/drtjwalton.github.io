@@ -292,6 +292,7 @@ blockquote
  <hr>
  <details>
 	 <summary><b>Poem 005: Interpolate (<i>appearing on 30th August 2023</i>)</b></summary>
+<!--
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -331,6 +332,7 @@ blockquote
 	     			</blockquote>
 			</p>
     		</ul> 
+-->
  </details>
  <hr>
  <details>
