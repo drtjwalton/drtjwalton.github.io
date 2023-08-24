@@ -290,9 +290,49 @@ blockquote
     		</ul>
  </details>
  <hr>
- <detail>
-	<summary><b>Poem 005: (<i>appearing on 30th August 2023</i>)</b></summary>
- </detail>
+ <details>
+	 <summary><b>Poem 005: Interpolate (<i>appearing on 30th August 2023</i>)</b></summary>
+		<ul>
+			<li><u>The Mathematical Topic</u></li>
+			<p style="font-size:80%;">
+			<blockquote>
+				<a href="https://en.wikipedia.org/wiki/Numerical_analysis">Numerical analysis</a>: 
+	 			It is not uncommon in mathematics and the physical sciences to encounter a problem that offers no analytical solution. In such cases, one resorts to numerical techniques to understand the situation. The field of <i>numerical analysis</i> is devoted to understanding and applying these methods. A simple example, encountered in most UK undergraduate mathematics degrees, is that of <a href="https://en.wikipedia.org/wiki/Interpolation">interpolation</a>: estimating unknown data values based upon a given set of known data points.  
+			</blockquote>
+   			</p>
+
+			<li><u>The Book</u></li>
+    			<div class="columnb1">
+       			<p style="font-size:80%;">
+	  		<blockquote>
+				<a href="https://www.amazon.co.uk/Numerical-Analysis-Graduate-Texts-Mathematics/dp/0387984089">Numerical Analysis</a><br>
+    				Rainer Kress (1998) <br>
+	 			Springer-Verlag: New York<br>
+     				<br>
+	 			(The poem uses page 152)
+     			</blockquote>
+			</p>
+	 		</div>
+     			<div class="columnb2">
+				<a href="https://www.amazon.co.uk/Numerical-Analysis-Graduate-Texts-Mathematics/dp/0387984089"><img src="/images/Books/Kress.jpg" alt="The book cover for 'Numerical Analysis' by Rainer Kress (published by Springer-Verlag)" style="width:51%; margin-top:24px;"/></a>
+	 		</div>    
+     
+			<li><u>The Poem: "Interpolate"</u></li>
+   			<p style="padding-bottom:8px; margin-bottom:8px;">
+   				<img src="/images/Poems/Primes.jpg" alt="An erasure poem entitled 'Interpolate' using the book 'Numerical Analysis' by Rainer Kress" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+      			</p>
+	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
+				<br>
+				<blockquote>
+    					"<b>Interpolate</b>"<br>
+	 				<br>
+					<br>
+					<br>
+	     			</blockquote>
+			</p>
+    		</ul>
+ </details>
+ <hr>
    </div>
  
 
