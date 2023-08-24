@@ -330,7 +330,11 @@ blockquote
 					<br>
 	     			</blockquote>
 			</p>
-    		</ul>
+    		</ul> 
+ </details>
+ <hr>
+ <details>
+	 <summary><b>Poem 006 (<i>appearing on 13th September 2023</i>)</b></summary>
  </details>
  <hr>
    </div>
