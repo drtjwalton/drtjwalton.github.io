@@ -3,7 +3,7 @@ layout: single
 title: "The Poetry of Mathematics"
 permalink: /poetry/
 author_profile: true
-modified: 2023-08-17
+modified: 2023-08-24
 ---
 
 <style>
@@ -314,12 +314,12 @@ blockquote
 			</p>
 	 		</div>
      			<div class="columnb2">
-				<a href="https://www.amazon.co.uk/Numerical-Analysis-Graduate-Texts-Mathematics/dp/0387984089"><img src="/images/Books/Kress.jpg" alt="The book cover for 'Numerical Analysis' by Rainer Kress (published by Springer-Verlag)" style="width:51%; margin-top:24px;"/></a>
+				<a href="https://www.amazon.co.uk/Numerical-Analysis-Graduate-Texts-Mathematics/dp/0387984089"><img src="/images/Books/Kress.png" alt="The book cover for 'Numerical Analysis' by Rainer Kress (published by Springer-Verlag)" style="width:51%; margin-top:24px;"/></a>
 	 		</div>    
      
 			<li><u>The Poem: "Interpolate"</u></li>
    			<p style="padding-bottom:8px; margin-bottom:8px;">
-   				<img src="/images/Poems/Primes.jpg" alt="An erasure poem entitled 'Interpolate' using the book 'Numerical Analysis' by Rainer Kress" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+   				<img src="/images/Poems/Interpolate.png" alt="An erasure poem entitled 'Interpolate' using the book 'Numerical Analysis' by Rainer Kress" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
       			</p>
 	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
 				<br>
