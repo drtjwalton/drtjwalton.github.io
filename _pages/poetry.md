@@ -315,7 +315,7 @@ blockquote
 			</p>
 	 		</div>
      			<div class="columnb2">
-				<a href="https://www.amazon.co.uk/Numerical-Analysis-Graduate-Texts-Mathematics/dp/0387984089"><img src="/images/Books/Kress.png" alt="The book cover for 'Numerical Analysis' by Rainer Kress (published by Springer-Verlag)" style="width:51%; margin-top:24px;"/></a>
+				<a href="https://www.amazon.co.uk/Numerical-Analysis-Graduate-Texts-Mathematics/dp/0387984089"><img src="/images/Books/Kress.png" alt="The book cover for 'Numerical Analysis' by Rainer Kress (published by Springer-Verlag)" style="width:45%; margin-top:24px;"/></a>
 	 		</div>    
      
 			<li><u>The Poem: "Interpolate"</u></li>
