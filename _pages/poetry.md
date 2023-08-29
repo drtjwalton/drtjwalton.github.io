@@ -292,7 +292,6 @@ blockquote
  <hr>
  <details>
 	 <summary><b>Poem 005: Interpolate (<i>appearing on 30th August 2023</i>)</b></summary>
-<!--
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -326,13 +325,15 @@ blockquote
 				<br>
 				<blockquote>
     					"<b>Interpolate</b>"<br>
-	 				<br>
-					<br>
-					<br>
+We like as a tool<br>
+An essential numerical rule<br>
+For the approximate solution of an equation<br>
+ Polynomial interpolation<br>
+ With continuous functions on the interval [a, b]<br>
+ The basic algebraic polynomials we use frequently<br>
 	     			</blockquote>
 			</p>
     		</ul> 
--->
  </details>
  <hr>
  <details>
