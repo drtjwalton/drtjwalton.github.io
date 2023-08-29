@@ -319,12 +319,12 @@ blockquote
      
 			<li><u>The Poem: "Interpolate"</u></li>
    			<p style="padding-bottom:8px; margin-bottom:8px;">
-   				<img src="/images/Poems/Interpolate.png" alt="An erasure poem entitled 'Interpolate' using the book 'Numerical Analysis' by Rainer Kress" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+   				<img src="/images/Poems/Interpolate.png" alt="An erasure poem entitled 'Interpolation' using the book 'Numerical Analysis' by Rainer Kress" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
       			</p>
 	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
 				<br>
 				<blockquote>
-    					"<b>Interpolate</b>"<br>
+    					"<b>Interpolation</b>"<br>
 We like as a tool<br>
 An essential numerical rule<br>
 For the approximate solution of an equation<br>
