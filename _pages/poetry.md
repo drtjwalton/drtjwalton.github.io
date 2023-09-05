@@ -337,7 +337,11 @@ For the approximate solution of an equation<br>
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 006 (<i>appearing on 13th September 2023</i>)</b></summary>
+	 <summary><b>Poem 006: Fourier Knew (<i>appearing on 13th September 2023</i>)</b></summary>
+ </details>
+ <hr>
+ <details>
+	 <summary><b>Poem 007 (<i>appearing on 27th September 2023</i>)</b></summary>
  </details>
  <hr>
    </div>
