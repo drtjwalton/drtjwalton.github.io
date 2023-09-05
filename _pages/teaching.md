@@ -3,7 +3,7 @@ layout: single
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-modified: 2021-08-06
+modified: 2023-09-05
 ---
 
 <style>
@@ -34,9 +34,10 @@ ol li {
 
 ---
 
-## <a name="CURRENT" style="color: rgb(5,127,176);">Current Teaching</a>
+## <a name="CURRENT" style="color: rgb(5,127,176);">Current Teaching (2023-24)</a>
 * **Foundation Mathematics**  (MAC101)
 * **Vector Calculus** (MA2832)
+* **Fields and Galois Theory** (MA3811)
 
 ---
 
