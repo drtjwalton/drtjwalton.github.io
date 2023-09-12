@@ -375,14 +375,52 @@ Fourier knew<br>
 That this was true<br>
 The infinite sum of f(r)exp(irt) [f of r, e to the i r t] <br>
 Could be used to solve equations of the 19th century.<br>
- The basic algebraic polynomials we use frequently<br>
 	     			</blockquote>
 			</p>
     		</ul> 
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 007 (<i>appearing on 27th September 2023</i>)</b></summary>
+	 <summary><b>Poem 007: Perturbed (<i>appearing on 27th September 2023</i>)</b></summary>
+	 <!--
+	<ul>
+			<li><u>The Mathematical Topic</u></li>
+			<p style="font-size:80%;">
+			<blockquote>
+				<a href="https://en.wikipedia.org/wiki/Perturbation_theory">Perturbation theory</a>: 
+	 			
+			</blockquote>
+   			</p>
+
+			<li><u>The Book</u></li>
+    			<div class="columnb1">
+       			<p style="font-size:80%;">
+	  		<blockquote>
+				<a href="https://www.amazon.co.uk/Applied-Mathematics-J-David-Logan/dp/0471850837">Applied Mathematics: A Contemporary Approach</a><br>
+    				J. D. Logan (1987) <br>
+	 			Wiley & Sons: New York <br>
+     				<br>
+	 			(The poem uses page 34/35)
+     			</blockquote>
+			</p>
+	 		</div>
+     			<div class="columnb2">
+				<a href="https://www.amazon.co.uk/Applied-Mathematics-J-David-Logan/dp/0471850837"><img src="/images/Books/Logan.jpg" alt="The book cover for 'Applied Mathematics: A Contemporary Approach' by J. D. Logan (published by Wiley & Sons)" style="width:45%; margin-top:24px;"/></a>
+	 		</div>    
+     
+			<li><u>The Poem: "Perturbed"</u></li>
+   			<p style="padding-bottom:8px; margin-bottom:8px;">
+   				<img src="/images/Poems/Perturb.jpg" alt="An erasure poem entitled 'Perturbed' using the book 'Applied Mathematics: A Contemporary Approach' by J. D. Logan" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+      			</p>
+	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
+				<br>
+				<blockquote>
+    					"<b>Perturbed</b>"<br>
+<br>
+	     			</blockquote>
+			</p>
+    		</ul> 
+  -->
  </details>
  <hr>
    </div>
