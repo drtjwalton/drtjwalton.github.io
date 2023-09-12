@@ -3,7 +3,7 @@ layout: single
 title: "The Poetry of Mathematics"
 permalink: /poetry/
 author_profile: true
-modified: 2023-08-24
+modified: 2023-09-12
 ---
 
 <style>
@@ -343,7 +343,7 @@ For the approximate solution of an equation<br>
 			<p style="font-size:80%;">
 			<blockquote>
 				<a href="https://en.wikipedia.org/wiki/Fourier_analysis">Fourier analysis</a>: 
-	 			 this is an important branch of mathematics developed from the 18th century mathematics which has wide applicability within physics and engineering. Named after the French mathematician <a href="https://en.wikipedia.org/wiki/Joseph_Fourier">Joseph Fourier</a>, it has been studied and developed for over 200 years and is covered in the majority of UK undergraduate STEM subjects. Historically, it examined how to represent periodic functions using sums of <a href="https://en.wikipedia.org/wiki/Trigonometric_functions">trigonometric functions</a> and has now been generalised to more abstract situations, developing new branches of mathematics. 
+	 			 an important branch of mathematics first examined in the 18th century which has wide applicability within physics and engineering. Named after the French mathematician <a href="https://en.wikipedia.org/wiki/Joseph_Fourier">Joseph Fourier</a>, it has been studied and developed for over 200 years and is covered in the majority of UK undergraduate STEM subjects. Historically, it was explored how to represent periodic functions using sums of <a href="https://en.wikipedia.org/wiki/Trigonometric_functions">trigonometric functions</a> and has now been generalised to more abstract situations, leading to the development of new branches of mathematics. 
 			</blockquote>
    			</p>
 
@@ -360,7 +360,7 @@ For the approximate solution of an equation<br>
 			</p>
 	 		</div>
      			<div class="columnb2">
-				<a href="https://www.amazon.co.uk/Fourier-Analysis-T-W-K%C2%BFrner/dp/0521389917"><img src="/images/Books/Korner.png" alt="The book cover for 'Fourier Analysis' by T. W. Korner (published by Cambridge University Press)" style="width:45%; margin-top:24px;"/></a>
+				<a href="https://www.amazon.co.uk/Fourier-Analysis-T-W-K%C2%BFrner/dp/0521389917"><img src="/images/Books/Korner.jpg" alt="The book cover for 'Fourier Analysis' by T. W. Korner (published by Cambridge University Press)" style="width:45%; margin-top:24px;"/></a>
 	 		</div>    
      
 			<li><u>The Poem: "Fourier Knew"</u></li>
@@ -373,8 +373,8 @@ For the approximate solution of an equation<br>
     					"<b>Fourier Knew</b>"<br>
 Fourier knew<br>
 That this was true<br>
-The infinite sum of f(r)exp(irt)<br>
-Could be used to solve equations of the 19th century<br>
+The infinite sum of f(r)exp(irt) [f of r, e to the i r t] <br>
+Could be used to solve equations of the 19th century.<br>
  The basic algebraic polynomials we use frequently<br>
 	     			</blockquote>
 			</p>
