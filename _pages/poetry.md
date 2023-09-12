@@ -352,10 +352,10 @@ For the approximate solution of an equation<br>
        			<p style="font-size:80%;">
 	  		<blockquote>
 				<a href="https://www.amazon.co.uk/Fourier-Analysis-T-W-K%C2%BFrner/dp/0521389917">Fourier Analysis</a><br>
-    				T. W. Korner (2008: revised edition) <br>
+    				T. W. Korner (2008) <br>
 	 			Cambridge University Press: Cambridge <br>
      				<br>
-	 			(The poem uses page 3)
+	 			(The poem uses page 3 of the revised edition)
      			</blockquote>
 			</p>
 	 		</div>
