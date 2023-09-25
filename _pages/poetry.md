@@ -382,7 +382,7 @@ Could be used to solve equations of the 19th century.<br>
  <hr>
  <details>
 	 <summary><b>Poem 007: Perturbations (<i>appearing on 27th September 2023</i>)</b></summary>
-	 
+	 <!--
 	<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -426,7 +426,8 @@ Could be used to solve equations of the 19th century.<br>
  			  <span style="font-size:80%;margin-top:8px;padding-top:8px;">The poem above is a <a 			href="https://en.wikipedia.org/wiki/Limerick_(poetry)">limerick</a>, a traditional, often-humorous English form of verse (although the  level of humour here is debatable).<br>
       </span>
       </p>
-    		</ul> 
+    		</ul>
+      -->
 
  </details>
  <hr>
