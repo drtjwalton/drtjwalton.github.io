@@ -69,6 +69,7 @@ body {
 		<p>
 			<h3 style="color:rgb(5,127,176);">Dr Timothy J. Walton</h3>
 			Senior Lecturer in Applied Mathematics <br style="margin-bottom:6px; padding-below:6px;">
+   			Course Leader for Mathematics at UCLan <br style="margin-bottom:6px; padding-below:6px;">
 			School of Engineering & Computing, <a href="https://www.uclan.ac.uk">UCLan</a>.<br>
 		</p>
 				
