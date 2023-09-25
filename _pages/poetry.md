@@ -388,7 +388,7 @@ Could be used to solve equations of the 19th century.<br>
 			<p style="font-size:80%;">
 			<blockquote>
 				<a href="https://en.wikipedia.org/wiki/Perturbation_theory">Perturbation theory</a>: 
-	 			
+	 			When one is faced with a complex problem in mathematics, one can often build approximate solutions if one can notice "small" terms that relate the complex problem to a much simpler, <i>solvable</i> problem. These solutions, built as a power series in the "small" terms, are called <a href="https://en.wikipedia.org/wiki/Perturbation_theory">perturbative solutions</a> and this technique - <a href="https://en.wikipedia.org/wiki/Perturbation_theory">perturbation theory</a> - is used to analyse a wide class of physical problems, from <a href="https://en.wikipedia.org/wiki/Quantum_mechanics">quantum mechanics</a> to <a href="https://en.wikipedia.org/wiki/Fluid_dynamics">fluid dynamics</a>.
 			</blockquote>
    			</p>
 
@@ -400,7 +400,7 @@ Could be used to solve equations of the 19th century.<br>
     				J. D. Logan (1987) <br>
 	 			Wiley & Sons: New York <br>
      				<br>
-	 			(The poem uses page 34/35)
+	 			(The poem uses page 34)
      			</blockquote>
 			</p>
 	 		</div>
