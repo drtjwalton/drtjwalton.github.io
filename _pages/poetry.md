@@ -477,7 +477,7 @@ Could be used to solve equations of the 19th century.<br>
  </details>
  -->
  <hr>
-   </div>
+
  
 
 
