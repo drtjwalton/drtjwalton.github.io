@@ -433,50 +433,10 @@ Could be used to solve equations of the 19th century.<br>
  <hr>
  <details>
 	 <summary><b>Poem 008 (<i>appearing on 11th October 2023</i>)</b></summary>
-	 <!--
-	 <ul>
-			<li><u>The Mathematical Topic</u></li>
-			<p style="font-size:80%;">
-			<blockquote>
-				<a href="https://en.wikipedia.org/wiki/Fourier_analysis">Fourier analysis</a>: 
-	 			 an important branch of mathematics first examined in the 18th century which has wide applicability within physics and engineering. Named after the French mathematician <a href="https://en.wikipedia.org/wiki/Joseph_Fourier">Joseph Fourier</a>, it has been studied and developed for over 200 years and is covered in the majority of UK undergraduate STEM subjects. Historically, it was explored how to represent periodic functions using sums of <a href="https://en.wikipedia.org/wiki/Trigonometric_functions">trigonometric functions</a> and has now been generalised to more abstract situations, leading to the development of new branches of mathematics. 
-			</blockquote>
-   			</p>
-
-			<li><u>The Book</u></li>
-    			<div class="columnb1">
-       			<p style="font-size:80%;">
-	  		<blockquote>
-				<a href="https://www.amazon.co.uk/Fourier-Analysis-T-W-K%C2%BFrner/dp/0521389917">Fourier Analysis</a><br>
-    				T. W. Korner (2008) <br>
-	 			Cambridge University Press: Cambridge <br>
-     				<br>
-	 			(The poem uses page 3 of the revised edition)
-     			</blockquote>
-			</p>
-	 		</div>
-     			<div class="columnb2">
-				<a href="https://www.amazon.co.uk/Fourier-Analysis-T-W-K%C2%BFrner/dp/0521389917"><img src="/images/Books/Korner.jpg" alt="The book cover for 'Fourier Analysis' by T. W. Korner (published by Cambridge University Press)" style="width:45%; margin-top:24px;"/></a>
-	 		</div>    
-     
-			<li><u>The Poem: "Fourier Knew"</u></li>
-   			<p style="padding-bottom:8px; margin-bottom:8px;">
-   				<img src="/images/Poems/Fourier.png" alt="An erasure poem entitled 'Fourier Knew' using the book 'Fourier Analysis' by T. W. Korner" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
-      			</p>
-	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
-				<br>
-				<blockquote>
-    					"<b>Fourier Knew</b>"<br>
-Fourier knew<br>
-That this was true<br>
-The infinite sum of f(r)exp(irt) [f of r, e to the i r t] <br>
-Could be used to solve equations of the 19th century.<br>
-	     			</blockquote>
-			</p>
-    		</ul> 
  </details>
- -->
  <hr>
+
+ </div>
 
  
 
