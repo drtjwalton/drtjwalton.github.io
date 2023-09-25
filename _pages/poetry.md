@@ -381,8 +381,8 @@ Could be used to solve equations of the 19th century.<br>
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 007: Perturbed (<i>appearing on 27th September 2023</i>)</b></summary>
-	 <!--
+	 <summary><b>Poem 007: Perturbations (<i>appearing on 27th September 2023</i>)</b></summary>
+	 
 	<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -410,17 +410,23 @@ Could be used to solve equations of the 19th century.<br>
      
 			<li><u>The Poem: "Perturbed"</u></li>
    			<p style="padding-bottom:8px; margin-bottom:8px;">
-   				<img src="/images/Poems/Perturb.jpg" alt="An erasure poem entitled 'Perturbed' using the book 'Applied Mathematics: A Contemporary Approach' by J. D. Logan" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
+   				<img src="/images/Poems/Perturb.jpg" alt="An erasure poem entitled 'Perturbations' using the book 'Applied Mathematics: A Contemporary Approach' by J. D. Logan" style="width:90%; margin-bottom:8px; padding-bottom:8px; border:4px solid rgb(5,127,176); "/>
       			</p>
 	 		<p style="padding-top:8px; margin-top:8px; font-size:80%;">
 				<br>
 				<blockquote>
-    					"<b>Perturbed</b>"<br>
-<br>
+    					"<b>Perturbations</b>"<br>
+					When a model is represented by equations<br>
+     					One must resort to numerical approximations<br>
+	  				Terms that are small<br>
+       					May be low order, that's all<br>
+	    				When scaled the solution is a perturbation.
 	     			</blockquote>
-			</p>
+			
+ 			  <span style="font-size:80%;margin-top:8px;padding-top:8px;">The poem above is a <a 			href="https://en.wikipedia.org/wiki/Limerick_(poetry)">limerick</a>, a traditional, often-humorous English form of verse (although the  level of humour here is debatable).<br>
+      </p>
     		</ul> 
-  -->
+
  </details>
  <hr>
    </div>
