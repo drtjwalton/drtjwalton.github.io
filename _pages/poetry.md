@@ -337,7 +337,7 @@ For the approximate solution of an equation<br>
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 006: Fourier Knew (<i>appearing on 13th September 2023</i>)</b></summary>
+	 <summary><b>Poem 006: Fourier Knew (13th September 2023)</b></summary>
 	 <ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -381,7 +381,7 @@ Could be used to solve equations of the 19th century.<br>
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 007: Perturbations (<i>appearing on 27th September 2023</i>)</b></summary>
+	 <summary><b>Poem 007: Perturbations (27th September 2023)</b></summary>
 	<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
