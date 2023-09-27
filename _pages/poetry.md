@@ -382,7 +382,6 @@ Could be used to solve equations of the 19th century.<br>
  <hr>
  <details>
 	 <summary><b>Poem 007: Perturbations (<i>appearing on 27th September 2023</i>)</b></summary>
-	 <!--
 	<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -427,7 +426,7 @@ Could be used to solve equations of the 19th century.<br>
       </span>
       </p>
     		</ul>
-      -->
+
 
  </details>
  <hr>
