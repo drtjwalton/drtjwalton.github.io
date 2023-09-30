@@ -71,7 +71,7 @@ body {
 			Senior Lecturer in Applied Mathematics <br style="margin-bottom:6px; padding-below:6px;">
 			School of Engineering & Computing, <a href="https://www.uclan.ac.uk">UCLan</a>.<br>
    <br>
-   			I am also currently the Course Leader for Mathematics at <a href="https://www.uclan.ac.uk">UCLan</a> <br style="margin-bottom:6px; padding-below:6px;">
+   			I am Course Leader for Mathematics at <a href="https://www.uclan.ac.uk">UCLan</a>. Please feel free to <a href="contact">contact me</a> if you wish to discuss anything about our BSc Mathematics degree scheme.<br style="margin-bottom:6px; padding-below:6px;">
 		</p>
 				
 	</div>
