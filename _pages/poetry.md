@@ -3,7 +3,7 @@ layout: single
 title: "The Poetry of Mathematics"
 permalink: /poetry/
 author_profile: true
-modified: 2023-09-12
+modified: 2023-10-17
 ---
 
 <style>
@@ -431,7 +431,7 @@ Could be used to solve equations of the 19th century.<br>
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 008: Stokes</b></summary>
+	 <summary><b>Poem 008: Stokes (11th October 2023)</b></summary>
 	 <ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -466,8 +466,8 @@ Could be used to solve equations of the 19th century.<br>
 				<blockquote>
     					"<b>Stokes</b>"<br>
 	 				Here we contemplate<br>
-      					Stokes's Theorem, which relates
-	   				The surface integral of the curl
+      					Stokes's Theorem, which relates<br>
+	   				The surface integral of the curl<br>
 					With the boundary curve(s) line integral.
 	     			</blockquote>
 			</p>
