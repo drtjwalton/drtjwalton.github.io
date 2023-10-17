@@ -431,14 +431,13 @@ Could be used to solve equations of the 19th century.<br>
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 008 (<i>appearing on 11th October 2023</i>)</b></summary>
-	 <!--
+	 <summary><b>Poem 008: Stokes</b></summary>
 	 <ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
 			<blockquote>
 				<a href="https://en.wikipedia.org/wiki/Stokes%27_theorem">Stokes' Theorem</a>: 
-	 			
+	 			Stokes' Theorem is a classical result in <a href="https://en.wikipedia.org/wiki/Vector_calculus">vector calculus</a>, an important branch of mathematics covering integration and differentiation of scalar and tensor fields (generally in a <a href="https://en.wikipedia.org/wiki/Euclidean_space">Euclidean three-dimensional space</a>). It is often considered a difficult topic and is taught to many undergraduate students in wide range of STEM subjects. Stokes' Theorem can be considered a generalisation of the <a href="https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus">Fundamental Theorem of Calculus</a>, a result in single variable calculus, to the case of three dimensions. It can, as with the whole topic of vector calculus, be generalised to an arbitrary number of dimensions.
 			</blockquote>
    			</p>
 
@@ -446,11 +445,11 @@ Could be used to solve equations of the 19th century.<br>
     			<div class="columnb1">
        			<p style="font-size:80%;">
 	  		<blockquote>
-				<a href="https://www.amazon.co.uk/Fourier-Analysis-T-W-K%C2%BFrner/dp/0521389917">Fourier Analysis</a><br>
-    				T. W. Korner (2008) <br>
-	 			Cambridge University Press: Cambridge <br>
+				<a href="https://www.amazon.co.uk/Vector-Calculus-Susan-J-Colley/dp/0321780655">Vector Calculus</a><br>
+    				S. J. Colley (2011) <br>
+	 			Pearson: Boston, MA<br>
      				<br>
-	 			(The poem uses page 3 of the revised edition)
+	 			(The poem uses page 490 of the 4th edition)
      			</blockquote>
 			</p>
 	 		</div>
@@ -466,14 +465,18 @@ Could be used to solve equations of the 19th century.<br>
 				<br>
 				<blockquote>
     					"<b>Stokes</b>"<br>
-	 <br>
+	 				Here we contemplate<br>
+      					Stokes's Theorem, which relates
+	   				The surface integral of the curl
+					With the boundary curve(s) line integral.
 	     			</blockquote>
 			</p>
     		</ul>
-      -->
  </details>
  <hr>
-
+ <details>
+	 <summary><b>Poem 009: <i>(appearing on 25th October 2023)</i></b></summary>
+ </details>
  </div>
 
  
