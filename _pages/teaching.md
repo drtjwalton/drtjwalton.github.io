@@ -25,7 +25,7 @@ ol li {
 <div class="toc--style">
 
 	<ul>
-		<li><a href="#CURRENT" style="color:#fff">Current Teaching (2021-22)</a></li>
+		<li><a href="#CURRENT" style="color:#fff">Current Teaching (2024-25)</a></li>
 		<li><a href="#PAST" style="color:#fff">Past Teaching</a></li>
 	</ul>
 	
