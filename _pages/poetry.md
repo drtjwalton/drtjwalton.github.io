@@ -104,7 +104,7 @@ blockquote
 </div>
 <div style="margin-top:8px;padding-top:8px;">
  <details>
-	<summary><b>Poem 001: The Matrix (5th July 2023)</b></summary>
+	<summary><b>Poem 001: The Matrix</b></summary>
 	<ul>
 		<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -151,7 +151,7 @@ blockquote
 </details>
  <hr>
  <details>
-		<summary><b>Poem 002: A Real Challenge (19th July 2023)</b></summary>
+		<summary><b>Poem 002: A Real Challenge</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -199,7 +199,7 @@ blockquote
 	</details>
  <hr>
 	 <details>
-	 	<summary><b>Poem 003: Curvature is Normal (2nd August 2023)</b></summary>
+	 	<summary><b>Poem 003: Curvature is Normal</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -248,7 +248,7 @@ blockquote
 	 </details>
    <hr>
  <details>
-	 <summary><b>Poem 004: Primes (16th August 2023)</b></summary>
+	 <summary><b>Poem 004: Primes</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -291,7 +291,7 @@ blockquote
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 005: Interpolation (30th August 2023)</b></summary>
+	 <summary><b>Poem 005: Interpolation</b></summary>
 		<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -337,7 +337,7 @@ For the approximate solution of an equation<br>
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 006: Fourier Knew (13th September 2023)</b></summary>
+	 <summary><b>Poem 006: Fourier Knew</b></summary>
 	 <ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -381,7 +381,7 @@ Could be used to solve equations of the 19th century.<br>
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 007: Perturbations (27th September 2023)</b></summary>
+	 <summary><b>Poem 007: Perturbations</b></summary>
 	<ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -431,7 +431,7 @@ Could be used to solve equations of the 19th century.<br>
  </details>
  <hr>
  <details>
-	 <summary><b>Poem 008: Stokes (11th October 2023)</b></summary>
+	 <summary><b>Poem 008: Stokes</b></summary>
 	 <ul>
 			<li><u>The Mathematical Topic</u></li>
 			<p style="font-size:80%;">
@@ -474,9 +474,6 @@ Could be used to solve equations of the 19th century.<br>
     		</ul>
  </details>
  <hr>
- <details>
-	 <summary><b>Poem 009: <i>(appearing on 25th October 2023)</i></b></summary>
- </details>
  </div>
 
  
