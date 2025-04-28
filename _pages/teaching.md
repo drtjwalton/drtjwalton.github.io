@@ -45,11 +45,11 @@ ol li {
 Below is a partial list of courses I have taught at UCLan and other institutions:
 * **Abstract Algebra** 
 * **Mathematical Methods**
-* **Linear Algebra** (MMA5005)
+* **Linear Algebra** 
 * **Further Mathematical Methods** 
 * **Real Analysis** 
 * **Further Linear Algebra**
-* **Fluid Dynamics** (MMA6003)
+* **Fluid Dynamics**  
 * **Group Theory**
 * **Fields and Galois Theory**
 * **Complex Variables** 
