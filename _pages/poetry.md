@@ -3,7 +3,7 @@ layout: single
 title: "The Poetry of Mathematics"
 permalink: /poetry/
 author_profile: true
-modified: 2023-10-17
+modified: 2025-04-28
 ---
 
 <style>
