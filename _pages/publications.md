@@ -37,9 +37,9 @@ ol li {
 ---
 
 ## <a name="BOOK" style="color: rgb(5,127,176);">Books</a>
-* **A Geometric View for Observers of Spacetime Physics**  
-R. W. Tucker and T. J. Walton  
-(*in preparation*) 
+* **Probing the Universe: a Geometric View for Observers of Spacetime Physics**  
+R. W. Tucker and T. J. Walton    
+(*to appear in Springer book series: Fundamental Theories of Physics*)   
 
 ---
 
