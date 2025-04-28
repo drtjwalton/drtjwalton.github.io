@@ -90,9 +90,9 @@ blockquote
 
 <div class="row">
 	<p>
-	Mathematicians often talk about the "<i>beauty</i> of mathematics". This project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)">erasure poetry</a>, with current mathematical texts* as the source material. I enjoy the process of writing poetry and the nature of an erasure poem, like a tricky word puzzle, appeals to me. <br>
+	Mathematicians often talk about the "<i>beauty</i> of mathematics". This side-project explores this statement through <a href="https://en.wikipedia.org/wiki/Erasure_(artform)">erasure poetry</a>, with current mathematical texts* as the source material. I enjoy the process of writing poetry and the nature of an erasure poem, like a tricky word puzzle, appeals to me. <br>
 	<br>
-	My aim is to create one poem every fortnight and release it every other Wednesday. Hopefully you will enjoy the (amateur!) verse maybe learn a thing or two and, with luck, my poetry will improve over the weeks! If you feel inspired, have any comments or would just like to have a go yourself, then please do feel free to <a href="/contact/">contact me via email</a> with your query or submission. Enjoy!<br>
+	There is no aim in here to be consistent with my poetry writing, but rather when I have time (and inspiration!). Hopefully you will enjoy the (amateur!) verse, maybe learn a thing or two, and (with luck) my poetry will improve over time! If you feel inspired, have any comments or would just like to have a go yourself, then please do feel free to <a href="/contact/">contact me via email</a> with your query or submission. Enjoy!<br>
 	<br>
 	*<span style="font-size:75%;margin-top:0px;padding-top:0px;">
 	Use of copyrighted material has been deemed "fair dealing" as outlined by UK Government's <i><a href="https://www.gov.uk/guidance/exceptions-to-copyright">Exceptions to Copyright</a></i>
