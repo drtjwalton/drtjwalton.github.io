@@ -53,9 +53,9 @@ Moscow: Moscow University Press, 264-271 (2011)
 --- 
 
 ## <a name="PUB" style="color: rgb(5,127,176);">Peer-Reviewed Publications
-* **New estimates of the spin and accretion rate of the black hole M87&ast;**  
+* **New estimates of the spin and accretion rate of the black hole M87\***  
 M. Drew, J. S. Stanway, B. A. Patterson, T. J. Walton and D. Ward-Thompson  
-The Astrophysical Journal Letters , 984 (1), (2025) 1-5
+The Astrophysical Journal Letters , 984 (1), 1-5 (2025)
 [DOI](https://doi.org/10.3847/2041-8213/adc90e){:.btn--research}  
 * **Scalar Pre-potentials for Spinor and Tensor Fields on Spacetime**  
 R. W. Tucker and T. J. Walton  
