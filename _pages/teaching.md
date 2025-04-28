@@ -3,7 +3,7 @@ layout: single
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-modified: 2023-09-05
+modified: 2025-04-28  
 ---
 
 <style>
@@ -34,32 +34,33 @@ ol li {
 
 ---
 
-## <a name="CURRENT" style="color: rgb(5,127,176);">Current Teaching (2023-24)</a>
+## <a name="CURRENT" style="color: rgb(5,127,176);">Current Teaching (2024-25)</a>
 * **Foundation Mathematics**  (MAC101)
 * **Vector Calculus** (MA2832)
-* **Fields and Galois Theory** (MA3811)
+* **Introduction to Applied Mathematics** (MA1841)
 
 ---
 
 ## <a name="PAST" style="color: rgb(5,127,176);">Previous Teaching</a>
-Below is a partial list of courses I taught on the MMath Mathematics degree at the [University of Bolton](https://www.bolton.ac.uk), UK
-* **Abstract Algebra** (MMA4001)
-* **Mathematical Methods** (MMA4003)
+Below is a partial list of courses I have taught at UCLan and other institutions:
+* **Abstract Algebra** 
+* **Mathematical Methods**
 * **Linear Algebra** (MMA5005)
-* **Further Mathematical Methods** (MMA5003)
-* **Real Analysis** (MMA5006)
-* **Further Linear Algebra** (MMA6002)
+* **Further Mathematical Methods** 
+* **Real Analysis** 
+* **Further Linear Algebra**
 * **Fluid Dynamics** (MMA6003)
-* **Group Theory** (MMA5005)
-* **Complex Variables** (MMA6006)
-* **Applied Analysis** (MMA7001)
-* **Lie Groups and Differential Equations** (MMA7003)  
+* **Group Theory**
+* **Fields and Galois Theory**
+* **Complex Variables** 
+* **Applied Analysis** 
+* **Lie Groups and Differential Equations** 
   
 I also taught a number of modules to engineers encompassing various mathematical methods:
-* **Foundation Mathematics** (ATT3027)
-* **Engineering Principles II** (AME4063)
-* **Engineering Mathematics** (MSP4017)
-* **Engineering Mathematics II** (MSP5017)
-* **Biomedical Engineering and Analysis** (BME5001)
-* **Mathematics and Structural Design** (CIE4012)
-* **Engineering Mathematics and Structures** (CIE5004)
+* **Foundation Mathematics** 
+* **Engineering Principles II** 
+* **Engineering Mathematics** 
+* **Engineering Mathematics II** 
+* **Biomedical Engineering and Analysis** 
+* **Mathematics and Structural Design** 
+* **Engineering Mathematics and Structures** 
