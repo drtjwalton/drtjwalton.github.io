@@ -20,8 +20,8 @@ modified: 2025-05-22
 .center {
   margin: auto;
   width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+  border: 0px;
+  padding: 0px;
 }
 
 ol li {
@@ -33,7 +33,7 @@ In October 2025, my book will be published as volume 2222 in Springer's internat
 
 <div class="center">
 	<a href="https://link.springer.com/book/9783031964510">
-		<img src="/images/book_cover.jpeg" alt="Book Cover for Probing the Universe: A Geometrical View for Observers of Spacetime Physics by Tucker and Walton" style="width:15%;"/>
+		<img src="/images/book_cover.jpeg" alt="Book Cover for Probing the Universe: A Geometrical View for Observers of Spacetime Physics by Tucker and Walton" style="width:18%;"/>
 	</a>
 </div>
 
