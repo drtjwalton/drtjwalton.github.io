@@ -31,9 +31,9 @@ ol li {
 
 In October 2025, my book will be published as volume 2222 in Springer's international monograph series <a href="https://www.springer.com/series/6001">Fundamental Theories of Physics</a>:
 
-<a href="https://link.springer.com/book/9783031964510">
-	<div class="center">
+<div class="center">
+	<a href="https://link.springer.com/book/9783031964510">
 		<img src="/images/book_cover.jpeg" alt="Book Cover for Probing the Universe: A Geometrical View for Observers of Spacetime Physics by Tucker and Walton" style="width:15%;"/>
-	</div>
-</a>
+	</a>
+</div>
 
