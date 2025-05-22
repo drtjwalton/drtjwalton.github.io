@@ -1,0 +1,27 @@
+---
+layout: single
+title: "Book"
+permalink: /book/
+author_profile: true
+modified: 2025-05-22
+---
+
+<style>
+.toc--style {
+    margin: 0em 0em;
+    padding: 0.2em;
+    color: #fff;
+    text-indent: initial;
+    background-color: rgb(5,127,176);
+    border-radius: 16px;
+    box-shadow: 0 1px 1px rgba(59,156,186,0.25);
+}
+
+ol li {
+  padding: 10px;
+}
+</style>
+
+In October 2025, my book will be published as part of Springer's international monograph series <a href="https://www.springer.com/series/6001">Fundamental Theories of Physics</a>:
+
+<a href="https://link.springer.com/book/9783031964510">Probing the Universe: A Geometrical View for Observers of Spacetime Physics</a>
