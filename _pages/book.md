@@ -33,7 +33,7 @@ In October 2025, my book will be published as part of Springer's international m
 
 <a href="https://link.springer.com/book/9783031964510">
 	<div class="center">
-		<img src="/images/book_cover.jpeg" alt="Book Cover for Probing the Universe: A Geometrical View for Observers of Spacetime Physics by Tucker and Walton" style="width:20%;"/>
+		<img src="/images/book_cover.jpeg" alt="Book Cover for Probing the Universe: A Geometrical View for Observers of Spacetime Physics by Tucker and Walton" style="width:15%;"/>
 	</div>
 </a>
 
