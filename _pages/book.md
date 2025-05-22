@@ -16,6 +16,13 @@ modified: 2025-05-22
     border-radius: 16px;
     box-shadow: 0 1px 1px rgba(59,156,186,0.25);
 }
+	
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
 
 ol li {
   padding: 10px;
@@ -24,10 +31,9 @@ ol li {
 
 In October 2025, my book will be published as part of Springer's international monograph series <a href="https://www.springer.com/series/6001">Fundamental Theories of Physics</a>:
 
-<center>
-	<a href="https://link.springer.com/book/9783031964510">
-		<div class="inner90">
+<a href="https://link.springer.com/book/9783031964510">
+	<div class="center">
 			<img src="images/book_cover.jpeg" alt="Book Cover for my book "Probing the Universe: A Geometrical View for Observers of Spacetime Physics" style="width:50%;"/>
-		</div>
-	</a>
-</center>
+	</div>
+</a>
+
