@@ -94,7 +94,7 @@ In October 2025, my book "<a href="https://link.springer.com/book/9783031964510"
 		<hr>
   		<details>
 			<summary><b>Table of Contents</b></summary>
-   			<details><summary>1. Newtonian Gravitation and Maxwell's Theory of Electromagnetism</summary></details>
+   			<details style="padding-left:10px;margin-left:10px;"><summary>1. Newtonian Gravitation and Maxwell's Theory of Electromagnetism</summary></details>
 		</details>
   		<hr>
   		<details>
