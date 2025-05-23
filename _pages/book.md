@@ -79,52 +79,30 @@ In October 2025, my book will be published as volume 222 in Springer's internati
 
 <div class="row">
 	<p>
-		Information about my <a href="/research">research</a>, <a href="/teaching">teaching</a> and <a href="/publications">publications</a> can be found elsewhere. Here you will find a little bit more information about my background. Feel free to <a href="/contact">contact me</a> if you wish to know more.
+	Some further information about the book can be found below:
 	</p>
 	
 	<div class="column1">
 
 		<details>
-			<summary><b>Education</b></summary>
+			<summary><b>Synopsis</b></summary>
 			<ul>
-				<li>University</li>
-					<table>
-						<tr>
-							<td>2004-2008:</td> 
-							<td>PhD in Mathematical Physics at <a href="https://www.lancaster.ac.uk">Lancaster University</a>.<br> Thesis: ''The Electrodynamics of Moving, Elastic Media''.<br> Supervisor: <a href="https://www.lancaster.ac.uk/physics/about-us/people/robin-tucker">Prof. Robin W. Tucker</a></td>
-						</tr>
-						<tr>
-							<td>2000-2004:</td> 
-							<td>First class MSci degree in Theoretical Physics with Applied Mathematics at <a href="https://www.lancaster.ac.uk">Lancaster University</a>.<br>
-							Taught jointly with Departments of <a href="https://www.lancaster.ac.uk/physics/">Physics</a> and <a href="https://www.lancaster.ac.uk/maths/">Mathematics</a>. <br>
-							Modules studied on the degree can found <a href="MSciModules.html">here</a>.</td>
-						</tr>
-					</table>
-				<li>A Levels</li>
-					<p style="font-size:smaller;">
-						Gained from Downham Market Sixth Form, Norfolk 
-					</p>
-					<table  style="width:50%;">
-						<tr>
-							<td>Maths:</td>
-							<td>A</td>
-						</tr>
-						<tr>
-							<td>Further Maths:</td>
-							<td>B</td>
-						</tr>
-						<tr>
-							<td>Physics:</td>
-							<td>A</td>
-						</tr>
-					</table>
-					<p style="font-size:smaller;">
-						Achieved Norfolk Scholar status.
-					</p>
+				
 			</ul>
 		</details>
-
 		<hr>
+  		<details>
+			<summary><b>Table of Contents</b></summary>
+			<ul>
+				
+			</ul>
+		</details>
+  		<details>
+			<summary><b>Errata</b></summary>
+			<ul>
+				
+			</ul>
+		</details>
   	</div>
 </div>
 
