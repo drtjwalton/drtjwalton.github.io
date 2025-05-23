@@ -50,6 +50,7 @@ ol li {
 	content: "";
 	display: table;
 	clear: both;
+	padding-top: 10px;
 }
 
 .inner {
