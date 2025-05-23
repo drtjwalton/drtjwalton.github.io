@@ -22,6 +22,8 @@ modified: 2025-05-22
   width: 50%;
   border: 0px;
   padding: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 ol li {
@@ -51,6 +53,7 @@ ol li {
 	display: table;
 	clear: both;
 	padding-top: 10px;
+	margin-top: 10px;
 }
 
 .inner {
