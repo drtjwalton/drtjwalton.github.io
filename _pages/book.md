@@ -98,6 +98,7 @@ In October 2025, my book will be published as volume 222 in Springer's internati
 				
 			</ul>
 		</details>
+  		<hr>
   		<details>
 			<summary><b>Errata</b></summary>
 			<ul>
