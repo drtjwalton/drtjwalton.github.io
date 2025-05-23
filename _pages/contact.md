@@ -3,7 +3,7 @@ layout: single
 title: "Contact"
 permalink: /contact/
 author_profile: true
-modified: 2021-08-06
+modified: 2025-05-23
 ---
 
 <style>
@@ -54,7 +54,7 @@ body {
 			<b>Dr Timothy J. Walton</b><br> 
 			Jeremiah Horrocks Institute<br>
 			Leighton Building<br>
-			University of Central Lancashire<br>
+			University of Lancashire<br>
 			Preston, Lancashire<br>
 			PR1 2HE, UK
 		</p>
