@@ -73,7 +73,7 @@ ol li {
 	
 </style>
 
-In October 2025, my book will be published as volume 222 in Springer's international monograph series <a href="https://www.springer.com/series/6001">Fundamental Theories of Physics</a>:
+In October 2025, my book "<a href="https://link.springer.com/book/9783031964510">Probing the Universe: A Geometrical View for Observers of Spacetime Physics</a>", co-authored with my long-term collaborator Robin W. Tucker (Lancaster University), will be published as volume 222 in Springer's international monograph series <a href="https://www.springer.com/series/6001">Fundamental Theories of Physics</a>:
 
 <div class="center">
 	<a href="https://link.springer.com/book/9783031964510">
@@ -90,23 +90,18 @@ In October 2025, my book will be published as volume 222 in Springer's internati
 
 		<details>
 			<summary><b>Synopsis</b></summary>
-			<ul>
-				
-			</ul>
 		</details>
 		<hr>
   		<details>
 			<summary><b>Table of Contents</b></summary>
-			<ul>
-				
-			</ul>
+   			<details>
+      				1. Newtonian Gravitation and Maxwell's Theory of Electromagnetism
+      			</details>
 		</details>
   		<hr>
   		<details>
 			<summary><b>Errata</b></summary>
-			<ul>
-				
-			</ul>
+			Any errata found in the book will be posted here. Please do <a href="/contact">contact</a> me if you find any errors.
 		</details>
   	</div>
 </div>
