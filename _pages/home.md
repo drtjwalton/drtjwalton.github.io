@@ -71,7 +71,9 @@ body {
 			Senior Lecturer in Applied Mathematics <br style="margin-bottom:6px; padding-below:6px;">
 			School of Engineering & Computing, <a href="https://www.uclan.ac.uk">UCLan</a>.<br>
    <br>
-   			I am Course Leader for Mathematics at <a href="https://www.uclan.ac.uk">UCLan</a>. Please feel free to <a href="contact">contact me</a> if you wish to discuss anything about our BSc Mathematics degree scheme.<br style="margin-bottom:6px; padding-below:6px;">
+   			I am Course Leader for Mathematics at <a href="https://www.uclan.ac.uk">Univeristy of Lancashire</a>. Please feel free to <a href="contact">contact me</a> if you wish to discuss anything about our BSc Mathematics degree scheme.<br>
+   <br>
+   As part of my research activities within the <a href="https://www.star.uclan.ac.uk/">Jeremiah Horrocks Institute</a>, I am a member of the <a href="https://eventhorizontelescope.org/">Event Horizon Telescope</a> (EHT) Collaboration. <br style="margin-bottom:6px; padding-below:6px;">
 		</p>
 				
 	</div>
@@ -99,6 +101,11 @@ body {
 		<a href="https://www.advance-he.ac.uk/">
 			<div class="inner80">
 				<img src="images/advanceHE.png" alt="Advance HE logo" style="width:100%; margin-top:20px;"/>
+			</div>
+		</a>
+  		<a href="https://eventhorizontelescope.org/">
+			<div class="inner80">
+				<img src="images/EHTlogo.jpg" alt="Event Horizon Telescope (EHT) Collaboration logo" style="width:100%; margin-top:20px;"/>
 			</div>
 		</a>
 	</div>
