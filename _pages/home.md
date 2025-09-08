@@ -69,18 +69,19 @@ body {
 		<p>
 			<h3 style="color:rgb(5,127,176);">Dr Timothy J. Walton</h3>
 			Senior Lecturer in Applied Mathematics <br style="margin-bottom:6px; padding-below:6px;">
-			School of Engineering & Computing, <a href="https://www.uclan.ac.uk">UCLan</a>.<br>
+			School of Engineering & Computing<br style="margin-bottom:6px; padding-below:6px;"> 
+    		<a href="https://www.lancashire.ac.uk">University of Lancashire</a>.<br>
    <br>
-   			I am Course Leader for Mathematics at <a href="https://www.uclan.ac.uk">Univeristy of Lancashire</a>. Please feel free to <a href="contact">contact me</a> if you wish to discuss anything about our BSc Mathematics degree scheme.<br>
+   			I am Course Leader for Mathematics at <a href="https://www.uclan.ac.uk">University of Lancashire</a>. Please feel free to <a href="contact">contact me</a> if you wish to discuss anything about our BSc Mathematics degree scheme.<br>
    <br>
    As part of my research activities within the <a href="https://www.star.uclan.ac.uk/">Jeremiah Horrocks Institute</a>, I am a member of the <a href="https://eventhorizontelescope.org/">Event Horizon Telescope</a> (EHT) Collaboration. <br style="margin-bottom:6px; padding-below:6px;">
 		</p>
 				
 	</div>
 	<div class="column2">
-		<a href="https://www.uclan.ac.uk/">
+		<a href="https://www.lancashire.ac.uk/">
 			<div class="inner90">
-				<img src="images/uclan.png" alt="Logo for UCLan" style="width:100%;"/>
+				<img src="images/uni_lancashire.jpg" alt="Logo for University of Lancashire" style="width:100%;"/>
 			</div>
 		</a>
 		<a href="https://www.star.uclan.ac.uk/">
