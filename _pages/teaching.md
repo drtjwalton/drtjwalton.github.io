@@ -34,7 +34,7 @@ ol li {
 
 ---
 
-## <a name="CURRENT" style="color: rgb(5,127,176);">Current Teaching (2024-25)</a>
+## <a name="CURRENT" style="color: rgb(5,127,176);">Current Teaching (2025-26)</a>
 * **Foundation Mathematics**  (MAC101)
 * **Vector Calculus** (MA2832)
 * **Introduction to Applied Mathematics** (MA1841)
