@@ -52,8 +52,8 @@ body {
 		</h2>
 		<p>
 			<b>Dr Timothy J. Walton</b><br> 
+			Room LE116, Leighton Building<br>
 			Jeremiah Horrocks Institute<br>
-			Leighton Building<br>
 			University of Lancashire<br>
 			Preston, Lancashire<br>
 			PR1 2HE, UK
@@ -62,7 +62,7 @@ body {
 			Email:
 		</h2>
 		<p>
-			<a href="mailto:twalton@uclan.ac.uk">twalton@uclan.ac.uk</a>
+			<a href="mailto:twalton@lancashire.ac.uk">twalton@lancashire.ac.uk</a>
 		</p>
 	</div>	
 </div>
