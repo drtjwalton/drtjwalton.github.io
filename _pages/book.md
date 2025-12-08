@@ -100,7 +100,7 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
   		<hr>
   		<details>
 			<summary><b>Errata</b></summary>
-			A list of errate will be kept here:<p>
+			A list of errata will be kept here:<br><br>
 			<object data="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf" type="application/pdf" width="80%" height="90%">
     <embed src="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf">Download PDF</a>.</p>
