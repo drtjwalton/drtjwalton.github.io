@@ -100,12 +100,19 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
   		<hr>
   		<details>
 			<summary><b>Errata</b></summary>
-			A list of errata will be kept here:<br><br>
-			<object data="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf" type="application/pdf" width="100%" height="100%">
-    <embed src="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+			<p>
+        <a href="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf" target="_blank" rel="noopener noreferrer">
+           A list of errata will be kept here: (New Tab)
+        </a>
+    </p>
+    <iframe
+        src="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf"
+        width="100%"
+        height="600px"
+        style="border: 1px solid #ddd;"
+        title="Errata for Book">
+        <p>Your browser does not support inline PDF viewing. Please download the file.</p>
+    </iframe>
 		</details>
   	</div>
 </div>
