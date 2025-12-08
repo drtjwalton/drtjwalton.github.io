@@ -3,7 +3,7 @@ layout: single
 title: "Book"
 permalink: /book/
 author_profile: true
-modified: 2025-05-22
+modified: 2025-12-08
 ---
 
 <style>
@@ -100,7 +100,11 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
   		<hr>
   		<details>
 			<summary><b>Errata</b></summary>
-			A list of errata will be kept here.
+			<object data="https://github.com/drtjwalton/drtjwalton.github.io/blob/9417b827133ca15da87d1381c376517ad97d9c43/files/Book/ProbingTheUniverse_ERRATA.pdf" type="application/pdf" width="80%" height="90%">
+    <embed src="https://github.com/drtjwalton/drtjwalton.github.io/blob/9417b827133ca15da87d1381c376517ad97d9c43/files/Book/ProbingTheUniverse_ERRATA.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/drtjwalton/drtjwalton.github.io/blob/9417b827133ca15da87d1381c376517ad97d9c43/files/Book/ProbingTheUniverse_ERRATA.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 		</details>
   	</div>
 </div>
