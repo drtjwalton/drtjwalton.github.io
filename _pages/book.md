@@ -94,9 +94,8 @@ An <a href="https://link.springer.com/book/9783031964510">online version of the 
 ---
 
 ## <a name="PUB" style="color: rgb(5,127,176);">Errata
-A list of errata will be kept here:   		  
-		[Open in new tab](https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf){:.btn--research}
-</p>
+A list of errata will be kept here:   [Open in new tab](https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf){:.btn--research}
+
 <iframe
      src="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf"
      width="100%"
