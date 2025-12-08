@@ -19,7 +19,7 @@ modified: 2025-12-08
 	
 .center {
   margin: auto;
-  width: 50%;
+  width: 80%;
   border: 0px;
   padding: 0px;
   margin-bottom: 10px;
