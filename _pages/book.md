@@ -86,7 +86,7 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
 	Some further information about the book can be found below:
 	</p>
 	
-	<div class="column1" markdown="1">
+	<div class="column1">
 
 		<details>
 			<summary><b>Synopsis</b></summary>
