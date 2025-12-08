@@ -95,7 +95,7 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
 		<hr>
   		<details>
 			<summary><b>Table of Contents</b></summary>
-			An online version of the table of contents can be found via the Springer website. The website also hosts a pdf preview of the book containing the table of contents.
+			An <a href="https://link.springer.com/book/9783031964510">online version of the table of contents</a> can be found via the Springer website. The website also hosts a <a href="">pdf preview of the book whic contains the table of contents</a>.
 		</details>
   		<hr>
   		<details>
