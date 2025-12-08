@@ -90,15 +90,22 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
 
 		<details>
 			<summary><b>Synopsis</b></summary>
+			This graduate-level text offers a novel perspective on the interplay between gravitation, electrodynamics, and quantum physics, framed within the rigorous language of modern differential geometry, utilizing concepts like fibre bundles, manifolds and exterior calculus. While focusing heavily on Einstein's theory of gravitation, it develops a broad mathematical framework encompassing arbitrary dimensional manifolds, metric tensor fields of any signature, torsion, and metric gradients. A unique contribution is the introduction of Frenet-Serret frames along curves in Lorentzian manifolds and the precise definition of an "ideal spacetime observer" and a "standard clock," emphasizing the role of quantum wave-particle duality in local measurements. The book employs a variational approach using exterior calculus to derive generalized gravitational theories and provides a detailed analysis of the Einstein-Maxwell paradigm. It meticulously distinguishes geometric and co-ordinate singularities using charts like Painleve-Gullstrand and Kruskal-Szekeres to explore black hole spacetimes. Further chapters provide a geometrical framework for the Tolman-Oppenheimer-Volkoff theory and clarify the "Oppenheimer-Schiff Debate." The book concludes by introducing complex chiral pulse models across various electrodynamics theories and linearised gravitation, and discusses spinor pulse fields using Clifford algebra bundles.
 		</details>
 		<hr>
   		<details>
 			<summary><b>Table of Contents</b></summary>
+			An online version of the table of contents can be found via the Springer website. The website also hosts a pdf preview of the book containing the table of contents.
 		</details>
   		<hr>
   		<details>
 			<summary><b>Errata</b></summary>
-			Any errata found in the book will be posted here. Please do <a href="/contact">contact</a> me if you find any errors.
+			Any errata found in the book will be posted here. Please do <a href="/contact">contact me</a> if you find any errors.<p>
+			<p>
+			<ul>
+				<li>page 402: penultimate equation contains \delta T^{c}_{0} which should be \delta^{c}_{0}</li>
+			</ul>
+			<p><small>(Updated: 8th December 2025)</small></p>
 		</details>
   	</div>
 </div>
