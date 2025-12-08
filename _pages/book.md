@@ -100,11 +100,13 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
   		<hr>
   		<details>
 			<summary><b>Errata</b></summary>
-			<object data="https://github.com/drtjwalton/drtjwalton.github.io/blob/9417b827133ca15da87d1381c376517ad97d9c43/files/Book/ProbingTheUniverse_ERRATA.pdf" type="application/pdf" width="80%" height="90%">
-    <embed src="https://github.com/drtjwalton/drtjwalton.github.io/blob/9417b827133ca15da87d1381c376517ad97d9c43/files/Book/ProbingTheUniverse_ERRATA.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/drtjwalton/drtjwalton.github.io/blob/9417b827133ca15da87d1381c376517ad97d9c43/files/Book/ProbingTheUniverse_ERRATA.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+			<iframe
+    src="https://github.com/drtjwalton/drtjwalton.github.io/blob/9417b827133ca15da87d1381c376517ad97d9c43/files/Book/ProbingTheUniverse_ERRATA.pdf"
+    width="100%"
+    height="600px"
+    style="border: none;"
+    title="Embedded PDF Document">
+</iframe>
 		</details>
   	</div>
 </div>
