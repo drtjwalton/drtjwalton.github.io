@@ -41,6 +41,9 @@ I offer no guarantee that they are error-free!
 * [A proof of Simpson's rule]({{ site.baseurl }}/files/Teaching Notes/SimpsonsRule.pdf)
 * [The nonlinear pendulum]({{ site.baseurl }}/files/Teaching Notes/NonlinearPendulum.pdf)
 * [A brief introduction to PDEs]({{ site.baseurl }}/files/Teaching Notes/PDEs.pdf)
+* [A brief introduction to Dimensional Analysis]({{ site.baseurl }}/files/Teaching Notes/DimAnalysis.pdf)
+  (note that these were a gapped set of notes but here I have filled in the gaps)
+  
 
 
 ## <a name="RES" style="color: rgb(5,127,176);">Research</a>
