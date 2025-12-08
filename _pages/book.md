@@ -81,40 +81,28 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
 	</a>
 </div>
 
-<div class="row">
-	<p>
-	Some further information about the book can be found below:
-	</p>
-	
-	<div class="column1">
+Some further information about the book can be found below:
 
-		<details>
-			<summary><b>Synopsis</b></summary>
-			This graduate-level text offers a fresh, geometric perspective on gravitation, electrodynamics, and quantum physics, primarily using the language of differential geometry, fiber bundles, manifolds and exterior calculus. It places Einstein's theory of gravitation within a broad mathematical framework, featuring concepts like torsion and metric gradients, and includes a novel introduction to Frenet-Serret frames in arbitrary-dimensional manifolds. The book provides a precise definition of an "ideal spacetime observer" and "standard clock," integrating the role of quantum wave-particle duality. It utilizes the exterior calculus for deriving generalized theories of gravity and matter, analyzes black hole spacetimes using Kruskal-Szekeres charts and Killing fields, and introduces chiral pulse models and spinor fields as a basis for advanced study.
-		</details>
-		<hr>
-  		<details>
-			<summary><b>Table of Contents</b></summary>
-			An <a href="https://link.springer.com/book/9783031964510">online version of the table of contents</a> can be found via the Springer website. The website also hosts a <a href="">pdf preview of the book</a> which, amongst other things, contains a copy of the table of contents.
-		</details>
-  		<hr>
-  		<details markdown="1">
-			<summary><b>Errata</b></summary>
-			<p>	
-        A list of errata will be kept here:   		  
+## <a name="PUB" style="color: rgb(5,127,176);">Synopsis
+This graduate-level text offers a fresh, geometric perspective on gravitation, electrodynamics, and quantum physics, primarily using the language of differential geometry, fiber bundles, manifolds and exterior calculus. It places Einstein's theory of gravitation within a broad mathematical framework, featuring concepts like torsion and metric gradients, and includes a novel introduction to Frenet-Serret frames in arbitrary-dimensional manifolds. The book provides a precise definition of an "ideal spacetime observer" and "standard clock," integrating the role of quantum wave-particle duality. It utilizes the exterior calculus for deriving generalized theories of gravity and matter, analyzes black hole spacetimes using Kruskal-Szekeres charts and Killing fields, and introduces chiral pulse models and spinor fields as a basis for advanced study.
+
+---
+
+## <a name="PUB" style="color: rgb(5,127,176);">Table of Contents
+An <a href="https://link.springer.com/book/9783031964510">online version of the table of contents</a> can be found via the Springer website. The website also hosts a <a href="">pdf preview of the book</a> which, amongst other things, contains a copy of the table of contents.
+
+---
+
+## <a name="PUB" style="color: rgb(5,127,176);">Errata
+A list of errata will be kept here:   		  
 		[Open in new tab](https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf){:.btn--research}
-    </p>
-    <iframe
-        src="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf"
-        width="100%"
-        height="600px"
-        style="border: 1px solid #ddd;"
-        title="Errata for Book">
-        <p>Your browser does not support inline PDF viewing. Please download the file.</p>
-    </iframe>
-		</details>
-  	</div>
-</div>
-
-
+</p>
+<iframe
+     src="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf"
+     width="100%"
+     height="600px"
+     style="border: 1px solid #ddd;"
+     title="Errata for Book">
+     <p>Your browser does not support inline PDF viewing. Please download the file.</p>
+</iframe> 
 
