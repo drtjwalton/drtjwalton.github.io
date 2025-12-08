@@ -101,9 +101,7 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
   		<details>
 			<summary><b>Errata</b></summary>
 			<p>
-        <a href="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf" target="_blank" rel="noopener noreferrer">
-           A list of errata will be kept here: (New Tab)
-        </a>
+        A list of errata will be kept here:   		  [(Open in new tab)]([https://arxiv.org/abs/0811.4394](https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf)){:.btn--research}
     </p>
     <iframe
         src="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf"
