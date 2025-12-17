@@ -72,9 +72,11 @@ ol li {
 }
 	
 </style>
-<div>
+
+<div class="row">
 In November 2025, my book "<a href="https://link.springer.com/book/9783031964510">Probing the Universe: A Geometrical View for Observers of Spacetime Physics</a>", co-authored with my long-term collaborator Robin W. Tucker (Lancaster University), will be published as volume 222 in Springer's international monograph series <a href="https://www.springer.com/series/6001">Fundamental Theories of Physics</a>:
 </div>
+
 <div class="center">
 	<a href="https://link.springer.com/book/9783031964510">
 		<img src="images/Books/Korner.jpg" alt="Book Cover for Probing the Universe: A Geometrical View for Observers of Spacetime Physics by Tucker and Walton" style="width:40%;"/>
