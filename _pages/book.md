@@ -98,8 +98,9 @@ An <a href="https://link.springer.com/book/9783031964510">online version of the 
 ---
 
 ## <a name="PUB" style="color: rgb(5,127,176);">Errata
-<p>A list of errata will be kept here:   [Open in new tab](https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf){:.btn--research}</p>
-<p>Please email <a href="mailto:TWalton@lancashire.ac.uk">TWalton@lancashire.ac.uk</a> if you find any typographical errors not listed.</p>
+A list of errata will be kept here:   [Open in new tab](https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf){:.btn--research}
+
+Please email <a href="mailto:TWalton@lancashire.ac.uk">TWalton@lancashire.ac.uk</a> if you find any typographical errors not listed.
 
 <!--
 <iframe
