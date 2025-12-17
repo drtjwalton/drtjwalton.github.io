@@ -82,9 +82,10 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
 		<img src="/images/ProbingTheUniverse_COVER.png" alt="Book Cover for Probing the Universe: A Geometrical View for Observers of Spacetime Physics by Tucker and Walton" style="width:30%;"/>
 	</a>
 </div>
-
+<p></p>
+<div class="row">
 Some further information about the book can be found below:
-
+</div>
 ## <a name="PUB" style="color: rgb(5,127,176);">Synopsis
 This graduate-level text offers a fresh, geometric perspective on gravitation, electrodynamics, and quantum physics, primarily using the language of differential geometry, fiber bundles, manifolds and exterior calculus. It places Einstein's theory of gravitation within a broad mathematical framework, featuring concepts like torsion and metric gradients, and includes a novel introduction to Frenet-Serret frames in arbitrary-dimensional manifolds. The book provides a precise definition of an "ideal spacetime observer" and "standard clock," integrating the role of quantum wave-particle duality. It utilizes the exterior calculus for deriving generalized theories of gravity and matter, analyzes black hole spacetimes using Kruskal-Szekeres charts and Killing fields, and introduces chiral pulse models and spinor fields as a basis for advanced study.
 
