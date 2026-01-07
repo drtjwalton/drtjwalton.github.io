@@ -40,7 +40,7 @@ ol li {
 * **<a href="/book">Probing the Universe: a Geometric View for Observers of Spacetime Physics</a>**  
 R. W. Tucker and T. J. Walton  
 Fundamental Theories of Physics, Springer (2026)  
-[DOI](https://doi.org/10.1007/978-3-031-96452-7){:.bt--research}   
+[DOI](https://doi.org/10.1007/978-3-031-96452-7){:.btn--research}   
 
 ---
 
