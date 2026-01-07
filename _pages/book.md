@@ -74,7 +74,7 @@ ol li {
 </style>
 
 <div class="row">
-In November 2025, my book "<a href="https://link.springer.com/book/9783031964510">Probing the Universe: A Geometrical View for Observers of Spacetime Physics</a>", co-authored with my long-term collaborator Robin W. Tucker (Lancaster University), will be published as volume 222 in Springer's international monograph series <a href="https://www.springer.com/series/6001">Fundamental Theories of Physics</a>:
+In January 2026, my book "<a href="https://link.springer.com/book/9783031964510">Probing the Universe: A Geometrical View for Observers of Spacetime Physics</a>", co-authored with my long-term collaborator Robin W. Tucker (Lancaster University), was published as volume 222 in Springer's international monograph series <a href="https://www.springer.com/series/6001">Fundamental Theories of Physics</a>:
 </div>
 <p></p>
 <div class="center">
@@ -84,7 +84,7 @@ In November 2025, my book "<a href="https://link.springer.com/book/9783031964510
 </div>
 <p></p>
 <div class="row">
-Some further information about the book can be found below:
+Further information about the book can be found below:
 </div>
 
 ## <a name="PUB" style="color: rgb(5,127,176);">Synopsis
@@ -93,23 +93,13 @@ This graduate-level text offers a fresh, geometric perspective on gravitation, e
 ---
 
 ## <a name="PUB" style="color: rgb(5,127,176);">Table of Contents
-An <a href="https://link.springer.com/book/9783031964510">online version of the table of contents</a> can be found via the Springer website. The website also hosts a <a href="">pdf preview of the book</a> which, amongst other things, contains a copy of the table of contents.
+An <a href="https://link.springer.com/content/pdf/bfm:978-3-031-96452-7/1">online version of the table of contents</a> can be found via the <a href="https://link.springer.com/book/9783031964510">book's page on the Springer website</a>. 
 
 ---
 
 ## <a name="PUB" style="color: rgb(5,127,176);">Errata
 A list of errata will be kept here:   [Open in new tab](https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf){:.btn--research}
 
-Please email <a href="mailto:TWalton@lancashire.ac.uk">TWalton@lancashire.ac.uk</a> if you find any typographical errors not listed.
+Please email <a href="mailto:TWalton@lancashire.ac.uk">TWalton@lancashire.ac.uk</a> if you find any further typographical errors or wish to discuss the content of the book.
 
-<!--
-<iframe
-     src="https://www.t-j-walton.co.uk/files/Book/ProbingTheUniverse_ERRATA.pdf"
-     width="100%"
-     height="600px"
-     style="border: 1px solid #ddd;"
-     title="Errata for Book">
-     <p>Your browser does not support inline PDF viewing. Please download the file.</p>
-</iframe> 
--->
 
