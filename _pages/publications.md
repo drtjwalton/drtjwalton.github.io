@@ -3,7 +3,7 @@ layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
-modified: 2025-04-28
+modified: 2025-01-07
 ---
 
 <style>
@@ -38,8 +38,9 @@ ol li {
 
 ## <a name="BOOK" style="color: rgb(5,127,176);">Books</a>
 * **<a href="/book">Probing the Universe: a Geometric View for Observers of Spacetime Physics</a>**  
-R. W. Tucker and T. J. Walton    
-(*to appear in Springer book series: Fundamental Theories of Physics*)   
+R. W. Tucker and T. J. Walton
+Fundamental Theories of Physics, Springer (2026)
+[DOI](https://doi.org/10.1007/978-3-031-96452-7){:.bt--research}   
 
 ---
 
@@ -56,12 +57,13 @@ Moscow: Moscow University Press, 264-271 (2011)
 * **New estimates of the spin and accretion rate of the black hole M87\***  
 M. Drew, J. S. Stanway, B. A. Patterson, T. J. Walton and D. Ward-Thompson  
 The Astrophysical Journal Letters , 984 (1), 1-5 (2025)  
-[DOI](https://doi.org/10.3847/2041-8213/adc90e){:.btn--research}  
+[DOI](https://doi.org/10.3847/2041-8213/adc90e){:.btn--research}
+[arXiv](https://arxiv.org/abs/2109.07475){:.btn--research}
 * **Scalar Pre-potentials for Spinor and Tensor Fields on Spacetime**  
 R. W. Tucker and T. J. Walton  
 Journal of Physics: Conference Series, 2191 (1), 012020 (2022)  
 [DOI](https://doi.org/10.1088/1742-6596/2191/1/012020){:.btn--research} 
-[arXiv](https://arxiv.org/abs/2109.07475){:.btn--research} 
+[arXiv](https://arxiv.org/abs/2505.17035){:.btn--research} 
 * **A New Paradigm for the Dynamics of the Early Universe**  
 R. W. Tucker, T. J. Walton, M. Arrayás and J. L. Trueba  
 CQG, 36 (24), 245016, (2019)  
@@ -121,7 +123,7 @@ Proc. SPIE 8072, 80720O (2011)
 [DOI](https://doi.org/10.1117/12.886255){:.btn--research}
 [arXiv](https://arxiv.org/abs/1107.1521){:.btn--research}
 * **Exploring Born-Infeld Electrodynamics using Plasmas**  
-D. A. Burton, R. M. G. M. Trines, T. J. Walton & H. Wen
+D. A. Burton, R. M. G. M. Trines, T. J. Walton & H. Wen  
 J. Phys. A: Math. Theor., 44 (095501) (2011)  
 [DOI](https://doi.org/10.1088/1751-8113/44/9/095501){:.btn--research}
 [arXiv](https://arxiv.org/abs/1006.2246){:.btn--research}  
