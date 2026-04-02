@@ -78,7 +78,7 @@ My collaborators include:
 For a bit of fun, here is some information about my academic network:
 
 * my [academic genealogy](https://github.com/drtjwalton/drtjwalton.github.io/blob/e5f07eaf42b880a7fd0ecf9900cda996bf501d99/_research/PhDTree.pdf)
-* [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number): 4
+* [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number): 4 (as calculated by [MathSciNet](https://mathscinet.ams.org/mathscinet/collaborationDistance.html))
 * Einstein number: 5 (as calculated by [MathSciNet](https://mathscinet.ams.org/mathscinet/collaborationDistance.html))
 
 
