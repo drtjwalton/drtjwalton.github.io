@@ -3,14 +3,15 @@
 \usepackage[a4paper,left=1.8cm,right=1.8cm,top=1.5cm,bottom=2.3cm]{geometry}
 \usepackage{bm}
 
+\newcommand\twodigits[1]{\ifnum#1<10 0\fi\the#1}
+\newcommand\mydate{\leavevmode\hbox{\twodigits\day/\twodigits\month/\the\year}}
 \newcommand\correct[1]{{\color{red!80!black}\bf #1}}
 \newcommand\mcorrect[1]{{\color{red!80!black}\bm{#1}}}
 \newcommand\listrule{\vspace{0.2cm}\hrule height 0.3pt}
-\newcommand{\vdate}{02/04/2026}
 
 \clearpairofpagestyles
-\lofoot{\footnotesize\underline{Version date}: \vdate} \cofoot{} \rofoot{\small Page \pagemark} 
-\lefoot{\footnotesize\underline{Version date}: \vdate} \cefoot{} \refoot{\small Page \pagemark} 
+\lofoot{\footnotesize\underline{Version date}: \mydate} \cofoot{} \rofoot{\small Page \pagemark} 
+\lefoot{\footnotesize\underline{Version date}: \mydate} \cefoot{} \refoot{\small Page \pagemark} 
 \setkomafont{pagenumber}{\small} 
 \pagestyle{scrheadings}
 \setheadsepline{0pt}
@@ -302,6 +303,21 @@ Please email \href{mailto:TWalton@lancashire.ac.uk}{TWalton@lancashire.ac.uk} if
 		\end{align}
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\listrule
+	\item[\underline{page 418}:] 
+		The first displayed equation on this page should read:
+		\begin{align*}
+			J_{K_j}^{(V)} \,\equiv\, -\mcorrect{\frac{ c_{0} } { L_{0}^{2}}} \,  i_V  \tau_{K_j}^{(\text{MAX})}, \qquad \mcorrect{\PHYSDIM{K_{j}}\,=\, \frac{\TIME}{\LENGTH}}, \qquad (j=1,2,3).
+		\end{align*}
+		The penultimate displayed equation on this page should read:
+		\begin{align*}
+		  \star(F \w \star F) \,=\,  \frac{ L_{0}^2} { 8 \pi^2 \epsilon_{0}^2 } 
+		  \left(    \frac{q_{2}^2 } { 2 r^4}  \right.   
+			& + \frac{ q_1 q_2 (r^2 -x^{3} d_0)  } { \mcorrect{r^{3}}( (x^{1})^{2} + (x^{2})^{2} + (x{^{3}}-d_{0})^2 )^{ 3/2 }   } \\[0.2cm] 
+			& \left.+ \frac{   q_{1}^2       } { 2  ((x^{1})^{2} + (x^{2})^{2} + (x{^{3}}-d_{0})^2 )^2 }   
+		   \right)
+		\end{align*}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
 	\item[\underline{page 488}:]
 		The first displayed equation on this page should read: 
 		\begin{align*}
@@ -311,6 +327,7 @@ Please email \href{mailto:TWalton@lancashire.ac.uk}{TWalton@lancashire.ac.uk} if
 		\end{align*}
 		\vspace{-0.5cm}
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newpage
 	\listrule
 	\item[\underline{page 491}:]
 		The axis labels $(\,T(\tau),R(\tau)\,)$ in Fig. 30.1 are the wrong way round and need to be swapped. The figure should be as follows:
@@ -320,8 +337,7 @@ Please email \href{mailto:TWalton@lancashire.ac.uk}{TWalton@lancashire.ac.uk} if
 			\includegraphics[width=0.7\textwidth]{Figure_30.1_CORRECTED.pdf}
 		\end{figure}
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\listrule
-	\newpage	
+	\listrule	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\listrule
 	\item[\underline{page 573}:]
