@@ -288,6 +288,13 @@ Please email \href{mailto:TWalton@lancashire.ac.uk}{TWalton@lancashire.ac.uk} if
 	\newpage
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\listrule
+	\item[\underline{page 411}:]
+		There is an typographical mistake on this page. The paragraph immediately under the first displayed equation should read:
+		\begin{quote}
+			where the image of the coherently-oriented $3$-chains $\Sigma_{t_{1}}$ and $\Sigma_{t_{2}}$ are spacelike hypersurfaces (with spacelike tangent vectors), and $\mathcal{T}$ is a timelike $3$-chain (whose image has timelike tangent vectors). We shall call $\mathcal{T}$ a $3$-dimensional {\it world tube} and \correct{identify} $\UM$ as the {\it history} $\UM[t_{1},t_{2}]$ of $\Sigma_{t_{1}}$ from $t_{1}$ to $t_{2}$. 
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
 	\item[\underline{page 414}:] 	
 		Equation (22.8) should read:
 		\begin{align}\tag{22.8}
@@ -389,6 +396,55 @@ Please email \href{mailto:TWalton@lancashire.ac.uk}{TWalton@lancashire.ac.uk} if
 		\end{align*}		
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\listrule
+	\item[\underline{page 688}:] 
+		Equation (35.8) for the action functional should read:
+		\begin{align}\tag{34.8}
+			I[C] \,=\, \int_{t_{1}}^{t_{2}}\wh{\mathscr{L}}(\correct{\qq,\,\dot{\qq}},\, t)\mcorrect{\left.\df\right|_{C(t)}}\,dt
+		\end{align}
+		and equation (35.9) for the variation should be:
+		\begin{align}\tag{34.9}
+			\begin{split}
+				I[C+\pmb{h}] - I[C] &\,=\, \int_{t_{1}}^{t_{2}}\left\{ \wh{\mathscr{L}}(\qq+\pmb{h},\,\dot{\qq}+\dot{\pmb{h}},\, t) - \wh{\mathscr{L}}(\qq,\,\dot{\qq},\, t) \right\}\mcorrect{\left.\df\right|_{C(t)}}\,dt \\[0.2cm]
+					&\,=\, \int_{t_{1}}^{t_{2}}\left\{ \frac{\partial\wh{\mathscr{L}}}{\partial \qq}\,\pmb{h} +  \frac{\partial\wh{\mathscr{L}}}{\partial \dot{\qq}}\,\dot{\pmb{h}} \right\}\mcorrect{\left.\df\right|_{C(t)}}\,dt + O\!\left(\norm{\pmb{h}}^{2}\right).
+			\end{split} 
+		\end{align}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newpage
+	\listrule
+	\item[\underline{page 690}:]
+		Equation (35.13) needs correcting as follows:
+		\begin{align}\tag{35.13}
+			K[C] \,=\, \int_{\tau_{1}}^{\tau_{2}}\wh{\mathscr{L}}(\mcorrect{\qq,\,{}^{[1]}\qq,\,{}^{[2]}\qq,\ldots,\,{}^{[N]}\qq},\, \tau)\mcorrect{\left.\df\right|_{C(\tau)}} \,d\tau.
+		\end{align}
+		The text underneath this equation should then read:
+		\begin{quote}
+			``It is straightforward to generalise the variational methods indicated in (35.9) for the case $N=1$ to the functional with $N>1$. The isolation of the variation $\pmb{h}$ can then be performed by a series of $N$ integrations-by-parts to yield the necessary conditions for $C$ to be an extremal \correct{curve $C\equiv (\,C^{1}(\tau),C^{2}(\tau),\ldots,C^{J}(\tau)\,)$} of $K[C]$. For notational clarification $\ldots$''.
+		\end{quote}
+		and then the following equation (the second displayed equation on the page) should read:		
+		\begin{align*}
+				\left\{	\begin{array}{rl}
+							\mcorrect{\qq} &\!=\; \mcorrect{(q^{1},q^{2},\ldots,q^{J})} \\[0.2cm] 
+							\mcorrect{{}^{[1]}\qq} 	&\,=\, \mcorrect{({}^{[1]}q^{1}, {}^{[1]}q^{2}, \ldots, {}^{[1]}q^{J})} \\[0.2cm]
+							\mcorrect{{}^{[2]}\qq} 	&\,=\, \mcorrect{({}^{[2]}q^{1}, {}^{[2]}q^{2}, \ldots, {}^{[2]}q^{J})} \\[0.2cm]
+											&\;\,\vdots \\[0.2cm]
+							\mcorrect{{}^{[N]}\qq} 	&\,=\, \mcorrect{({}^{[N]}q^{1}, {}^{[N]}\!q^{2}, \ldots, {}^{[N]}q^{J})} 
+						\end{array}\right. \qquad\text{where}\qquad n\,=\, 1,2,\ldots,J\equiv \dim(\mathcal{Q}).
+		\end{align*}
+		The next displayed equation for the Euler-Lagrange system and the text lead-in should read:
+		\begin{quote}
+			given by \correct{the extremum of (35.13):}
+			\begin{align*}
+				\mcorrect{\left.\frac{\partial\wh{\mathscr{L}}}{\partial q^{i}}\,\right|_{C(\tau)} +\; \sum_{s=1}^{N}(-1)^{s}\frac{d}{d\tau^{s}}\left(  \left.\frac{\partial\wh{\mathscr{L}}}{\partial ({}^{[s]}q^{i})}\,\right|_{C(\tau)}  \right) \,=\, 0 \qquad (i=1,2,\ldots,J)}.
+			\end{align*}
+		\end{quote}
+		The final displayed equation on the page and the text lead-in also need editing, as follows:
+		\begin{quote}
+			For example, if $n=2$ and $N=2$ with $\wh{\mathscr{L}}\equiv\wh{\mathscr{L}}(\qq,\mcorrect{{}^{[1]}\qq,{}^{[2]}\qq},\tau)$ one then has for $i=1,2$:
+			\begin{align*}
+				0 	&\,=\, \left.\frac{\partial\wh{\mathscr{L}}}{\partial q^{i}}\,\right|_{C(\tau)} \mcorrect{ - \frac{d}{d\tau}\!\left(\left.\frac{\partial\wh{\mathscr{L}}}{\partial ({}^{[1]}q^{i})} \right|_{C(\tau)} \right) +  \frac{d^{2}}{d\tau^{2}}\!\left(\left.\frac{\partial\wh{\mathscr{L}}}{\partial ({}^{[2]}q^{i})}\right|_{C(\tau)}\right) }.
+			\end{align*}
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{enumerate}
 %%%%%%%% END OF ERRATA
 
