@@ -1,0 +1,453 @@
+\documentclass[12pt]{GeomPhysBOOK}
+
+\usepackage[a4paper,left=1.8cm,right=1.8cm,top=1.5cm,bottom=2.3cm]{geometry}
+\usepackage{bm}
+
+\newcommand\twodigits[1]{\ifnum#1<10 0\fi\the#1}
+\newcommand\mydate{\leavevmode\hbox{\twodigits\day/\twodigits\month/\the\year}}
+\newcommand\correct[1]{{\color{red!80!black}\bf #1}}
+\newcommand\mcorrect[1]{{\color{red!80!black}\bm{#1}}}
+\newcommand\listrule{\vspace{0.2cm}\hrule height 0.3pt}
+
+\clearpairofpagestyles
+\lofoot{\footnotesize\underline{Version date}: \mydate} \cofoot{} \rofoot{\small Page \pagemark} 
+\lefoot{\footnotesize\underline{Version date}: \mydate} \cefoot{} \refoot{\small Page \pagemark} 
+\setkomafont{pagenumber}{\small} 
+\pagestyle{scrheadings}
+\setheadsepline{0pt}
+\setfootsepline{0pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\rule{0.999\textwidth}{0.05cm}\vspace{0.2cm}
+\begin{center}
+	\begin{minipage}{0.18\textwidth}
+		{\bf \large Errata for:} 		
+	\end{minipage}\;
+	\begin{minipage}[t]{0.8\textwidth}
+		\centering
+		{\Large\bf ``\href{https://doi.org/10.1007/978-3-031-96452-7}{Probing the Universe: A Geometrical View for}} \\[0.2cm] {\Large\bf \href{https://doi.org/10.1007/978-3-031-96452-7}{Observers of Spacetime Physics''}} \\[0.4cm]
+		{\large Robin W. Tucker and Timothy J. Walton (Springer: 2026)}
+	\end{minipage}
+\end{center}
+\rule{0.47\textwidth}{0.05cm}\parbox{1cm}{\vspace{0.1cm}\centering\normalsize \OrnamentDiamondSolid}\rule{0.47\textwidth}{0.05cm}\vspace{0.7cm}
+
+A list of typographical errors and correction for the book will be kept here. Corrections are emphasised in \correct{red} text. \\[0.3cm]
+Please email \href{mailto:TWalton@lancashire.ac.uk}{TWalton@lancashire.ac.uk} if you find any typographical errors not already listed.\\[0.1cm]
+
+%%%%%%%% ERRATA
+\begin{enumerate}[leftmargin=1.9cm,labelwidth=1.4cm,itemsep=0.5cm]
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule\vspace{0.24cm}
+	\item[\underline{page 16}:] 
+		The third displayed equation on this page should read:
+		\begin{align*}
+			\VEC{v}_{P}(t) \,=\, -R_{0}\sin(\,\Phi(t)\,)\,\correct{\dot{\Phi}}(t)\,\VEC{i}_{1} +  R_{0}\cos(\,\Phi(t)\,)\,\correct{\dot{\Phi}}(t)\,\VEC{i}_{2}
+		\end{align*}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 74}:]
+		The displayed equation below equation (5.36) should read:
+		\begin{align*}
+			0\diamond\pmb{\xi} &\,=\, \pmb{\xi} \\[0.1cm]
+			\tau_{1}\diamond(\tau_{2}\diamond\pmb{\xi}) &\,=\, (\tau_{1}\,\mcorrect{\boxtimes}\,\tau_{2})\diamond \pmb{\xi}
+		\end{align*}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 177}:] 
+		The line immediately below the first displayed equation should read:
+		\begin{quote}
+			``In the \correct{$\g_{\mcorrect{\RR^{3}}}$}-orthonormal cobasis for$\ldots$'' \\
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 248}:]
+		The line immediately below the penultimate displayed equation on this page should read:
+		\begin{quote}
+			``Since the $\g$-trace of $\g$ is $\traceg\!\mcorrect{(\g)}=4$, taking$\ldots$'' \\
+		\end{quote}
+		
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 285}:]
+		The line directly above the only displayed equation on this page should read:
+		\begin{quote}
+			``Since $\Pi_{Q}^{\perp}(W')\mcorrect{\;=W}$, both the spacelike\ldots'' \\
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 290}:]
+		The sentence directly preceding equation (15.45) should read:
+		\begin{quote}
+			``Recalling $W\equiv \correct{\Pi_{Q}^{\perp}}(W')$ where $Q$ is geodesic with $\g(Q,Q)=-L_{0}^{2}$ and $W'$ is Lie-parallel with respect to $Q$, the vector fields $Q,W$ \correct{satisfy} the conditions\ldots'' \\
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 376}:] 	
+		The last displayed equation on this page should read:
+		\begin{align*}
+			\EINFM{c} &\,=\, \mathcal{R}\star e_{c} - 2(i_{a}P_{c})\star e^{a} + \correct{2}(i_{c}i_{a}i_{b}\,\GLD T^{b})\, \star e^{a} \\[0.2cm]
+				&\,=\, \mathcal{R}\star e_{c} - 2\star P_{c} - 2i_{a}(i_{c}i_{b}\,\GLD T^{b})\, \star e^{a} 
+		\end{align*}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 380}:]
+		The line immediately below the first displayed equation should read:
+		\begin{quote}
+			``$\ldots$is a type-preserving {\it derivation} on the algebra of exterior forms on $\M$ \correct{(see appendix~H for further details)} that commutes with the exterior derivative$\ldots$''\\[-0.2cm]
+		\end{quote}
+		There is also a typographical error here: the $8$th line below equation (20.8) should read
+		\begin{quote}
+			``$\ldots$equality modulo $d$ will below be \correct{denoted} by$\ldots$''\\
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 382}:] 	
+		The line immediately below equation (20.13) should read:
+		\begin{quote}
+			``$\ldots$of the interior operator $i_{c}\,\equiv\,i_{\mcorrect{X_{c}}}$,$\ldots$''\\
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 383}:] 	
+		The top displayed equation on this page should read:
+		\begin{align*}
+			\psi_{2} \,=\, \varye{\mcorrect{a}}\w e^{b} \w \star R_{ab}. 
+		\end{align*}
+		The displayed equation between (20.17) and (20.18) should read:
+		\begin{align*}
+			\GLD\correct{\star} e^{ab} &\,=\, \frac{1}{2}\,\epsilon^{ab}{}_{cd}\,\GLD e^{cd} \,=\, \frac{1}{2}\,\epsilon^{ab}{}_{cd}\,\left(T^{c} \w e^{d} - e^{c}\w T^{d} \right) \\[0.2cm]
+				&\,=\, \epsilon^{ab}{}_{cd}\,T^{c} \w e^{d} \,=\, T_{c}\w \star e^{abc}
+		\end{align*}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 384}:] 	
+		The line of text above equation (20.22) should read:
+		\begin{quote}
+			``In this case the $3$-forms $\{\EINEHFM{c}\equiv\correct{-\frac{1}{2}}\EINFM{c}\}$ define$\ldots$''\\
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 385}:] 	
+		Equation (20.24) should read:
+		\begin{align}\tag{20.24}
+			\begin{split}
+				\Lambda_{\text{TOTAL}}(e,\omega,A,\phi,\phibar\,) &\,\equiv\, \mcorrect{\frac{1}{2\kappa}}\,R_{ab}(\omega) \w \star e^{ab} \;\mcorrect{-}\;\mcorrect{\frac{1}{2}} \kappa_{A}dA \w \star dA  \\[0.2cm]
+					& \hspace{2cm} + \mcorrect{\frac{1}{2}}\kappa_{1}\text{Re}\left( \overline{\GLD_{\text{U}(1)}\phi} \w \star \GLD_{\text{U}(1)}\phi \right) \\[0.2cm]
+					& \hspace{2cm} + \mcorrect{\frac{1}{2}}\kappa_{2}\,\phi\,\phibar\,\star 1 + \kappa_{3}\,R_{ab}(\omega) \w R^{ab}(\omega)
+			\end{split}		
+		\end{align}
+		The change in minus sign here could be absorbed into the coupling constant $\kappa_{A}$ but is changed to be consistent with later sections. \\
+	\listrule
+	\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\vspace{-0.2cm}
+	\item[\underline{page 386}:]
+		Equation (20.30) should read:
+		\begin{align}\tag{20.30}
+			\ACTION{EH}[e,\omega] \,\equiv\, \correct{\frac{1}{2\kappa}}\int_{\M}R_{ab}(\omega) \w \star (\,e^{a} \w e^{b}\,), 
+		\end{align} 
+		and the displayed equation below (20.30) becomes:
+		\begin{align*}
+			\EINFM{c}^{(\text{EH})} \,\equiv\, \correct{-\frac{1}{2}}\,R_{ab} \w i_{c}\star (\,e^{a} \w e^{\mcorrect{b}}\,) &\,=\, 0, \quad a,b,c=0,1,2,3, \; e^{a}(X_{c}) \,=\, \deltaT^{a}_{c}   \\[0.2cm]
+			T^{c} &\,=\, 0.
+		\end{align*}
+		\vspace{-0.4cm}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\vspace{-0.2cm}
+	\item[\underline{page 388}:]
+		Equation (20.31) should read:
+		\begin{align}\tag{20.31}
+			\EIN \,\equiv\, (\star^{-1}\EINFM{c}^{\correct{(\text{EH})}}) \tensor e^{c} \,=\, \kappa\,(\star^{-1}\tau_{c}^{(\text{SOURCE})}) \tensor e^{c}. 
+		\end{align} 
+	\vspace{-0.2cm}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\vspace{-0.2cm}
+	\item[\underline{page 392}:]
+		The first equation of section~20.4 should read:
+		\begin{align}\tag{20.30}
+			\ACTION{EH}[e,\omega] \,\equiv\, \mcorrect{\frac{1}{2\kappa}}\int_{\M}R_{ab}(\omega) \w \star (\,e^{a} \w e^{b}\,), 
+		\end{align} 
+		and the second equation becomes:
+		\begin{align*}
+			\correct{\ACTION{SOURCE}}[e,A,\phi,\phibar\,] \,\equiv\, \mcorrect{-}\,&\mcorrect{\frac{1}{2}}\kappa_{A}\int_{\M} \Lambda_{2}(e,A) & \\[0.2cm]
+				& + \mcorrect{\frac{1}{2}}\kappa_{1}\mcorrect{\left(\df\right.}\int_{\M}\Lambda_{1}(e,A,\phi,\phibar\,) + \mu^{2}\int_{\M}\Lambda_{3}(e,\phi,\phibar\,)\mcorrect{\left.\df\right)} \qquad (\kappa_{1},\mu\in\RR)
+		\end{align*} 
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\vspace{-0.2cm}
+	\item[\underline{page 393}:]
+		The third displayed equation on this page should read:
+		\begin{align*}
+			\mcorrect{\delvar \Lambda_{3}(e,\phi,\phibar\,)} &\,=\, \text{Re}\left(\phidot \w \star \phibar + \phi \w \star\phibardot + \varye{c} \w \left[\df \phi \w i_{c}\star\phibar - i_{c}\phibar \w \star \phi  \right]\right). 
+		\end{align*}
+		The fourth displayed equation should be:
+		\begin{align*}
+			\mcorrect{\delvar \Lambda_{3}(e,\phi,\phibar\,)} &\,=\, \text{Re}\left( \phidot\,\phibar + \phibardot\,\phi \right)\star 1 + \varye{c} \w \left[\df \phi\,\phibar\, \star e_{c} \right], 
+		\end{align*}
+		the fifth displayed equation should read:
+		\begin{align*}
+			\mcorrect{\delvar \Lambda_{2}(e,A)} &\,=\, d\delvar A \w \star dA + dA \w \star \delvar dA + \varye{c} \w \left[\,dA \w i_{c}\star dA - i_{c}dA \w \star dA \,\right] \\[0.1cm]
+				&\,=\, d\Adot \w \star F + F \w \star d\Adot + \varye{c} \w \left[\,F \w i_{c}\star F - i_{c}F \w \star F \,\right] 
+		\end{align*} 
+		and the last displayed equation on the page should be:
+		\begin{align*}
+			\mcorrect{\delvar \Lambda_{2}(e,A)} &\,\simeq\, 2\,\Adot \w d\star F + \varye{c} \w \left[\,F \w i_{c}\star F - i_{c}F \w \star F \,\right]. 
+		\end{align*}
+	\vspace{-0.3cm}
+	\listrule
+	\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 394}:]
+		The first displayed equation on this page should read:
+		\begin{align*}
+			\mcorrect{\delvar \Lambda_{1}(e,A,\phi,\phibar\,)} &\,=\, \text{Re}\left(\, \delvar \GLD_{\text{U}(1)}\phibar \w \star \GLD_{\text{U}(1)}\phi + \delvar\GLD_{\text{U}(1)}\phi \w \star \GLD_{\text{U}(1)}\phibar\right. \\[0.2cm] 
+				&\left. \hspace{1cm}+\, \varye{c} \w \left[ -\GLD_{\text{U}(1)}\phibar \w i_{c}\star \GLD_{\text{U}(1)}\phi - i_{c}\GLD_{\text{U}(1)}\phi \w \star \GLD_{\text{U}(1)}\phibar  \right]\, \right).
+		\end{align*}
+		The second displayed equation on this page should read:
+		\begin{align*}
+			\delvar \GLD_{\text{U}(1)}\phi &\,=\, d\phidot + i\hat{s}\,A\,\phidot + i\hat{s}\,\Adot\,\phi \,=\, \GLD_{\text{U}(1)}\phidot + i\hat{s}\,\Adot\,\phi \\[0.2cm] 
+			\delvar \,\GLD_{\text{U}(1)}\phibar &\,=\, d\phibardot - i\hat{s}\,A\,\phibardot - i\hat{s}\,\Adot\,\phibar \,=\, \overline{\GLD}_{\mcorrect{\text{U}(1)}}\,\phibardot - i\hat{s}\,\Adot\,\phibar.
+		\end{align*}
+		The last equation on the page should be:
+		\begin{align*}
+			\mcorrect{\delvar\Lambda_{1}(e,A,\phi,\phibar)} &\,=\, \text{Re}\left\{ \mcorrect{\GLD_{\text{U}(1)}}\phibardot \w \star\GLD_{\text{U}(1)}\phi + \GLD_{\text{U}(1)}\phidot \w \star \GLD_{\text{U}(1)}\phibar \right\} \\[0.2cm]
+				&\hspace{1cm}-\, 2\hat{s}\,\Adot\,\w \text{Im}\left( \phi \w \star \overline{\GLD_{\text{U}(1)}\phi} \right) \\[0.3cm]
+				&\hspace{1cm}-\, \varye{c} \w \text{Re}\left( \GLD_{\text{U}(1)}\phi \w i_{c}\star \GLD_{\text{U}(1)}\phibar  - i_{c}\GLD_{\text{U}(1)}\phibar \w \star \GLD_{\text{U}(1)}\phi\right). 
+		\end{align*}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 395}:]
+		The fourth displayed equation on this page should read: 
+		\begin{align*}
+			&\text{Re}\left\{ \mcorrect{\GLD_{\text{U}(1)}}\phidot \w \star\overline{\GLD_{\text{U}(1)}\phi} + \GLD_{\text{U}(1)}\phibardot \w \star \GLD_{\text{U}(1)}\phi \right\} \\[0.2cm]
+				&\hspace{2cm}\simeq\, \text{Re}\left\{ -\phidot \w \GLD_{\text{U}(1)}\star\GLD_{\text{U}(1)}\phibar - \phibardot \w \GLD_{\text{U}(1)} \star\GLD_{\text{U}(1)}\phi \right\}.
+		\end{align*}
+		The fifth displayed equation on this page should read: 
+		\begin{align*}
+			\mcorrect{\delvar\Lambda_{1}(e,A,\phi,\phibar)} &\,\simeq\, \text{Re}\left\{-\phidot \w \GLD_{\text{U}(1)}\star\GLD_{\text{U}(1)}\phibar - \phibardot \w \GLD_{\text{U}(1)}\star \GLD_{\text{U}(1)}\phi\right\} \\[0.3cm]
+				&\hspace{1cm} - 2\hat{s}\,\Adot\w\text{Im}\left( \phi\w \star \GLD_{\text{U}(1)}\phibar\right) \\[0.3cm]
+				&\hspace{1cm} - \varye{c} \w \text{Re}\left( \mcorrect{\GLD_{\text{U}(1)}}\phi \w i_{c}\star\overline{\GLD_{\text{U}(1)}\phi} - i_{c}\overline{\GLD_{\text{U}(1)}\phi} \w \star \GLD_{\text{U}(1)}\phi\right). 
+		\end{align*}
+		The displayed equation immediately above equation (20.37) should read:
+		\begin{align*}
+			\whh{\delta}\left(\df \correct{\ACTION{EH}}[e,\omega] \;\correct{+}\; \ACTION{SOURCE}[e,A,\phi,\phibar]\right) \,\simeq\, 0,
+		\end{align*}
+	\listrule
+	\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 396}:]
+		Equation (20.38) should read:
+		\begin{align}\label{MAX1_15_01_24}
+			\kappa_{A}\,d\star F \;\mcorrect{+}\; \kappa_{1}\,\hat{s}\,\text{Im}\left(\phi \, \star \overline{\GLD_{\text{U}(1)}\phi}\right) \,=\, 0
+		\end{align}
+		and the equation immediately following it becomes:
+		\begin{align*}
+			\mathcal{J} \,\equiv\, \mcorrect{-}\;\frac{\epsilon_{0}\,\kappa_{1}\,\hat{s}}{\kappa_{A}}\,\text{Im}\left(\phi \, \star \overline{\GLD_{\text{U}(1)}\phi}\right).
+		\end{align*}
+		Equation (20.39) should read:
+		\begin{align}\tag{20.39}
+			\frac{\EINFM{c}^{\correct{(\text{EH})}}}{\kappa} \,=\, \tau_{c}
+		\end{align} 
+		and the text immediately after this displayed equation becomes:
+		\begin{quote}
+			``where $\EINFM{c}^{\correct{(\text{EH})}}\equiv -\frac{1}{2}R_{ab} \w i_{c}\star e^{ab} \ldots$''.
+		\end{quote}
+		The displayed equation after (20.39) should read:
+		\begin{align*}
+			\tau_{c} &\,=\, \frac{\kappa_{A}}{2}\,\left(\mcorrect{i_{c}F \w \star F - F \w i_{c}\star F} \right) \\[0.2cm]
+				&\hspace{0.4cm} - \mcorrect{\frac{\kappa_{1}}{2}}\,\text{Re}\left(\GLD_{\text{U}(1)}\phi \w i_{c}\star \GLD_{\text{U}(1)}\phibar - i_{c}\overline{\GLD_{\text{U}(1)}\phi} \w \star \GLD_{\text{U}(1)}\phi \mcorrect{ - \frac{\mu^{2}}{2}\,\phi\,\phibar \star e_{c}} \right) \qquad (c=0,1,2,3).
+		\end{align*}
+		The text in the first paragraph immediately below the last displayed equation of this page should be:
+		\begin{quote}
+			``Note $\PHYSDIM{\tau_{c}}=\MASS\PHYSDIM{c_{0}^{2}}$. Since the $\mathring{\omega}_{ab}$ partial variations in $\ACTION{EH}[e,\omega]$ {\it and} $\ACTION{SOURCE}[e,A,\phi,\phibar]$ yield a set of zero-torsion connection $1$-forms (see section above), if these are assumed to be metric-compatible with respect to the metric tensor $\g=\etaT_{ab}\,e^{a}\tensor e^{b}$ then  (20.37), (20.38), (20.20) constitute the necessary conditions for the functional \correct{$\ACTION{EH}[e,\omega]+\ACTION{SOURCE}[e,A,\phi,\phibar]$} to be extremal and (20.39) yields a {\it Levi-Civita Einstein tensor field equation with sources}. ''\\
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 402}:] 	
+		The penultimate displayed equation on this page should read:
+		\begin{align*}
+			\texttt{T}^{(\text{MAX})}(X_{0},X_{0}) \,=\, (\star \tau^{(\text{MAX})}_{c})(X_{0})\,\mcorrect{\deltaT^{c}_{0}} \,=\, i_{0} (\star \tau^{(\text{MAX})}_{0})
+		\end{align*}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 405}:] 	
+		The second displayed equation in section $21.1$ should read:
+		\begin{align*}
+			(\nabla\cdot \XiT)(\mcorrect{Y}) &\,\equiv\, (\nabla_{X_{a}}\XiT)(X^{a},Y) \qquad\FORALL Y\in\Gamma T\UM.
+		\end{align*}
+	\listrule
+	\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 411}:]
+		There is an typographical mistake on this page. The paragraph immediately under the first displayed equation should read:
+		\begin{quote}
+			where the image of the coherently-oriented $3$-chains $\Sigma_{t_{1}}$ and $\Sigma_{t_{2}}$ are spacelike hypersurfaces (with spacelike tangent vectors), and $\mathcal{T}$ is a timelike $3$-chain (whose image has timelike tangent vectors). We shall call $\mathcal{T}$ a $3$-dimensional {\it world tube} and \correct{identify} $\UM$ as the {\it history} $\UM[t_{1},t_{2}]$ of $\Sigma_{t_{1}}$ from $t_{1}$ to $t_{2}$. 
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 414}:] 	
+		Equation (22.8) should read:
+		\begin{align}\tag{22.8}
+			\EINFM{a}^{\correct{(\text{EH})}} \,=\, \kappa\,\tau_{a}^{(\text{SOURCE})}, \qquad a=0,1,2,3.
+		\end{align}
+		The text immediately following this line should then read:
+		\begin{quote}
+			``Recall that it follows from $\PHYSDIM{\EINFM{a}^{\correct{(\text{EH})}}}$ and $\ldots$''.
+		\end{quote}
+		Equation (22.9) should read:
+		\begin{align}\tag{22.9}
+			\EINFM{a}^{\correct{(\text{EH})}} \,=\, \kappa \sum_{N}\tau_{a}^{N} \,\equiv\, \kappa\,\tau_{a}^{(\text{SOURCE})}.
+		\end{align}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 418}:] 
+		The first displayed equation on this page should read:
+		\begin{align*}
+			J_{K_j}^{(V)} \,\equiv\, -\mcorrect{\frac{ c_{0} } { L_{0}^{2}}} \,  i_V  \tau_{K_j}^{(\text{MAX})}, \qquad \mcorrect{\PHYSDIM{K_{j}}\,=\, \frac{\TIME}{\LENGTH}}, \qquad (j=1,2,3).
+		\end{align*}
+		The penultimate displayed equation on this page should read:
+		\begin{align*}
+		  \star(F \w \star F) \,=\,  \frac{ L_{0}^2} { 8 \pi^2 \epsilon_{0}^2 } 
+		  \left(    \frac{q_{2}^2 } { 2 r^4}  \right.   
+			& + \frac{ q_1 q_2 (r^2 -x^{3} d_0)  } { \mcorrect{r^{3}}( (x^{1})^{2} + (x^{2})^{2} + (x{^{3}}-d_{0})^2 )^{ 3/2 }   } \\[0.2cm] 
+			& \left.+ \frac{   q_{1}^2       } { 2  ((x^{1})^{2} + (x^{2})^{2} + (x{^{3}}-d_{0})^2 )^2 }   
+		   \right)
+		\end{align*}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 488}:]
+		The first displayed equation on this page should read: 
+		\begin{align*}
+			\left.\frac{1}{L_{0}}\gPG(\CDOT,X_{0})\right|_{C(\tau)} &\,=\, -\dot{T}(\tau) \\[0.2cm]
+			\left.\frac{1}{L_{0}^{2}}\gPG(\CDOT,\CDOT)\right|_{C(\tau)} &\,=\, -\left(1-\frac{\Sigma}{R(\tau)}\right)\dot{T}(\tau)^{2} + 2\sqrt{\frac{\Sigma}{R(\tau)}\,}\dot{T}(\tau)\dot{R}(\tau) + \dot{R}(\tau)^{2} \\
+				&\qquad\qquad+ R(\tau)^{2}\left(\dot{\Theta}(\tau)^{2} + \sin^{2}(\,\correct{\Theta}(\tau)\,)\dot{\Phi}(\tau)^{2}\right).
+		\end{align*}
+		\vspace{-0.5cm}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newpage
+	\listrule
+	\item[\underline{page 491}:]
+		The axis labels $(\,T(\tau),R(\tau)\,)$ in Fig. 30.1 are the wrong way round and need to be swapped. The figure should be as follows:
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\begin{figure}[ht!]
+			\centering
+			\includegraphics[width=0.7\textwidth]{Figure_30.1_CORRECTED.pdf}
+		\end{figure}
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 573}:]
+		The penultimate displayed equation on this page should read:
+		\begin{align*}
+			f(r^{*}) &\,\equiv\, r^{*} + \frac{(\Sigma_{1}^{2}-2\mcorrect{\Sigma_{2}^{2}})}{\sqrt{4\Sigma_{2}^{2}-\Sigma_{1}^{2}}}\text{arctan}\left(\frac{2r^{*} - \Sigma_{1}}{\sqrt{4\Sigma_{2}^{2}-\Sigma_{1}^{2}}}\right) \,\mcorrect{+}\, \frac{\Sigma_{1}}{2}\ln\left(\df (r^{*})^{2}-\Sigma_{1}r^{*} + \Sigma^{2}_{2}\right).
+		\end{align*}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 574}:]
+		The first displayed equation on this page has an extra $dr^{*}$ in the first term that needs removing. It should read:
+		\begin{align*}
+			\left\{	\begin{array}{rl}
+						\Psi^{*}dt &\!\!=\;\ds d(\,\Psi^{*}t\,) \,=\, d(\,t^{*} + f(r^{*})\,) \,=\, dt^{*} + \frac{dr^{*}}{1-\frac{\Sigma_{1}}{r^{*}} + \frac{\Sigma_{2}^{2}}{(r^{*})^{2}}}  \\[0.4cm]
+						\Psi^{*}dr &\!\!=\; \ds d(\,\Psi^{*}r\,) \,=\, dr^{*} \\[0.4cm]
+						\Psi^{*}d\theta &\!\!=\; \ds d(\,\Psi^{*}\theta\,) \,=\,  d\theta^{*} \\[0.4cm]
+						\Psi^{*}d\phi &\!\!=\; \ds d(\,\Psi^{*}\phi\,) \,=\,  d(\,\phi^{*}\,) \,=\, d\phi^{*} 
+					\end{array}\right.
+		\end{align*}
+		The Reissner-Nordstr\"{o}m -star metric (30.180) should then read:
+		\begin{align}
+			\nonumber \frac{\g_{\text{RN}^{*}}}{L_{0}^{2}}\,\equiv\, \frac{\Psi^{*}\g^{(t,r,\theta,\phi)}_{\text{RN}}}{L_{0}^{2}} &\,=\, -\left(1-\frac{\Sigma_{1}}{r^{*}} + \frac{\Sigma_{2}^{2}}{(r^{*})^{2}}\right) dt^{*}\tensor dt^{*} - dt^{*} \tensor dr^{*} - dr^{*} \tensor dt^{*}  \\[0.3cm]
+			 \tag{30.180}	&  \qquad + (r^{*})^{2}\left( d\theta^{*}\tensor d\theta^{*} + \sin^{2}(\theta^{*})\,d\phi^{*}\tensor d\phi^{*}\right).
+		\end{align}
+		\vspace{-0.3cm}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 659}:] 
+		Equation (34.14) for the Bopp-Podolsky field equations should read:
+		\begin{align}\tag{34.14}
+			d\star \compF \,\mcorrect{+}\, \lambda_{0}^{2}\,d\delta d\star \compF \,=\, 0
+		\end{align}
+		The change in sign here ensures the static, spherically symmetric solution is finite as $r\rightarrow 0$.  This correction contributes to a number of changes over the next few pages. \\
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 660}:] 
+		Equation (34.16) for the Bopp-Podolsky field equations should read:
+		\begin{align}
+			\nonumber d\star \compF \,\mcorrect{+}\, \lambda_{0}^{2}\,d\delta d\star \compF &\,=\, d\delta d\alpha \w \Pi \,\mcorrect{+}\, \lambda_{0}^{2}\,d \delta d\delta d\alpha \w \Pi \\[0.2cm]
+			\tag{34.16}	&\,=\, d\left(\df\delta d\alpha  \,\mcorrect{+}\, \lambda_{0}^{2}\,\delta d\delta d\alpha\right) \w \Pi \,=\, 0.
+		\end{align}
+		The following equation also needs correcting:
+		\begin{align}\tag{34.17}
+			\Box\,\alpha \,\mcorrect{+}\, \lambda_{0}^{2}\,\Box^{2}\alpha \,=\, 0, \qquad \Box\,\alpha\,\neq\,0,
+		\end{align}
+		as does the final displayed equation of the page which should read:
+		\begin{align*}
+			\Box\,\alpha \,\mcorrect{+}\, \cfrac{1}{\lambda_{0}^{2}}\, \alpha \,=\, 0, \qquad \lambda_{0}\,\neq\, 0.
+		\end{align*}		
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\listrule
+	\item[\underline{page 688}:] 
+		Equation (35.8) for the action functional should read:
+		\begin{align}\tag{34.8}
+			I[C] \,=\, \int_{t_{1}}^{t_{2}}\wh{\mathscr{L}}(\correct{\qq,\,\dot{\qq}},\, t)\mcorrect{\left.\df\right|_{C(t)}}\,dt
+		\end{align}
+		and equation (35.9) for the variation should be:
+		\begin{align}\tag{34.9}
+			\begin{split}
+				I[C+\pmb{h}] - I[C] &\,=\, \int_{t_{1}}^{t_{2}}\left\{ \wh{\mathscr{L}}(\qq+\pmb{h},\,\dot{\qq}+\dot{\pmb{h}},\, t) - \wh{\mathscr{L}}(\qq,\,\dot{\qq},\, t) \right\}\mcorrect{\left.\df\right|_{C(t)}}\,dt \\[0.2cm]
+					&\,=\, \int_{t_{1}}^{t_{2}}\left\{ \frac{\partial\wh{\mathscr{L}}}{\partial \qq}\,\pmb{h} +  \frac{\partial\wh{\mathscr{L}}}{\partial \dot{\qq}}\,\dot{\pmb{h}} \right\}\mcorrect{\left.\df\right|_{C(t)}}\,dt + O\!\left(\norm{\pmb{h}}^{2}\right).
+			\end{split} 
+		\end{align}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newpage
+	\listrule
+	\item[\underline{page 690}:]
+		Equation (35.13) needs correcting as follows:
+		\begin{align}\tag{35.13}
+			K[C] \,=\, \int_{\tau_{1}}^{\tau_{2}}\wh{\mathscr{L}}(\mcorrect{\qq,\,{}^{[1]}\qq,\,{}^{[2]}\qq,\ldots,\,{}^{[N]}\qq},\, \tau)\mcorrect{\left.\df\right|_{C(\tau)}} \,d\tau.
+		\end{align}
+		The text underneath this equation should then read:
+		\begin{quote}
+			``It is straightforward to generalise the variational methods indicated in (35.9) for the case $N=1$ to the functional with $N>1$. The isolation of the variation $\pmb{h}$ can then be performed by a series of $N$ integrations-by-parts to yield the necessary conditions for $C$ to be an extremal \correct{curve $C(\tau)\equiv C^{1}(\tau),C^{2}(\tau),\ldots,C^{J}(\tau)$} of $K[C]$. For notational clarification $\ldots$''.
+		\end{quote}
+		and then the following equation (the second displayed equation on the page) should read:		
+		\begin{align*}
+			\left\{	\begin{array}{rl}
+						\mcorrect{\qq} &\mcorrect{\!\!\equiv\; q^{1},q^{2},\ldots,q^{J}} \\[0.2cm]
+						\mcorrect{{}^{[1]}\qq} 	&\mcorrect{\!\!\equiv\; {}^{[1]}q^{1}, {}^{[1]}q^{2}, \ldots, {}^{[1]}q^{J}} \\[0.2cm]
+						\mcorrect{{}^{[2]}\qq} 	&\mcorrect{\!\!\equiv\; {}^{[2]}q^{1}, {}^{[2]}q^{2}, \ldots, {}^{[2]}q^{J}} \\[0.2cm]
+									&\;\!\!\vdots \\[0.2cm]
+						\mcorrect{{}^{[N]}\qq} 	&\mcorrect{\!\!\equiv\; {}^{[N]}q^{1}, {}^{[N]}q^{2}, \ldots, {}^{[N]}q^{J}}
+					\end{array}\right. \qquad\mcorrect{\text{where}\qquad J\equiv \dim(\mathcal{Q})}.
+		\end{align*}
+		The next displayed equation for the Euler-Lagrange system and the text lead-in should read:
+		\begin{quote}
+			given by \correct{the extremum of (35.13):}
+			\begin{align*}
+				\mcorrect{\left.\frac{\partial\wh{\mathscr{L}}}{\partial q^{i}}\,\right|_{C(\tau)} +\; \sum_{s=1}^{N}(-1)^{s}\frac{d}{d\tau^{s}}\left(  \left.\frac{\partial\wh{\mathscr{L}}}{\partial ({}^{[s]}q^{i})}\,\right|_{C(\tau)}  \right) \,=\, 0 \qquad (i=1,2,\ldots,J)}.
+			\end{align*}
+		\end{quote}
+		The final displayed equation on the page and the text lead-in also need editing, as follows:
+		\begin{quote}
+			For example, if $n=2$ and $N=2$ with $\wh{\mathscr{L}}\equiv\wh{\mathscr{L}}(\qq,\mcorrect{{}^{[1]}\qq,{}^{[2]}\qq},\tau)$ one then has for $i=1,2$:
+			\begin{align*}
+				0 	&\,=\, \left.\frac{\partial\wh{\mathscr{L}}}{\partial q^{i}}\,\right|_{C(\tau)} \mcorrect{ - \frac{d}{d\tau}\!\left(\left.\frac{\partial\wh{\mathscr{L}}}{\partial ({}^{[1]}q^{i})} \right|_{C(\tau)} \right) +  \frac{d^{2}}{d\tau^{2}}\!\left(\left.\frac{\partial\wh{\mathscr{L}}}{\partial ({}^{[2]}q^{i})}\right|_{C(\tau)}\right) }.
+			\end{align*}
+		\end{quote}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{enumerate}
+%%%%%%%% END OF ERRATA
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
